@@ -2,3 +2,7 @@
 	path = BinaryMapper
 	url = https://github.com/alanedwardes/BinaryMapper.git
 	branch = master
+[submodule "Estranged.Lfs"]
+	path = Estranged.Lfs
+	url = https://github.com/alanedwardes/Estranged.Lfs.git
+	branch = master

@@ -1,0 +1,4 @@
+[submodule "BinaryMapper"]
+	path = BinaryMapper
+	url = https://github.com/alanedwardes/BinaryMapper.git
+	branch = master

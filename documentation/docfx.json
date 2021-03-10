@@ -71,8 +71,16 @@
           "*/*.png"
         ],
         "src": "../libraries"
+      },
+      {
+        "files": [
+          "logo.png"
+        ]
       }
     ],
-    "dest": "_site"
+    "dest": "_site",
+    "globalMetadata": {
+      "_appLogoPath": "logo.png"
+    }
   }
 }

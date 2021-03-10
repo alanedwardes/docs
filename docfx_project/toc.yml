@@ -1,5 +1,12 @@
-- name: Articles
-  href: articles/
-- name: Api Documentation
-  href: api/
-  homepage: api/index.md
+- name: BinaryMapper
+  href: BinaryMapper/README.html
+  homepage: BinaryMapper/README.html
+- name: Estranged.Lfs
+  href: Estranged.Lfs/README.html
+  homepage: Estranged.Lfs/README.html
+- name: Ae.Dns
+  href: Ae.Dns/README.html
+  homepage: Ae.Dns/README.html
+- name: Ae.Synthetics
+  href: Ae.Synthetics/README.html
+  homepage: Ae.Synthetics/README.html

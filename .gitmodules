@@ -1,8 +1,16 @@
-[submodule "BinaryMapper"]
-	path = BinaryMapper
+[submodule "libraries/Estranged.Lfs"]
+	path = libraries/Estranged.Lfs
+	url = https://github.com/alanedwardes/Estranged.Lfs.git
+	branch = master
+[submodule "libraries/BinaryMapper"]
+	path = libraries/BinaryMapper
 	url = https://github.com/alanedwardes/BinaryMapper.git
 	branch = master
-[submodule "Estranged.Lfs"]
-	path = Estranged.Lfs
-	url = https://github.com/alanedwardes/Estranged.Lfs.git
+[submodule "libraries/Ae.Dns"]
+	path = libraries/Ae.Dns
+	url = https://github.com/alanedwardes/Ae.Dns.git
+	branch = main
+[submodule "libraries/Ae.Synthetics"]
+	path = libraries/Ae.Synthetics
+	url = https://github.com/alanedwardes/Ae.Synthetics.git
 	branch = master

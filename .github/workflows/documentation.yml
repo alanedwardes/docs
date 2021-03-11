@@ -9,16 +9,21 @@ jobs:
 
     steps:
     
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
           submodules: recursive
       
-      - name: docfx-action
+      - name: Copy README.md to index.md
+        run: find . -name "README.md" -exec sh -c 'cp "{}" "$(dirname {})/index.md"' \;
+      
+      - name: Generate Documentation
         uses: nikeee/docfx-action@v1.0.0
         with:
           args: documentation/docfx.json
 
-      - uses: maxheld83/ghpages@master
+      - name: Push Documentation to GitHub PAges
+        uses: maxheld83/ghpages@master
         env:
           BUILD_DIR: documentation/_site
           GH_PAT: ${{ secrets.GH_PAT }}

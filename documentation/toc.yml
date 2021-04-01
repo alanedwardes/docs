@@ -10,3 +10,6 @@
 - name: Ae.Synthetics
   href: Ae.Synthetics/
   homepage: Ae.Synthetics/
+- name: Ae.Freezer
+  href: Ae.Freezer/
+  homepage: Ae.Freezer/

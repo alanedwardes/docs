@@ -14,3 +14,7 @@
 	path = libraries/Ae.Synthetics
 	url = https://github.com/alanedwardes/Ae.Synthetics.git
 	branch = master
+[submodule "libraries/Ae.Freezer"]
+	path = libraries/Ae.Freezer
+	url = https://github.com/alanedwardes/Ae.Freezer.git
+	branch = main

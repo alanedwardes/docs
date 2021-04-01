@@ -43,6 +43,17 @@
         }
       ],
       "dest": "Ae.Synthetics"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "Ae.Freezer/src/**.csproj"
+          ],
+          "src": "../libraries"
+        }
+      ],
+      "dest": "Ae.Freezer"
     }
   ],
   "build": {

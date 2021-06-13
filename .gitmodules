@@ -18,3 +18,7 @@
 	path = libraries/Ae.Freezer
 	url = https://github.com/alanedwardes/Ae.Freezer.git
 	branch = main
+[submodule "libraries/Ae.ImGuiBootstrapper"]
+	path = libraries/Ae.ImGuiBootstrapper
+	url = https://github.com/alanedwardes/Ae.ImGuiBootstrapper.git
+	branch = master

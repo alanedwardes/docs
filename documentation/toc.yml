@@ -13,3 +13,6 @@
 - name: Ae.Freezer
   href: Ae.Freezer/
   homepage: Ae.Freezer/
+- name: Ae.ImGuiBootstrapper
+  href: Ae.ImGuiBootstrapper/
+  homepage: Ae.ImGuiBootstrapper/

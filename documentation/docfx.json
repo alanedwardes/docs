@@ -54,6 +54,17 @@
         }
       ],
       "dest": "Ae.Freezer"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "Ae.ImGuiBootstrapper/src/**.csproj"
+          ],
+          "src": "../libraries"
+        }
+      ],
+      "dest": "Ae.ImGuiBootstrapper"
     }
   ],
   "build": {

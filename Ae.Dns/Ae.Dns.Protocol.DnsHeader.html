@@ -1,0 +1,824 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DnsHeader
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DnsHeader
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Ae.Dns.Protocol.DnsHeader">
+  
+  
+  <h1 id="Ae_Dns_Protocol_DnsHeader" data-uid="Ae.Dns.Protocol.DnsHeader" class="text-break">Class DnsHeader
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a DNS header, used to represent a DNS query and a DNS query result.
+See <a class="xref" href="Ae.Dns.Protocol.DnsQueryFactory.html">DnsQueryFactory</a> for methods to create DNS headers for specific purposes.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">DnsHeader</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Ae.Dns.Protocol.IDnsByteArrayReader.html">IDnsByteArrayReader</a></div>
+    <div><a class="xref" href="Ae.Dns.Protocol.IDnsByteArrayWriter.html">IDnsByteArrayWriter</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Ae.Dns.Protocol.html">Ae.Dns.Protocol</a></h6>
+  <h6><strong>Assembly</strong>: Ae.Dns.Protocol.dll</h6>
+  <h5 id="Ae_Dns_Protocol_DnsHeader_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class DnsHeader : IEquatable&lt;DnsHeader&gt;, IDnsByteArrayReader, IDnsByteArrayWriter</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader__ctor.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L17">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader__ctor_" data-uid="Ae.Dns.Protocol.DnsHeader.#ctor*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader__ctor" data-uid="Ae.Dns.Protocol.DnsHeader.#ctor">DnsHeader()</h4>
+  <div class="markdown level1 summary"><p>Create a from-scratch DNS header.
+See <a class="xref" href="Ae.Dns.Protocol.DnsQueryFactory.html">DnsQueryFactory</a> for methods to create DNS headers for specific purposes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DnsHeader()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_AdditionalRecordCount.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.AdditionalRecordCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L62">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_AdditionalRecordCount_" data-uid="Ae.Dns.Protocol.DnsHeader.AdditionalRecordCount*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_AdditionalRecordCount" data-uid="Ae.Dns.Protocol.DnsHeader.AdditionalRecordCount">AdditionalRecordCount</h4>
+  <div class="markdown level1 summary"><p>The number of additional records in this header.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short AdditionalRecordCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td><p>A count of the number of additional records in this header.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_AnswerRecordCount.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.AnswerRecordCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L46">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_AnswerRecordCount_" data-uid="Ae.Dns.Protocol.DnsHeader.AnswerRecordCount*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_AnswerRecordCount" data-uid="Ae.Dns.Protocol.DnsHeader.AnswerRecordCount">AnswerRecordCount</h4>
+  <div class="markdown level1 summary"><p>The number of <a class="xref" href="Ae.Dns.Protocol.DnsAnswer.html">DnsAnswer</a> records in this header.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short AnswerRecordCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td><p>A count of the number of answers contained within this DNS message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_AuthoritativeAnswer.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.AuthoritativeAnswer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L112">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_AuthoritativeAnswer_" data-uid="Ae.Dns.Protocol.DnsHeader.AuthoritativeAnswer*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_AuthoritativeAnswer" data-uid="Ae.Dns.Protocol.DnsHeader.AuthoritativeAnswer">AuthoritativeAnswer</h4>
+  <div class="markdown level1 summary"><p>Determines whether the answer was from an authoritative DNS server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AuthoritativeAnswer { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>If true, this DNS answer is authoritative.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_Host.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.Host%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L158">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_Host_" data-uid="Ae.Dns.Protocol.DnsHeader.Host*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_Host" data-uid="Ae.Dns.Protocol.DnsHeader.Host">Host</h4>
+  <div class="markdown level1 summary"><p>The DNS host to use, for example &quot;example.com&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Host { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_Id.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L28">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_Id_" data-uid="Ae.Dns.Protocol.DnsHeader.Id*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_Id" data-uid="Ae.Dns.Protocol.DnsHeader.Id">Id</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the unique ID of this DNS query.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort Id { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a></td>
+        <td><p>A unique ID which allows the sender/receiver to
+identify this DNS message (for example if the transport protocol is stateless).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_IsQueryResponse.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.IsQueryResponse%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L88">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_IsQueryResponse_" data-uid="Ae.Dns.Protocol.DnsHeader.IsQueryResponse*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_IsQueryResponse" data-uid="Ae.Dns.Protocol.DnsHeader.IsQueryResponse">IsQueryResponse</h4>
+  <div class="markdown level1 summary"><p>Determines whether this is a DNS query or answer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsQueryResponse { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>For DNS queries this is false, for DNS responses this is true.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_NameServerRecordCount.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.NameServerRecordCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L54">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_NameServerRecordCount_" data-uid="Ae.Dns.Protocol.DnsHeader.NameServerRecordCount*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_NameServerRecordCount" data-uid="Ae.Dns.Protocol.DnsHeader.NameServerRecordCount">NameServerRecordCount</h4>
+  <div class="markdown level1 summary"><p>The number of name server records in this header.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short NameServerRecordCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td><p>A count of the number of DNS name server records in this header.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_OperationCode.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.OperationCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L100">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_OperationCode_" data-uid="Ae.Dns.Protocol.DnsHeader.OperationCode*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_OperationCode" data-uid="Ae.Dns.Protocol.DnsHeader.OperationCode">OperationCode</h4>
+  <div class="markdown level1 summary"><p>Determines the operation code for this DNS header.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DnsOperationCode OperationCode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ae.Dns.Protocol.Enums.DnsOperationCode.html">DnsOperationCode</a></td>
+        <td><p>The DNS operation code for this DNS answer. For example <a class="xref" href="Ae.Dns.Protocol.Enums.DnsOperationCode.html#Ae_Dns_Protocol_Enums_DnsOperationCode_QUERY">QUERY</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_QueryClass.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.QueryClass%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L80">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_QueryClass_" data-uid="Ae.Dns.Protocol.DnsHeader.QueryClass*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_QueryClass" data-uid="Ae.Dns.Protocol.DnsHeader.QueryClass">QueryClass</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Ae.Dns.Protocol.Enums.DnsQueryClass.html">DnsQueryClass</a> of this header, normally <a class="xref" href="Ae.Dns.Protocol.Enums.DnsQueryClass.html#Ae_Dns_Protocol_Enums_DnsQueryClass_IN">IN</a> (Internet).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DnsQueryClass QueryClass { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ae.Dns.Protocol.Enums.DnsQueryClass.html">DnsQueryClass</a></td>
+        <td><p>The class of query, most likely <a class="xref" href="Ae.Dns.Protocol.Enums.DnsQueryClass.html#Ae_Dns_Protocol_Enums_DnsQueryClass_IN">IN</a> to represent Internet DNS queries.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_QueryType.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.QueryType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L72">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_QueryType_" data-uid="Ae.Dns.Protocol.DnsHeader.QueryType*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_QueryType" data-uid="Ae.Dns.Protocol.DnsHeader.QueryType">QueryType</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Ae.Dns.Protocol.Enums.DnsQueryType.html">DnsQueryType</a> of this header.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DnsQueryType QueryType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ae.Dns.Protocol.Enums.DnsQueryType.html">DnsQueryType</a></td>
+        <td><p>If the type of query is <a class="xref" href="Ae.Dns.Protocol.Enums.DnsQueryType.html#Ae_Dns_Protocol_Enums_DnsQueryType_A">A</a>, it means the query is for IP address records.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_QuestionCount.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.QuestionCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L38">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_QuestionCount_" data-uid="Ae.Dns.Protocol.DnsHeader.QuestionCount*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_QuestionCount" data-uid="Ae.Dns.Protocol.DnsHeader.QuestionCount">QuestionCount</h4>
+  <div class="markdown level1 summary"><p>The number of questions in this header.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short QuestionCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td><p>A count of the number of questions asked of the DNS server.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_RecursionAvailable.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.RecursionAvailable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L140">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_RecursionAvailable_" data-uid="Ae.Dns.Protocol.DnsHeader.RecursionAvailable*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_RecursionAvailable" data-uid="Ae.Dns.Protocol.DnsHeader.RecursionAvailable">RecursionAvailable</h4>
+  <div class="markdown level1 summary"><p>Indicates whether recusion is available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RecursionAvailable { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_RecusionDesired.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.RecusionDesired%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L131">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_RecusionDesired_" data-uid="Ae.Dns.Protocol.DnsHeader.RecusionDesired*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_RecusionDesired" data-uid="Ae.Dns.Protocol.DnsHeader.RecusionDesired">RecusionDesired</h4>
+  <div class="markdown level1 summary"><p>Indicates whether recrusion is desired on this DNS query.
+If this is an answer, indicates whether the original query requested recursion.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RecusionDesired { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_ResponseCode.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.ResponseCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L149">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_ResponseCode_" data-uid="Ae.Dns.Protocol.DnsHeader.ResponseCode*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_ResponseCode" data-uid="Ae.Dns.Protocol.DnsHeader.ResponseCode">ResponseCode</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Ae.Dns.Protocol.Enums.DnsResponseCode.html">DnsResponseCode</a> for this result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DnsResponseCode ResponseCode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ae.Dns.Protocol.Enums.DnsResponseCode.html">DnsResponseCode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_Truncation.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.Truncation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L121">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_Truncation_" data-uid="Ae.Dns.Protocol.DnsHeader.Truncation*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_Truncation" data-uid="Ae.Dns.Protocol.DnsHeader.Truncation">Truncation</h4>
+  <div class="markdown level1 summary"><p>Determines whether this DNS answer was truncated due to size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Truncation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_Equals_Ae_Dns_Protocol_DnsHeader_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.Equals(Ae.Dns.Protocol.DnsHeader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L169">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_Equals_" data-uid="Ae.Dns.Protocol.DnsHeader.Equals*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_Equals_Ae_Dns_Protocol_DnsHeader_" data-uid="Ae.Dns.Protocol.DnsHeader.Equals(Ae.Dns.Protocol.DnsHeader)">Equals(DnsHeader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(DnsHeader other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ae.Dns.Protocol.DnsHeader.html">DnsHeader</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_GetHashCode.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L183">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_GetHashCode_" data-uid="Ae.Dns.Protocol.DnsHeader.GetHashCode*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_GetHashCode" data-uid="Ae.Dns.Protocol.DnsHeader.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_ReadBytes_System_Byte___System_Int32__.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.ReadBytes(System.Byte%5B%5D%2CSystem.Int32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L199">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_ReadBytes_" data-uid="Ae.Dns.Protocol.DnsHeader.ReadBytes*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_ReadBytes_System_Byte___System_Int32__" data-uid="Ae.Dns.Protocol.DnsHeader.ReadBytes(System.Byte[],System.Int32@)">ReadBytes(Byte[], ref Int32)</h4>
+  <div class="markdown level1 summary"><p>Read from the specified byte array, starting at the specified offset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadBytes(byte[] bytes, ref int offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td><p>The byte array to read from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset to start at.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_ToString.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L166">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_ToString_" data-uid="Ae.Dns.Protocol.DnsHeader.ToString*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_ToString" data-uid="Ae.Dns.Protocol.DnsHeader.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader_WriteBytes.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader.WriteBytes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L213">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_DnsHeader_WriteBytes_" data-uid="Ae.Dns.Protocol.DnsHeader.WriteBytes*"></a>
+  <h4 id="Ae_Dns_Protocol_DnsHeader_WriteBytes" data-uid="Ae.Dns.Protocol.DnsHeader.WriteBytes">WriteBytes()</h4>
+  <div class="markdown level1 summary"><p>Writes the contents of this class to the specified nested <see cref="!:IEnumerable&lt;T>"></see> of <see cref="!:System.Byte"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IEnumerable&lt;byte&gt;&gt; WriteBytes()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;&gt;</td>
+        <td><p>A nested <see cref="!:IEnumerable&lt;T>"></see> of <see cref="!:System.Byte"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Ae.Dns.Protocol.IDnsByteArrayReader.html">IDnsByteArrayReader</a>
+  </div>
+  <div>
+      <a class="xref" href="Ae.Dns.Protocol.IDnsByteArrayWriter.html">IDnsByteArrayWriter</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsHeader.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsHeader%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsHeader.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

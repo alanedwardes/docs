@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DnsRoundRobinClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DnsRoundRobinClient
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Ae.Dns.Client.DnsRoundRobinClient">
+  
+  
+  <h1 id="Ae_Dns_Client_DnsRoundRobinClient" data-uid="Ae.Dns.Client.DnsRoundRobinClient" class="text-break">Class DnsRoundRobinClient
+  </h1>
+  <div class="markdown level0 summary"><p>A client consisting of multiple <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> instances which are picked at random.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">DnsRoundRobinClient</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a></div>
+    <div><span class="xref">IDisposable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Ae.Dns.Client.html">Ae.Dns.Client</a></h6>
+  <h6><strong>Assembly</strong>: Ae.Dns.Client.dll</h6>
+  <h5 id="Ae_Dns_Client_DnsRoundRobinClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class DnsRoundRobinClient : object, IDnsClient, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Client_DnsRoundRobinClient__ctor_Ae_Dns_Protocol_IDnsClient___.md&amp;value=---%0Auid%3A%20Ae.Dns.Client.DnsRoundRobinClient.%23ctor(Ae.Dns.Protocol.IDnsClient%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Client/DnsRoundRobinClient.cs/#L27">View Source</a>
+  </span>
+  <a id="Ae_Dns_Client_DnsRoundRobinClient__ctor_" data-uid="Ae.Dns.Client.DnsRoundRobinClient.#ctor*"></a>
+  <h4 id="Ae_Dns_Client_DnsRoundRobinClient__ctor_Ae_Dns_Protocol_IDnsClient___" data-uid="Ae.Dns.Client.DnsRoundRobinClient.#ctor(Ae.Dns.Protocol.IDnsClient[])">DnsRoundRobinClient(IDnsClient[])</h4>
+  <div class="markdown level1 summary"><p>Create a new round-robin DNS client using the specified <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> instances to delegate to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DnsRoundRobinClient(params IDnsClient[] dnsClients)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a>[]</td>
+        <td><span class="parametername">dnsClients</span></td>
+        <td><p>The array of DNS clients to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Client_DnsRoundRobinClient__ctor_IEnumerable_Ae_Dns_Protocol_IDnsClient__.md&amp;value=---%0Auid%3A%20Ae.Dns.Client.DnsRoundRobinClient.%23ctor(IEnumerable%7BAe.Dns.Protocol.IDnsClient%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Client/DnsRoundRobinClient.cs/#L21">View Source</a>
+  </span>
+  <a id="Ae_Dns_Client_DnsRoundRobinClient__ctor_" data-uid="Ae.Dns.Client.DnsRoundRobinClient.#ctor*"></a>
+  <h4 id="Ae_Dns_Client_DnsRoundRobinClient__ctor_IEnumerable_Ae_Dns_Protocol_IDnsClient__" data-uid="Ae.Dns.Client.DnsRoundRobinClient.#ctor(IEnumerable{Ae.Dns.Protocol.IDnsClient})">DnsRoundRobinClient(IEnumerable&lt;IDnsClient&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a new round-robin DNS client using the specified <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> instances to delegate to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DnsRoundRobinClient(IEnumerable&lt;IDnsClient&gt; dnsClients)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a>&gt;</td>
+        <td><span class="parametername">dnsClients</span></td>
+        <td><p>The enumerable of DNS clients to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Client_DnsRoundRobinClient_Dispose.md&amp;value=---%0Auid%3A%20Ae.Dns.Client.DnsRoundRobinClient.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Client/DnsRoundRobinClient.cs/#L35">View Source</a>
+  </span>
+  <a id="Ae_Dns_Client_DnsRoundRobinClient_Dispose_" data-uid="Ae.Dns.Client.DnsRoundRobinClient.Dispose*"></a>
+  <h4 id="Ae_Dns_Client_DnsRoundRobinClient_Dispose" data-uid="Ae.Dns.Client.DnsRoundRobinClient.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Client_DnsRoundRobinClient_Query_Ae_Dns_Protocol_DnsHeader_CancellationToken_.md&amp;value=---%0Auid%3A%20Ae.Dns.Client.DnsRoundRobinClient.Query(Ae.Dns.Protocol.DnsHeader%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Client/DnsRoundRobinClient.cs/#L32">View Source</a>
+  </span>
+  <a id="Ae_Dns_Client_DnsRoundRobinClient_Query_" data-uid="Ae.Dns.Client.DnsRoundRobinClient.Query*"></a>
+  <h4 id="Ae_Dns_Client_DnsRoundRobinClient_Query_Ae_Dns_Protocol_DnsHeader_CancellationToken_" data-uid="Ae.Dns.Client.DnsRoundRobinClient.Query(Ae.Dns.Protocol.DnsHeader,CancellationToken)">Query(DnsHeader, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DnsAnswer&gt; Query(DnsHeader query, CancellationToken token)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ae.Dns.Protocol.DnsHeader.html">DnsHeader</a></td>
+        <td><span class="parametername">query</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">token</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ae.Dns.Protocol.DnsAnswer.html">DnsAnswer</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a>
+  </div>
+  <div>
+      <span class="xref">IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Client_DnsRoundRobinClient.md&amp;value=---%0Auid%3A%20Ae.Dns.Client.DnsRoundRobinClient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Client/DnsRoundRobinClient.cs/#L13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

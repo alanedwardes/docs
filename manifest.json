@@ -1,0 +1,2845 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace/documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../libraries/Ae.Dns/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/README.html",
+          "hash": "msZYirFmjI+1hetfKMJ5+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../libraries/Ae.Dns/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/index.html",
+          "hash": "IFmUICdoYcLsKlFyud9ubw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../libraries/Ae.Freezer/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/README.html",
+          "hash": "UpNH4UtWfNKixZ5GTlONBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../libraries/Ae.Freezer/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/index.html",
+          "hash": "vivU3niDQy2KFk3Hl2O6Og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../libraries/Ae.ImGuiBootstrapper/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.ImGuiBootstrapper/README.html",
+          "hash": "BJ/6PFNWPXBhFsQ6Sa+Tkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../libraries/Ae.ImGuiBootstrapper/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.ImGuiBootstrapper/index.html",
+          "hash": "F/r8hxpbJo+ofY5ern+Q4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../libraries/Ae.Synthetics/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/README.html",
+          "hash": "YRisBla/J8Zgn0hc9joV2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../libraries/Ae.Synthetics/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/index.html",
+          "hash": "ujdnLqCW25cflj0ua3i5aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../libraries/BinaryMapper/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/README.html",
+          "hash": "D9qiApsaqcOOD+/gyY3B4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../libraries/BinaryMapper/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/index.html",
+          "hash": "+LbtjVS549T/cxtt5wJGxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../libraries/BinaryMapper/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "BinaryMapper/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../libraries/Estranged.Lfs/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/README.html",
+          "hash": "iJf6Jo7Hv9WBeT3twPvd3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../libraries/Estranged.Lfs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/index.html",
+          "hash": "sfZVaaJs5lMVaUDC0pQuQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.DnsCachingClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.DnsCachingClient.html",
+          "hash": "uAK5uxKGBjzJVdWqvIZP1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.DnsFilterClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.DnsFilterClient.html",
+          "hash": "sWVtn+dA5DBysG8uwCr1jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.DnsHttpClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.DnsHttpClient.html",
+          "hash": "3n5CL0TTM2VB/G/jJ7CXYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.DnsRoundRobinClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.DnsRoundRobinClient.html",
+          "hash": "KhzywUAmgt/HZa159+URaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.DnsSocketClientFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.DnsSocketClientFactory.html",
+          "hash": "4LuQl//uLzwWxd9WxrA8Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.DnsTcpClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.DnsTcpClient.html",
+          "hash": "VFIbc+OZDqD+ZN+qXFAkmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.DnsUdpClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.DnsUdpClient.html",
+          "hash": "obJBsbaHpxJ/+ud3vyZaiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Exceptions.DnsClientTimeoutException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Exceptions.DnsClientTimeoutException.html",
+          "hash": "r2SGRwQc2xKPPGblK80SDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Exceptions.html",
+          "hash": "O3nUaSQDvzRSF8t6jU1V7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsCompositeAndFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsCompositeAndFilter.html",
+          "hash": "dWOEx/DUyr5vwI2eA7uCyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsCompositeOrFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsCompositeOrFilter.html",
+          "hash": "3SCibxroXwtDd7rkSNaVag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsDelegateFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsDelegateFilter.html",
+          "hash": "DePFPDs/+6wXa6QP3UGOQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsDomainSuffixFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsDomainSuffixFilter.html",
+          "hash": "dWQxAErqU2lctq0IFoZyVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsRemoteSetFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsRemoteSetFilter.html",
+          "hash": "x8tCfBnzYyVDRX09K0R/zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Filters.IDnsFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Filters.IDnsFilter.html",
+          "hash": "SCXOL553pn5Gw4oFYKqmtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Filters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Filters.html",
+          "hash": "5vBZW80MsdKp6Cxm/Xkf4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.IDnsSocketClientFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.IDnsSocketClientFactory.html",
+          "hash": "vB+AcURvQFXATiqPEN1X7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.ServiceCollectionExtensions.html",
+          "hash": "jHftos8atR9joSmYK9oFGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.html",
+          "hash": "sTOv6jVR+v6E+BJqkHBC1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsAnswer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html",
+          "hash": "5+gaypHkE2kP99xZ610arA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsByteExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsByteExtensions.html",
+          "hash": "Lae1UjpBTIdFZa+a8PHxcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsDelegatingHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsDelegatingHandler.html",
+          "hash": "uxKpEObyNWDvuKhVppiSsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsHeader.html",
+          "hash": "NMCyogl5FqQmDP69rbYArA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsQueryFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsQueryFactory.html",
+          "hash": "0PDjoGbJlGaeZ9tLUvHH1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.Enums.DnsOperationCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.Enums.DnsOperationCode.html",
+          "hash": "7b3CyEOyrJ0X/jAtmzb78A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.Enums.DnsQueryClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.Enums.DnsQueryClass.html",
+          "hash": "LCjbMF6c+BEm5Y4CB1ES7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.Enums.DnsQueryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.Enums.DnsQueryType.html",
+          "hash": "5TFouGFg9Se8IzwpGzI7ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.Enums.DnsResponseCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.Enums.DnsResponseCode.html",
+          "hash": "mc3NsABXt5c1DN3Lc3en+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.Enums.html",
+          "hash": "jw+6R9wsLuJFbKTGzDA0jQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.IDnsByteArrayReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.IDnsByteArrayReader.html",
+          "hash": "goPngjHF6REpL+7/asmJeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.IDnsByteArrayWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.IDnsByteArrayWriter.html",
+          "hash": "oAyhq/IjaJgKUeFosHfQzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.IDnsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.IDnsClient.html",
+          "hash": "hGkf7PUvyVZIcgu0gj418g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.IDnsServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.IDnsServer.html",
+          "hash": "guSFklRsFoHaSxA7PeZ5sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsIpAddressResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsIpAddressResource.html",
+          "hash": "MnSTRR2LZhplLOuE2DZeDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsMxResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsMxResource.html",
+          "hash": "30vvsz9rJIOJy+l4+ef60A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsResourceRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsResourceRecord.html",
+          "hash": "Pt9uE8h5pcSIvKtOFPawzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsSoaResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsSoaResource.html",
+          "hash": "is1sCE3lgghGmf8mdaU1YA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.html",
+          "hash": "AOl8sZqW6BIyRWoMZ+AlLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsUnknownResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsUnknownResource.html",
+          "hash": "1pf5CsFsTh5hOHXV2+8pdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.IDnsResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.IDnsResource.html",
+          "hash": "hBo76DNkQX0ngaw37jEhfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.html",
+          "hash": "HhLgrUVyDFtrmw7ZK3+/qA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.html",
+          "hash": "kQerUYe/Jp38/nr/v2jKtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Server.DnsUdpServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Server.DnsUdpServer.html",
+          "hash": "Obfis8NoSvCSUr0t6Pj/3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Server.Http.DnsHttpServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Server.Http.DnsHttpServer.html",
+          "hash": "eV9Z4/T4sQgDi5X9ZoYOdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Server.Http.DnsMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Server.Http.DnsMiddleware.html",
+          "hash": "hxUHI4FWO4Y9kMan3XNvCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Server.Http.DnsMiddlewareConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Server.Http.DnsMiddlewareConfig.html",
+          "hash": "o4fknpgvQP6EmlJ6nH/eUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Server.Http.DnsStartup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Server.Http.DnsStartup.html",
+          "hash": "AzwzPHmuihW8ivZfysglxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Server.Http.IDnsMiddlewareConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Server.Http.IDnsMiddlewareConfig.html",
+          "hash": "E1uEliIPvFVeVLA0oKQ6tQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Server.Http.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Server.Http.html",
+          "hash": "IvlgrJHKehKszFahQfgIAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Server.html",
+          "hash": "n6sI6tVtrZN4wTC64wk3eA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Ae.Dns/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/toc.html",
+          "hash": "9xTMwTjS9aZ4/Wgk6+AAcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.html",
+          "hash": "4P3cumUIQv9dKv1DZijLHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriterConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriterConfiguration.html",
+          "hash": "8xjGAoinE8L5mTOftRj/cQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.Aws.AmazonS3WebsiteResourceWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.Aws.AmazonS3WebsiteResourceWriter.html",
+          "hash": "K3EXzHrtnRFJ6CTAL47iKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.Aws.AmazonS3WebsiteResourceWriterConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.Aws.AmazonS3WebsiteResourceWriterConfiguration.html",
+          "hash": "8+BUJcstnvX5DnRExjpelw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.Aws.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.Aws.html",
+          "hash": "BLM+7e/blXqyx6mkP6LsMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.Entities.WebsiteResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.Entities.WebsiteResource.html",
+          "hash": "py7zwKSsiSSW8of1pxR3AA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.Entities.WebsiteResourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.Entities.WebsiteResourceType.html",
+          "hash": "9+MwKl7Zljvec/Ygc77jOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.Entities.html",
+          "hash": "x8bhrQpXUl2NF89udtlBEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.FreezerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.FreezerConfiguration.html",
+          "hash": "UBl99B+5lDsuyyh/t80j1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.IFreezer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.IFreezer.html",
+          "hash": "L5EFK3+t13AiQQP+Dn28Fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.IFreezerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.IFreezerConfiguration.html",
+          "hash": "GmKYMLVGPvn0bJzeB9TGzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.ServiceCollectionExtensions.html",
+          "hash": "mRY6OlBQXr21zRmaZobVAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.Writers.IWebsiteResourceWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.Writers.IWebsiteResourceWriter.html",
+          "hash": "M+lveJI80cPaVf9gkKDfQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.Writers.NullWebsiteResourceWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.Writers.NullWebsiteResourceWriter.html",
+          "hash": "yD3fNmX3jU90zjC0zkdYzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.Writers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.Writers.html",
+          "hash": "s3d/FLiJixB8sUucGNgbOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Freezer/Ae.Freezer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/Ae.Freezer.html",
+          "hash": "LTtpCJNU2DZm9hOalKLNuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Ae.Freezer/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Freezer/toc.html",
+          "hash": "i7Z30KLV3xrdGUWvX+LZuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.ImGuiBootstrapper/Ae.ImGuiBootstrapper.ImGuiRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.ImGuiBootstrapper/Ae.ImGuiBootstrapper.ImGuiRenderer.html",
+          "hash": "zIU8oUSOhkLjfwPwaMBClA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.ImGuiBootstrapper/Ae.ImGuiBootstrapper.ImGuiWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.ImGuiBootstrapper/Ae.ImGuiBootstrapper.ImGuiWindow.html",
+          "hash": "sXvotI0Ze+z1jjeWs4TkvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.ImGuiBootstrapper/Ae.ImGuiBootstrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.ImGuiBootstrapper/Ae.ImGuiBootstrapper.html",
+          "hash": "EUh7YpFOBsON2X5W0AAsPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Ae.ImGuiBootstrapper/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.ImGuiBootstrapper/toc.html",
+          "hash": "QLTpbGlM/x0ftNTxn9PwFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.ISyntheticsAlerter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.ISyntheticsAlerter.html",
+          "hash": "NfTCvulNKgtPFLLGIfq14g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.Ses.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.Ses.ServiceCollectionExtensions.html",
+          "hash": "8YLS11pKN1NkpeetPB6e7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.Ses.SesSyntheticsAlerterConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.Ses.SesSyntheticsAlerterConfig.html",
+          "hash": "D8nlocIQ4NUTCViYuSI0pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.Ses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.Ses.html",
+          "hash": "JWdotiOQitXikJAlH+jysg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.html",
+          "hash": "CD7D7txxHcHko1wPOr70CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Synthetics/Ae.Synthetics.Runner.ISyntheticTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/Ae.Synthetics.Runner.ISyntheticTest.html",
+          "hash": "SjSWTZZFATLkxqdIXk4GKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Synthetics/Ae.Synthetics.Runner.ISyntheticsRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/Ae.Synthetics.Runner.ISyntheticsRunner.html",
+          "hash": "zNwa/a1r2/Hl/tCqrnNR2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Synthetics/Ae.Synthetics.Runner.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/Ae.Synthetics.Runner.ServiceCollectionExtensions.html",
+          "hash": "OUnp8DY7usJ/PuFeYL3VXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Synthetics/Ae.Synthetics.Runner.SyntheticsRunnerConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/Ae.Synthetics.Runner.SyntheticsRunnerConfig.html",
+          "hash": "41WCG6yVcelbrbtbP79+PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Synthetics/Ae.Synthetics.Runner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/Ae.Synthetics.Runner.html",
+          "hash": "e/7BMfiDKDLyL6xhXJstXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Ae.Synthetics/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/toc.html",
+          "hash": "paD/tBX6T+s9nXQa29Gf1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Core.Attributes.ArraySizeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Core.Attributes.ArraySizeAttribute.html",
+          "hash": "ozGQ6m0Gt0KKKS4xoO1kow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Core.Attributes.CharacterArrayAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Core.Attributes.CharacterArrayAttribute.html",
+          "hash": "lKrrEFnNGPp+SXvqCtQQYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Core.Attributes.RewindAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Core.Attributes.RewindAttribute.html",
+          "hash": "WANEbyUfMQaID8dM95WC3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Core.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Core.Attributes.html",
+          "hash": "ZFCqz46IQ/4SXIlgbijSkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Core.BitExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Core.BitExtensions.html",
+          "hash": "BUhLHab3J8ToMVvGbgKIkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Core.Enums.CharacterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Core.Enums.CharacterType.html",
+          "hash": "PJIKX5n5UcluBl/znHQ+sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Core.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Core.Enums.html",
+          "hash": "krL3WiJasEFvMB6IDYUL3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Core.IStreamBinaryMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Core.IStreamBinaryMapper.html",
+          "hash": "Ookk3AhcE8k98j8L67hpbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Core.SizeSpan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Core.SizeSpan.html",
+          "hash": "K0MF+cempEs7Xc/v+EE2+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Core.StreamBinaryMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Core.StreamBinaryMapper.html",
+          "hash": "zXADbmAC19gjVxd3wLinrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Core.html",
+          "hash": "8h6of2+sEFxmrhmsRAFcnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Executable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Executable.html",
+          "hash": "wi1zkhSbx77LHPKBDF3Bbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.ExecutableMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.ExecutableMapper.html",
+          "hash": "1suLTiuCHxUylx0SxjZytQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.IExecutableMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.IExecutableMapper.html",
+          "hash": "93ZcIpeuelY2vp/cuQmqaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.COFF_CHARACTERISTICS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.COFF_CHARACTERISTICS.html",
+          "hash": "ullEkuzJwmWq5h6h82XIQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.COFF_HEADER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.COFF_HEADER.html",
+          "hash": "1S49fdv3VxLNdSX4dxQlUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.COFF_MACHINE_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.COFF_MACHINE_TYPE.html",
+          "hash": "eh9r9h4jq0LhQxG/xPBV6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.ICONDIR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.ICONDIR.html",
+          "hash": "F72gXqBEf3sORJF/Gg+35Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.ICONDIRENTRY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.ICONDIRENTRY.html",
+          "hash": "n+kBYnf1elOpHE4W2g3J9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_DATA_DIRECTORY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_DATA_DIRECTORY.html",
+          "hash": "fMp5bzgaKYxedQIhcORX+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_DLLCHARACTERISTICS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_DLLCHARACTERISTICS.html",
+          "hash": "6M9lXvaz1Y3DN+aDkSICpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_DOS_HEADER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_DOS_HEADER.html",
+          "hash": "82snVQa2cMHLmBCFqVyDUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_OPTIONAL_HDR_MAGIC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_OPTIONAL_HDR_MAGIC.html",
+          "hash": "3ANIU3VC0YGw+gON0YEAew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_OPTIONAL_HEADER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_OPTIONAL_HEADER.html",
+          "hash": "ehkn5iTDZGiUdqh7o6m8Dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_OPTIONAL_HEADER64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_OPTIONAL_HEADER64.html",
+          "hash": "bB+jn+PYO8fvnoUANnnXFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_PE_HEADER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_PE_HEADER.html",
+          "hash": "7T5+2uVm4x122r8WuLQlnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_RESOURCE_DATA_ENTRY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_RESOURCE_DATA_ENTRY.html",
+          "hash": "L8RdOi/Xat5wEM4ifrFXGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_RESOURCE_DIRECTORY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_RESOURCE_DIRECTORY.html",
+          "hash": "3aE7IW0MybRs1syC8CAX5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_RESOURCE_DIRECTORY_ENTRY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_RESOURCE_DIRECTORY_ENTRY.html",
+          "hash": "M+5+QykBjSNoUPW8x5Hijg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_SECTION_CHARACTERISTICS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_SECTION_CHARACTERISTICS.html",
+          "hash": "7KRVru6GsrUhlYk6Wa+9Dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_SECTION_HEADER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_SECTION_HEADER.html",
+          "hash": "Ev5grBVfKzLAFtmgXS1PoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_SUBSYSTEM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_SUBSYSTEM.html",
+          "hash": "jKxBBGLvcfzz2WhxH9sqVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.RESOURCE_DIRECTORY_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.RESOURCE_DIRECTORY_TYPE.html",
+          "hash": "wHj6dZkE0kBOI0cS5uOVFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.html",
+          "hash": "V+IckJPePt8s/wjrN8Yk8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.html",
+          "hash": "0QZXWEaD4pBDET7gjdvvyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.IMinidumpMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.IMinidumpMapper.html",
+          "hash": "fNY2tzlOSMKiJcmCt+6hQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.LinuxCpuInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.LinuxCpuInfo.html",
+          "hash": "L0AvYryzpJCVL9h0UTGfVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Minidump.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Minidump.html",
+          "hash": "yfo1JyHWEC04g6Z93BZEtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.MinidumpMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.MinidumpMapper.html",
+          "hash": "+VV3xyo1/3AopAs1oq0lxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.CPU_INFORMATION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.CPU_INFORMATION.html",
+          "hash": "ZJ39vZI5NYLfp+P7C7RFhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.CPU_INFORMATION_OTHER_CPUINFO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.CPU_INFORMATION_OTHER_CPUINFO.html",
+          "hash": "+J+ItVD5zhSHPDFbuWL+Eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.CPU_INFORMATION_X86_CPUINFO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.CPU_INFORMATION_X86_CPUINFO.html",
+          "hash": "DA4Rg6fvC5MG90hG3cgGyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.EXCEPTION_CODE_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.EXCEPTION_CODE_TYPE.html",
+          "hash": "XQmp9yWjh289bwr6waalKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_DIRECTORY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_DIRECTORY.html",
+          "hash": "95hofmDxuET0IEo4PfhkkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_EXCEPTION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_EXCEPTION.html",
+          "hash": "IYWaQJKkk7V6sLihG1MCgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_EXCEPTION_STREAM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_EXCEPTION_STREAM.html",
+          "hash": "D70wlfK3XjhVB52N7amXog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_HEADER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_HEADER.html",
+          "hash": "ddEKKv3HJZEQOAdsPp/feg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_LOCATION_DESCRIPTOR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_LOCATION_DESCRIPTOR.html",
+          "hash": "TUNhd1TGnfJ1oX3RCLf54w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MEMORY_DESCRIPTOR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MEMORY_DESCRIPTOR.html",
+          "hash": "KiMtVf5O1M2H5XO7+m6Lkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MEMORY_LIST_STREAM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MEMORY_LIST_STREAM.html",
+          "hash": "65So455U12djBlsWTNvtDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MISC_INFO_STREAM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MISC_INFO_STREAM.html",
+          "hash": "ciM9jA22CBZocRBYchmbfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MISC_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MISC_TYPE.html",
+          "hash": "FIAJGc91Rvk4oGQ8S3QpQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MODULE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MODULE.html",
+          "hash": "t6vb+4pQoMZe1BXAqwlWVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MODULE_LIST_STREAM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MODULE_LIST_STREAM.html",
+          "hash": "FOp/gTVrfmhjLA85bA7OWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_STREAM_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_STREAM_TYPE.html",
+          "hash": "zffjos8xuDMHF5OoANuiWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_STRING.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_STRING.html",
+          "hash": "sLGQLuw5ddVvCTwV7dW/qA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_SYSTEM_INFO_STREAM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_SYSTEM_INFO_STREAM.html",
+          "hash": "lGMK8naBi3NDdWFRfETInw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_THREAD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_THREAD.html",
+          "hash": "Fs+I7h+USTvwz1+ubx/iJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_THREAD_INFO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_THREAD_INFO.html",
+          "hash": "Xy7rdxmdKPmnGfBKYChzwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_THREAD_INFO_LIST_STREAM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_THREAD_INFO_LIST_STREAM.html",
+          "hash": "/dFt2d97kOPQ65gMeMeUmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_THREAD_LIST_STREAM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_THREAD_LIST_STREAM.html",
+          "hash": "kKtLYLayMq9cU37X+kjrwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_TYPE.html",
+          "hash": "QMcR69vH3HMvVPG0zvUmlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.PLATFORM_ID_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.PLATFORM_ID_TYPE.html",
+          "hash": "BnWR7PZOHoTgMuUwQS5slQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.PROCESSOR_ARCHITECTURE_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.PROCESSOR_ARCHITECTURE_TYPE.html",
+          "hash": "GV+xEgeGdTOz4B8W7W/a1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.PRODUCT_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.PRODUCT_TYPE.html",
+          "hash": "YY0uKCw0dIonUdQ3TxYIwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.SUITE_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.SUITE_TYPE.html",
+          "hash": "aiHEJsO0UrcaTc2HYT0YkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.VS_FIXEDFILEINFO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.VS_FIXEDFILEINFO.html",
+          "hash": "Y2HaqhOnHh6HZih1gBXy+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.dwFileFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.dwFileFlags.html",
+          "hash": "/wyjU8eKphY6uj+j1W3zOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.dwFileOS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.dwFileOS.html",
+          "hash": "mxJljCMzDpiNxB9AwXg4bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.dwFileType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.dwFileType.html",
+          "hash": "906267wKAoifFyhkapHeTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.html",
+          "hash": "U1d/uKYZIgibJ/GcwynpOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.html",
+          "hash": "5ldIgrE7mon9NlcMRbLlLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "BinaryMapper/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BinaryMapper/toc.html",
+          "hash": "rNvN4L/M/jNcf1MN62W/XA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.Azure.Blob.AzureBlobAdapterConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.Azure.Blob.AzureBlobAdapterConfig.html",
+          "hash": "uwPnL0HMh7vtuc/NXFJpnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.Azure.Blob.IAzureBlobAdapterConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.Azure.Blob.IAzureBlobAdapterConfig.html",
+          "hash": "7NiRyzHzeRG/DP5SM1suqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.Azure.Blob.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.Azure.Blob.ServiceCollectionExtensions.html",
+          "hash": "XYJnKC5CK3tjr5ugDOb5Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.Azure.Blob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.Azure.Blob.html",
+          "hash": "CQ2f1CAudOpjsk4ziFPjnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.S3.IS3BlobAdapterConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.S3.IS3BlobAdapterConfig.html",
+          "hash": "fJ6qvEOQMsKOEyff3DbdcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.S3.S3BlobAdapterConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.S3.S3BlobAdapterConfig.html",
+          "hash": "uYovodIeuh1crJ5p6Lx7bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.S3.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.S3.ServiceCollectionExtensions.html",
+          "hash": "ZvWwk3f+5quyTMGPJpw8Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.S3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.S3.html",
+          "hash": "90LUjPhvhc9bdr+adXj6DQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Controllers.LocksController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Controllers.LocksController.html",
+          "hash": "+scFLqk+RKaR7+HmmhX8bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Controllers.ObjectsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Controllers.ObjectsController.html",
+          "hash": "1gaJb4Q9pCmkh7DH+7egOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Controllers.html",
+          "hash": "+XfPI6XVZaK8wHrrJ8hNAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Entities.BatchRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Entities.BatchRequest.html",
+          "hash": "Rxc1GNUShN8mxGbeic8c4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Entities.BatchResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Entities.BatchResponse.html",
+          "hash": "JMscsTRBvsFUDkBQsy+AcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Entities.LfsOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Entities.LfsOperation.html",
+          "hash": "SIOtMdeAu1KuJD/xfneNAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Entities.html",
+          "hash": "2yoBY3CnR9jpZH8/EI5xPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Filters.BasicAuthFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Filters.BasicAuthFilter.html",
+          "hash": "mzlIjotx087JwW6+tgeXLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Filters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Filters.html",
+          "hash": "HmJu5i191ORn2RuG4ba+EA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Api.LfsConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.LfsConstants.html",
+          "hash": "4Cbw+/N9QlzfVpzjg+lV/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Api.MvcBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.MvcBuilderExtensions.html",
+          "hash": "QamIgPiljFayZeZClEqzaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Api.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.ServiceCollectionExtensions.html",
+          "hash": "/sNgyjB3O+ALwy0eN9ELiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.html",
+          "hash": "Wo1gaKHFOCBC1lQ2oKZNTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.BitBucketAuthenticatorConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.BitBucketAuthenticatorConfig.html",
+          "hash": "h96cjdbALKsOcdEyFvJdlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Clone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Clone.html",
+          "hash": "Vm3yXlcmBbkUqJEnQui7Qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Link.html",
+          "hash": "nKFnOVqGMWMG/tXogEtmBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Links.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Links.html",
+          "hash": "1qt0uq4VtFAYFVETJC+ozA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Owner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Owner.html",
+          "hash": "Xd33gzzsVmvDKUp71fapLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Project.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Project.html",
+          "hash": "A9Y9wtCrVZRsSO0Kg6Oclg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Repository.html",
+          "hash": "oiNlrPKUlasJ6QNvmcsqQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.RepositoryLinks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.RepositoryLinks.html",
+          "hash": "JgE6a4bgBUZhFQvsxTRmPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.RepositoryPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.RepositoryPermission.html",
+          "hash": "L1FIZrA3Ggp8Q1gDNa9lDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.RepositoryPermissionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.RepositoryPermissionType.html",
+          "hash": "Ip0skGQDFaxAPU0omGWgZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.RepositoryPermissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.RepositoryPermissions.html",
+          "hash": "aKTaasjE4CsxcNQzZedlBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.RepositorySummary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.RepositorySummary.html",
+          "hash": "rh4BZbttkD1v90TqQlh3WQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.User.html",
+          "hash": "eimA8LEqTz6gTe6fAgA8xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Workspace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Workspace.html",
+          "hash": "4vkqDjvhsRqHvp0rmA83xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.html",
+          "hash": "tqgUt83SG6yc1j5AKxcW3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.IBitBucketAuthenticatorConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.IBitBucketAuthenticatorConfig.html",
+          "hash": "I5SfSub0HxR9zxWegV0NVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.ServiceCollectionExtensions.html",
+          "hash": "DbAZSpgk6m5VVTa9Avjmfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.html",
+          "hash": "/r8lv1C6O0N5+qofeAQWpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.GitHub.GitHubAuthenticatorConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.GitHub.GitHubAuthenticatorConfig.html",
+          "hash": "rjm1qx/piTZif+QGOAzE+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.GitHub.IGitHubAuthenticatorConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.GitHub.IGitHubAuthenticatorConfig.html",
+          "hash": "y/Qt3y80/mAzx8HWuAz5lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.GitHub.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.GitHub.ServiceCollectionExtensions.html",
+          "hash": "s+zbjYeom7iYdrXm15VODA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.GitHub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.GitHub.html",
+          "hash": "A/sNTAJXc03pXFLTQALqLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.BlobConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.BlobConstants.html",
+          "hash": "n/pzcAvja1BlNkjWiLQ6zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.DictionaryAuthenticator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.DictionaryAuthenticator.html",
+          "hash": "XEYczrG/YdDAj0AlSVB7EA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.Action.html",
+          "hash": "CQ59q3PhCQh+OSN+aLNSyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.Actions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.Actions.html",
+          "hash": "TnrVQKHpgH1rckUB9nCppw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.RequestObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.RequestObject.html",
+          "hash": "TMj6fRokzooa9Cxh0Y9J0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.ResponseObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.ResponseObject.html",
+          "hash": "32237s3oBLRvLh90slCEyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.ResponseObjectError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.ResponseObjectError.html",
+          "hash": "zPYmTraJsYcH2/dQ8ubb8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.html",
+          "hash": "lF/5jYDCFsX86kc6Z158Gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.IAuthenticator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.IAuthenticator.html",
+          "hash": "RMTYKMPUM4LDhUv0/jHHPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.IBlobAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.IBlobAdapter.html",
+          "hash": "s1KslQYiRoyeXGNrYyl3aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.IObjectManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.IObjectManager.html",
+          "hash": "h/rdni7wKLvxszVfc5WaQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.LfsPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.LfsPermission.html",
+          "hash": "mGI4224Lner6As4mgvNiMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.ObjectManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.ObjectManager.html",
+          "hash": "at5WTdOV0qPTN2srKL8Y1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.ServiceCollectionExtensions.html",
+          "hash": "qj4moWOHH8s3K9b6oKajQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.SignedBlob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.SignedBlob.html",
+          "hash": "Hi8iuOwmi9ljZPN69Z5ivQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Estranged.Lfs/Estranged.Lfs.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.html",
+          "hash": "TaZBG/NVrgaECa5GZbj1mA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Estranged.Lfs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Estranged.Lfs/toc.html",
+          "hash": "ypV4bXwbM6GTYYjuG80TmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "lwBcMMzMU4kFiCquKw4aag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "5GTZ1AlwmdAunSW1u8zz8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 13,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 210,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

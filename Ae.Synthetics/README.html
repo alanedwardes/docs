@@ -1,0 +1,308 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Ae.Synthetics </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Ae.Synthetics ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="aesynthetics">Ae.Synthetics</h1>
+
+<p>A bootstrapper for synthetic tests that are run on a schedule with metrics and alerting.</p>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>Run multiple testing <code>Task</code> (defined as C# <code>ISyntheticTest</code>) in parallel and alert on failure</li>
+<li>Designed to be deployed to AWS Lambda and run on a CloudWatch schedule</li>
+<li>Send alerts to Amazon SES or custom back-end via a generic <code>ISyntheticsAlerter</code> interface</li>
+<li>Built-in logging for tests to make diagnosing failure easy (log messages are passed to alerters)</li>
+</ul>
+<h2 id="packages">Packages</h2>
+<ul>
+<li>Core scheduler and interfaces: <a href="https://www.nuget.org/packages/Ae.Synthetics.Runner">Ae.Synthetics.Runner</a><ul>
+<li><img src="https://img.shields.io/nuget/v/Ae.Synthetics.Runner.svg" alt="https://www.nuget.org/packages/Ae.Synthetics.Runner"></li>
+</ul>
+</li>
+<li>Amazon SES alerting: <a href="https://www.nuget.org/packages/Ae.Synthetics.Alerting.Ses">Ae.Synthetics.Alerting.Ses</a><ul>
+<li><img src="https://img.shields.io/nuget/v/Ae.Synthetics.Alerting.Ses.svg" alt="https://www.nuget.org/packages/Ae.Synthetics.Alerting.Ses"></li>
+</ul>
+</li>
+</ul>
+<h2 id="usage">Usage</h2>
+<p>This package is designed for use with a scheduled AWS Lambda function, but can also be run as a console app.</p>
+<h3 id="defining-tests">Defining Tests</h3>
+<p>Tests are defined using the <code>ISyntheticTest</code> interface. If the test runs without throwing an exception it is considered successful, and if it throws an exception it is considered failed.</p>
+<p>When a test fails, the runner will invoke the <code>ISyntheticsAlerter</code> interface - an implementation for Amazon SES is available to alert of failures via email.</p>
+<pre><code class="lang-csharp">internal sealed class MyTest : ISyntheticTest
+{
+    public async Task Run(ILogger logger, CancellationToken token)
+    {
+        using (var client = new HttpClient())
+        {
+            logger.LogInformation($&quot;Calling my endpoint&quot;);
+            var response = await client.GetAsync(&quot;https://www.example.com/&quot;);
+            response.EnsureSuccessStatusCode();
+        }
+    }
+}
+</code></pre><h3 id="console-app-runner">Console App Runner</h3>
+<p>Once one or more tests are defined, a console app can be defined to run them locally (and alert via SES upon test failure):</p>
+<pre><code class="lang-csharp">public static class Program
+{
+    public static void Main()
+    {
+        var provider = new ServiceCollection()
+            // Register all synthetic tests against the ISyntheticTest interface
+            .AddSingleton&lt;ISyntheticTest, MyTest&gt;()
+            // Configure the runner - ensure tests are given 3 seconds to complete
+            .AddSyntheticsRunner(new SyntheticsRunnerConfig
+            {
+                // Configure the runner - ensure tests are given 3 seconds to complete
+                SyntheticTestTimeout = TimeSpan.FromSeconds(3)
+            })
+            .AddSyntheticsSesAlerting(new SesSyntheticsAlerterConfig
+            {
+                // Add alerting of failures via Amazon SES
+                Recipients = new[] { &quot;test@example.com&quot; },
+                Sender = &quot;synthetics@example.com&quot;
+            })
+            .BuildServiceProvider();
+
+        provider.GetRequiredService&lt;ISyntheticsRunner&gt;()
+                .RunSyntheticTestsForever(TimeSpan.FromMinutes(5), CancellationToken.None)
+                .GetAwaiter()
+                .GetResult();
+    }
+}
+</code></pre><h3 id="lambda-function-runner">Lambda Function Runner</h3>
+<p>To deploy the tests to AWS, define a C# Lambda function in a similar way to the console app:</p>
+<pre><code class="lang-csharp">public class Function
+{
+    public Stream FunctionHandlerAsync(Stream input, ILambdaContext context)
+    {
+        var provider = new ServiceCollection()
+            // Register all synthetic tests against the ISyntheticTest interface
+            .AddSingleton&lt;ISyntheticTest, MyTest&gt;()
+            .AddSyntheticsRunner(new SyntheticsRunnerConfig
+            {
+                // Configure the runner - ensure tests are given 3 seconds to complete
+                SyntheticTestTimeout = TimeSpan.FromSeconds(3)
+            })
+            .AddSyntheticsSesAlerting(new SesSyntheticsAlerterConfig
+            {
+                // Add alerting of failures via Amazon SES
+                Recipients = new[] { &quot;test@example.com&quot; },
+                Sender = &quot;synthetics@example.com&quot;
+            })
+            .BuildServiceProvider();
+
+        var tokenSource = new CancellationTokenSource(TimeSpan.FromSeconds(10));
+
+        provider.GetRequiredService&lt;ISyntheticsRunner&gt;()
+                .RunSyntheticTests(tokenSource.Token)
+                .GetAwaiter()
+                .GetResult();
+
+        return Stream.Null;
+    }
+}
+</code></pre><p>See the following example CloudFormation template to deploy the Lambda function on a 5 minute CloudWatch schedule:</p>
+<pre><code class="lang-json">{
+    &quot;AWSTemplateFormatVersion&quot;: &quot;2010-09-09&quot;,
+    &quot;Resources&quot;: {
+        &quot;SyntheticsFunction&quot;: {
+            &quot;Properties&quot;: {
+                &quot;Code&quot;: {
+                    &quot;S3Bucket&quot;: &quot;&quot;,
+                    &quot;S3Key&quot;: &quot;&quot;
+                },
+                &quot;Handler&quot;: &quot;MyNamespace::MyNamespace.Function::FunctionHandlerAsync&quot;,
+                &quot;MemorySize&quot;: 128,
+                &quot;Role&quot;: {
+                    &quot;Fn::Sub&quot;: &quot;${SyntheticsFunctionRole.Arn}&quot;
+                },
+                &quot;Runtime&quot;: &quot;dotnetcore2.1&quot;,
+                &quot;Timeout&quot;: 30
+            },
+            &quot;Type&quot;: &quot;AWS::Lambda::Function&quot;
+        },
+        &quot;SyntheticsFunctionRole&quot;: {
+            &quot;Properties&quot;: {
+                &quot;AssumeRolePolicyDocument&quot;: {
+                    &quot;Statement&quot;: [
+                        {
+                            &quot;Action&quot;: [
+                                &quot;sts:AssumeRole&quot;
+                            ],
+                            &quot;Effect&quot;: &quot;Allow&quot;,
+                            &quot;Principal&quot;: {
+                                &quot;Service&quot;: [
+                                    &quot;lambda.amazonaws.com&quot;
+                                ]
+                            }
+                        }
+                    ],
+                    &quot;Version&quot;: &quot;2012-10-17&quot;
+                },
+                &quot;ManagedPolicyArns&quot;: [
+                    &quot;arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole&quot;,
+                    &quot;arn:aws:iam::aws:policy/AWSLambdaFullAccess&quot;
+                ],
+                &quot;Policies&quot;: [
+                    {
+                        &quot;PolicyName&quot;: &quot;root&quot;,
+                        &quot;PolicyDocument&quot;: {
+                            &quot;Version&quot;: &quot;2012-10-17&quot;,
+                            &quot;Statement&quot;: [
+                                {
+                                    &quot;Effect&quot;: &quot;Allow&quot;,
+                                    &quot;Action&quot;: [
+                                        &quot;ses:SendEmail&quot;
+                                    ],
+                                    &quot;Resource&quot;: &quot;*&quot;
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            &quot;Type&quot;: &quot;AWS::IAM::Role&quot;
+        },
+        &quot;SyntheticsRule&quot;: {
+            &quot;Type&quot;: &quot;AWS::Events::Rule&quot;,
+            &quot;Properties&quot;: {
+                &quot;ScheduleExpression&quot;: &quot;rate(5 minutes)&quot;,
+                &quot;Targets&quot;: [
+                    {
+                        &quot;Id&quot;: &quot;SyntheticsScheduler&quot;,
+                        &quot;Arn&quot;: {
+                            &quot;Fn::GetAtt&quot;: [
+                                &quot;SyntheticsFunction&quot;,
+                                &quot;Arn&quot;
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        &quot;InvokeLambdaPermission&quot;: {
+            &quot;Type&quot;: &quot;AWS::Lambda::Permission&quot;,
+            &quot;Properties&quot;: {
+                &quot;FunctionName&quot;: {
+                    &quot;Fn::GetAtt&quot;: [
+                        &quot;SyntheticsFunction&quot;,
+                        &quot;Arn&quot;
+                    ]
+                },
+                &quot;Action&quot;: &quot;lambda:InvokeFunction&quot;,
+                &quot;Principal&quot;: &quot;events.amazonaws.com&quot;,
+                &quot;SourceArn&quot;: {
+                    &quot;Fn::GetAtt&quot;: [
+                        &quot;SyntheticsRule&quot;,
+                        &quot;Arn&quot;
+                    ]
+                }
+            }
+        }
+    }
+}
+</code></pre></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/alanedwardes/Ae.Synthetics/blob/eb63379b1937dac6ebe3abd984144353a0fd707a/README.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

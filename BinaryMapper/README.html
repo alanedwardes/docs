@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>BinaryMapper  </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="BinaryMapper  ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="binarymapper-appveyorhttpsciappveyorcomapiprojectsstatusraisen0g2fdmc0jsbranchmastersvgtruehttpsciappveyorcomprojectalanedwardesbinarymapper">BinaryMapper <a href="https://ci.appveyor.com/project/alanedwardes/binarymapper"><img src="https://ci.appveyor.com/api/projects/status/raisen0g2fdmc0js/branch/master?svg=true" alt="AppVeyor"></a></h1>
+
+<p><img width="128" height="128" src="logo.png"></p>
+<p>BinaryMapper is a simple cross-platform library to parse binary files into their respective data structures in C#. It uses reflection to understand structures, and reads the data into the structure from a seekable stream.</p>
+<p>Currently the library supports reading Minidumps and executables based on the structures published on MSDN. Spporting other file formats is a case of definining the structures and pointing the library at them.</p>
+<h2 id="binarymappercore-nugethttpsimgshieldsionugetvbinarymappercoresvghttpswwwnugetorgpackagesbinarymappercore">BinaryMapper.Core <a href="https://www.nuget.org/packages/BinaryMapper.Core/"><img src="https://img.shields.io/nuget/v/BinaryMapper.Core.svg" alt="NuGet"></a></h2>
+<p>This example shows how to load a binary stream into structures you have defined.</p>
+<pre><code class="lang-csharp">public class MYFILE_HEADER_STRUCT
+{
+    public uint Signature;
+    public uint Version;
+    public uint SomeOffset;
+    public uint NumberOfEntries;
+    [ArraySize(nameof(NumberOfEntries))]
+    public MYFILE_STREAM_STRUCT[] MyStructures;
+}
+
+public class MYFILE_STREAM_STRUCT
+{
+    public uint Flags;
+}
+
+var stream = File.OpenRead(&quot;myfile.bin&quot;);
+var streamBinaryMapper = new StreamBinaryMapper();
+var header = streamBinaryMapper.ReadObject&lt;MYFILE_HEADER_STRUCT&gt;(stream);
+</code></pre><h2 id="binarymapperwindowsminidump-nugethttpsimgshieldsionugetvbinarymapperwindowsminidumpsvghttpswwwnugetorgpackagesbinarymapperwindowsminidump">BinaryMapper.Windows.Minidump <a href="https://www.nuget.org/packages/BinaryMapper.Windows.Minidump/"><img src="https://img.shields.io/nuget/v/BinaryMapper.Windows.Minidump.svg" alt="NuGet"></a></h2>
+<p>This example shows how to extract the names of the loaded modules from a memory dump stream.</p>
+<pre><code class="lang-csharp">var stream = File.OpenRead(&quot;minidump.dmp&quot;);
+var minidumpMapper = new MinidumpMapper();
+var minidump = minidumpMapper.ReadMinidump(stream);
+
+Console.WriteLine($&quot;This minidump is of type {minidump.Header.Flags}&quot;);
+foreach (var module in minidump.Modules)
+{
+    Console.WriteLine(module.Key);
+}
+</code></pre><h2 id="binarymapperwindowsexecutable-nugethttpsimgshieldsionugetvbinarymapperwindowsexecutablesvghttpswwwnugetorgpackagesbinarymapperwindowsexecutable">BinaryMapper.Windows.Executable <a href="https://www.nuget.org/packages/BinaryMapper.Windows.Executable/"><img src="https://img.shields.io/nuget/v/BinaryMapper.Windows.Executable.svg" alt="NuGet"></a></h2>
+<p>This example shows how to load an executable, find out whether it is 32 or 64 bit, and which version of Windows it targets.</p>
+<pre><code class="lang-csharp">var stream = File.OpenRead(&quot;executable.exe&quot;);
+var executableMapper = new ExecutableMapper();
+var executable = executableMapper.ReadExecutable(stream);
+
+if (executable.OptionalHeader != null)
+{
+    Console.WriteLine($&quot;32-bit executable for Windows {executable.OptionalHeader.OperatingSystemVersion}&quot;);
+}
+else
+{
+    Console.WriteLine($&quot;64-bit executable for Windows {executable.OptionalHeader64.OperatingSystemVersion}&quot;);
+}
+</code></pre></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/alanedwardes/BinaryMapper/blob/8678b8d54a28e62f064e2431d75238e35ece1b99/README.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

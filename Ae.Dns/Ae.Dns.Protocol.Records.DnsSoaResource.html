@@ -1,0 +1,623 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DnsSoaResource
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DnsSoaResource
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource">
+  
+  
+  <h1 id="Ae_Dns_Protocol_Records_DnsSoaResource" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource" class="text-break">Class DnsSoaResource
+  </h1>
+  <div class="markdown level0 summary"><p>A Start of Authority record (abbreviated as SOA record) is a type of
+resource record in the Domain Name System (DNS) containing administrative
+information about the zone, especially regarding zone transfers.
+The SOA record format is specified in RFC 1035.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">DnsSoaResource</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Ae.Dns.Protocol.Records.IDnsResource.html">IDnsResource</a></div>
+    <div><a class="xref" href="Ae.Dns.Protocol.IDnsByteArrayWriter.html">IDnsByteArrayWriter</a></div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Ae.Dns.Protocol.Records.DnsSoaResource.html">DnsSoaResource</a>&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Ae.Dns.Protocol.Records.html">Ae.Dns.Protocol.Records</a></h6>
+  <h6><strong>Assembly</strong>: Ae.Dns.Protocol.dll</h6>
+  <h5 id="Ae_Dns_Protocol_Records_DnsSoaResource_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class DnsSoaResource : object, IDnsResource, IDnsByteArrayWriter, IEquatable&lt;DnsSoaResource&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsSoaResource_Expire.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsSoaResource.Expire%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsSoaResource.cs/#L53">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_Records_DnsSoaResource_Expire_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.Expire*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsSoaResource_Expire" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.Expire">Expire</h4>
+  <div class="markdown level1 summary"><p>Number of seconds after which secondary name servers should stop answering
+request for this zone if the master does not respond. This value must be
+bigger than the sum of Refresh and Retry. Recommendation for small and
+stable zones: 3600000 seconds (1000 hours).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan Expire { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsSoaResource_Minimum.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsSoaResource.Minimum%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsSoaResource.cs/#L60">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_Records_DnsSoaResource_Minimum_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.Minimum*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsSoaResource_Minimum" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.Minimum">Minimum</h4>
+  <div class="markdown level1 summary"><p>Time to live for purposes of negative caching. Recommendation for
+small and stable zones: 3600 seconds (1 hour). Originally this
+field had the meaning of a minimum TTL value for resource records
+in this zone; it was changed to its current meaning by RFC 2308.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan Minimum { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsSoaResource_MName.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsSoaResource.MName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsSoaResource.cs/#L17">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_Records_DnsSoaResource_MName_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.MName*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsSoaResource_MName" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.MName">MName</h4>
+  <div class="markdown level1 summary"><p>Primary master name server for this zone </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsSoaResource_Refresh.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsSoaResource.Refresh%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsSoaResource.cs/#L39">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_Records_DnsSoaResource_Refresh_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.Refresh*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsSoaResource_Refresh" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.Refresh">Refresh</h4>
+  <div class="markdown level1 summary"><p>Number of seconds after which secondary name servers should query
+the master for the SOA record, to detect zone changes. Recommendation
+for small and stable zones:[4] 86400 seconds (24 hours).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan Refresh { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsSoaResource_Retry.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsSoaResource.Retry%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsSoaResource.cs/#L46">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_Records_DnsSoaResource_Retry_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.Retry*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsSoaResource_Retry" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.Retry">Retry</h4>
+  <div class="markdown level1 summary"><p>Number of seconds after which secondary name servers should retry to
+request the serial number from the master if the master does not respond.
+It must be less than Refresh. Recommendation for small and stable
+zones: 7200 seconds (2 hours).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan Retry { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsSoaResource_RName.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsSoaResource.RName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsSoaResource.cs/#L27">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_Records_DnsSoaResource_RName_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.RName*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsSoaResource_RName" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.RName">RName</h4>
+  <div class="markdown level1 summary"><p>Email address of the administrator responsible for this zone.
+(As usual, the email address is encoded as a name. The part of the
+email address before the @ becomes the first label of the name; the
+domain name after the @ becomes the rest of the name. In zone-file
+format, dots in labels are escaped with backslashes; thus the email
+address john.doe@example.com would be represented in a zone file
+as john.doe.example.com.)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsSoaResource_Serial.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsSoaResource.Serial%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsSoaResource.cs/#L33">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_Records_DnsSoaResource_Serial_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.Serial*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsSoaResource_Serial" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.Serial">Serial</h4>
+  <div class="markdown level1 summary"><p>Serial number for this zone. If a secondary name server slaved to
+this one observes an increase in this number, the slave will assume
+that the zone has been updated and initiate a zone transfer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Serial { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsSoaResource_Equals_Ae_Dns_Protocol_Records_DnsSoaResource_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsSoaResource.Equals(Ae.Dns.Protocol.Records.DnsSoaResource)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsSoaResource.cs/#L63">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_Records_DnsSoaResource_Equals_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.Equals*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsSoaResource_Equals_Ae_Dns_Protocol_Records_DnsSoaResource_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.Equals(Ae.Dns.Protocol.Records.DnsSoaResource)">Equals(DnsSoaResource)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(DnsSoaResource other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Ae.Dns.Protocol.Records.DnsSoaResource.html">DnsSoaResource</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsSoaResource_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsSoaResource.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsSoaResource.cs/#L66">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_Records_DnsSoaResource_Equals_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.Equals*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsSoaResource_Equals_System_Object_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsSoaResource_GetHashCode.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsSoaResource.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsSoaResource.cs/#L69">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_Records_DnsSoaResource_GetHashCode_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.GetHashCode*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsSoaResource_GetHashCode" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsSoaResource_ReadBytes_System_Byte___System_Int32__System_Int32_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsSoaResource.ReadBytes(System.Byte%5B%5D%2CSystem.Int32%40%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsSoaResource.cs/#L72">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_Records_DnsSoaResource_ReadBytes_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.ReadBytes*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsSoaResource_ReadBytes_System_Byte___System_Int32__System_Int32_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.ReadBytes(System.Byte[],System.Int32@,System.Int32)">ReadBytes(Byte[], ref Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Read from the specified byte array, starting at the specified offset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadBytes(byte[] bytes, ref int offset, int length)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td><p>The byte array to read from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset to start at.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">length</span></td>
+        <td><p>The maximum number of bytes to read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsSoaResource_ToString.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsSoaResource.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsSoaResource.cs/#L96">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_Records_DnsSoaResource_ToString_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.ToString*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsSoaResource_ToString" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsSoaResource_WriteBytes.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsSoaResource.WriteBytes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsSoaResource.cs/#L84">View Source</a>
+  </span>
+  <a id="Ae_Dns_Protocol_Records_DnsSoaResource_WriteBytes_" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.WriteBytes*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsSoaResource_WriteBytes" data-uid="Ae.Dns.Protocol.Records.DnsSoaResource.WriteBytes">WriteBytes()</h4>
+  <div class="markdown level1 summary"><p>Writes the contents of this class to the specified nested <see cref="!:IEnumerable&lt;T>"></see> of <see cref="!:System.Byte"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IEnumerable&lt;byte&gt;&gt; WriteBytes()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;&gt;</td>
+        <td><p>A nested <see cref="!:IEnumerable&lt;T>"></see> of <see cref="!:System.Byte"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Ae.Dns.Protocol.Records.IDnsResource.html">IDnsResource</a>
+  </div>
+  <div>
+      <a class="xref" href="Ae.Dns.Protocol.IDnsByteArrayWriter.html">IDnsByteArrayWriter</a>
+  </div>
+  <div>
+      <span class="xref">IEquatable&lt;&gt;</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsSoaResource.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsSoaResource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsSoaResource.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

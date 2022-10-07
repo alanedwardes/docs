@@ -26,7 +26,7 @@ jobs:
           args: documentation/docfx.json
 
       - name: Push Documentation to GitHub Pages
-        uses: maxheld83/ghpages@master
+        uses: maxheld83/ghpages@v0.3.0
         env:
           BUILD_DIR: documentation/_site
           GH_PAT: ${{ secrets.GH_PAT }}

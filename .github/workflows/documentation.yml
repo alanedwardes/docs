@@ -1,6 +1,7 @@
-on:
-  push:
-    branches: [ master ]
+on: workflow_dispatch
+    
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -25,8 +26,7 @@ jobs:
         with:
           args: documentation/docfx.json
 
-      - name: Push Documentation to GitHub Pages
-        uses: maxheld83/ghpages@master
-        env:
-          BUILD_DIR: documentation/_site
-          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: documentation/_site

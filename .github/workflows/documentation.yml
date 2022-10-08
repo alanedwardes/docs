@@ -29,4 +29,4 @@ jobs:
         uses: maxheld83/ghpages@master
         env:
           BUILD_DIR: documentation/_site
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.GITHUB_TOKEN }}

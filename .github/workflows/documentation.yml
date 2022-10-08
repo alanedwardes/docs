@@ -6,10 +6,6 @@ jobs:
   build:
   
     runs-on: ubuntu-latest
-    
-    permissions:
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
 
     steps:
     
@@ -28,8 +24,9 @@ jobs:
         uses: nikeee/docfx-action@v1.0.0
         with:
           args: documentation/docfx.json
-          
-      - name: Deploy GitHub Pages site
-        uses: actions/deploy-pages@v1.2.1
-        with:
-          artifact_name: documentation/_site
+
+      - name: Push Documentation to GitHub Pages
+        uses: maxheld83/ghpages@master
+        env:
+          BUILD_DIR: documentation/_site
+          GH_PAT: ${{ secrets.GH_PAT }}

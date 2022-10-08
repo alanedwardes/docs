@@ -48,12 +48,12 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.DnsCachingClient.Dispose
   nameWithType: DnsCachingClient.Dispose
-- uid: Ae.Dns.Client.DnsCachingClient.Query(Ae.Dns.Protocol.DnsHeader,CancellationToken)
-  name: Query(DnsHeader, CancellationToken)
-  href: Ae.Dns/Ae.Dns.Client.DnsCachingClient.html#Ae_Dns_Client_DnsCachingClient_Query_Ae_Dns_Protocol_DnsHeader_CancellationToken_
-  commentId: M:Ae.Dns.Client.DnsCachingClient.Query(Ae.Dns.Protocol.DnsHeader,CancellationToken)
-  fullName: Ae.Dns.Client.DnsCachingClient.Query(Ae.Dns.Protocol.DnsHeader, CancellationToken)
-  nameWithType: DnsCachingClient.Query(DnsHeader, CancellationToken)
+- uid: Ae.Dns.Client.DnsCachingClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  name: Query(DnsMessage, CancellationToken)
+  href: Ae.Dns/Ae.Dns.Client.DnsCachingClient.html#Ae_Dns_Client_DnsCachingClient_Query_Ae_Dns_Protocol_DnsMessage_CancellationToken_
+  commentId: M:Ae.Dns.Client.DnsCachingClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  fullName: Ae.Dns.Client.DnsCachingClient.Query(Ae.Dns.Protocol.DnsMessage, CancellationToken)
+  nameWithType: DnsCachingClient.Query(DnsMessage, CancellationToken)
 - uid: Ae.Dns.Client.DnsCachingClient.Query*
   name: Query
   href: Ae.Dns/Ae.Dns.Client.DnsCachingClient.html#Ae_Dns_Client_DnsCachingClient_Query_
@@ -61,6 +61,19 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.DnsCachingClient.Query
   nameWithType: DnsCachingClient.Query
+- uid: Ae.Dns.Client.DnsCachingClient.ToString
+  name: ToString()
+  href: Ae.Dns/Ae.Dns.Client.DnsCachingClient.html#Ae_Dns_Client_DnsCachingClient_ToString
+  commentId: M:Ae.Dns.Client.DnsCachingClient.ToString
+  fullName: Ae.Dns.Client.DnsCachingClient.ToString()
+  nameWithType: DnsCachingClient.ToString()
+- uid: Ae.Dns.Client.DnsCachingClient.ToString*
+  name: ToString
+  href: Ae.Dns/Ae.Dns.Client.DnsCachingClient.html#Ae_Dns_Client_DnsCachingClient_ToString_
+  commentId: Overload:Ae.Dns.Client.DnsCachingClient.ToString
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsCachingClient.ToString
+  nameWithType: DnsCachingClient.ToString
 - uid: Ae.Dns.Client.DnsFilterClient
   name: DnsFilterClient
   href: Ae.Dns/Ae.Dns.Client.DnsFilterClient.html
@@ -102,12 +115,12 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.DnsFilterClient.Dispose
   nameWithType: DnsFilterClient.Dispose
-- uid: Ae.Dns.Client.DnsFilterClient.Query(Ae.Dns.Protocol.DnsHeader,CancellationToken)
-  name: Query(DnsHeader, CancellationToken)
-  href: Ae.Dns/Ae.Dns.Client.DnsFilterClient.html#Ae_Dns_Client_DnsFilterClient_Query_Ae_Dns_Protocol_DnsHeader_CancellationToken_
-  commentId: M:Ae.Dns.Client.DnsFilterClient.Query(Ae.Dns.Protocol.DnsHeader,CancellationToken)
-  fullName: Ae.Dns.Client.DnsFilterClient.Query(Ae.Dns.Protocol.DnsHeader, CancellationToken)
-  nameWithType: DnsFilterClient.Query(DnsHeader, CancellationToken)
+- uid: Ae.Dns.Client.DnsFilterClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  name: Query(DnsMessage, CancellationToken)
+  href: Ae.Dns/Ae.Dns.Client.DnsFilterClient.html#Ae_Dns_Client_DnsFilterClient_Query_Ae_Dns_Protocol_DnsMessage_CancellationToken_
+  commentId: M:Ae.Dns.Client.DnsFilterClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  fullName: Ae.Dns.Client.DnsFilterClient.Query(Ae.Dns.Protocol.DnsMessage, CancellationToken)
+  nameWithType: DnsFilterClient.Query(DnsMessage, CancellationToken)
 - uid: Ae.Dns.Client.DnsFilterClient.Query*
   name: Query
   href: Ae.Dns/Ae.Dns.Client.DnsFilterClient.html#Ae_Dns_Client_DnsFilterClient_Query_
@@ -115,6 +128,19 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.DnsFilterClient.Query
   nameWithType: DnsFilterClient.Query
+- uid: Ae.Dns.Client.DnsFilterClient.ToString
+  name: ToString()
+  href: Ae.Dns/Ae.Dns.Client.DnsFilterClient.html#Ae_Dns_Client_DnsFilterClient_ToString
+  commentId: M:Ae.Dns.Client.DnsFilterClient.ToString
+  fullName: Ae.Dns.Client.DnsFilterClient.ToString()
+  nameWithType: DnsFilterClient.ToString()
+- uid: Ae.Dns.Client.DnsFilterClient.ToString*
+  name: ToString
+  href: Ae.Dns/Ae.Dns.Client.DnsFilterClient.html#Ae_Dns_Client_DnsFilterClient_ToString_
+  commentId: Overload:Ae.Dns.Client.DnsFilterClient.ToString
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsFilterClient.ToString
+  nameWithType: DnsFilterClient.ToString
 - uid: Ae.Dns.Client.DnsHttpClient
   name: DnsHttpClient
   href: Ae.Dns/Ae.Dns.Client.DnsHttpClient.html
@@ -147,12 +173,12 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.DnsHttpClient.Dispose
   nameWithType: DnsHttpClient.Dispose
-- uid: Ae.Dns.Client.DnsHttpClient.Query(Ae.Dns.Protocol.DnsHeader,CancellationToken)
-  name: Query(DnsHeader, CancellationToken)
-  href: Ae.Dns/Ae.Dns.Client.DnsHttpClient.html#Ae_Dns_Client_DnsHttpClient_Query_Ae_Dns_Protocol_DnsHeader_CancellationToken_
-  commentId: M:Ae.Dns.Client.DnsHttpClient.Query(Ae.Dns.Protocol.DnsHeader,CancellationToken)
-  fullName: Ae.Dns.Client.DnsHttpClient.Query(Ae.Dns.Protocol.DnsHeader, CancellationToken)
-  nameWithType: DnsHttpClient.Query(DnsHeader, CancellationToken)
+- uid: Ae.Dns.Client.DnsHttpClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  name: Query(DnsMessage, CancellationToken)
+  href: Ae.Dns/Ae.Dns.Client.DnsHttpClient.html#Ae_Dns_Client_DnsHttpClient_Query_Ae_Dns_Protocol_DnsMessage_CancellationToken_
+  commentId: M:Ae.Dns.Client.DnsHttpClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  fullName: Ae.Dns.Client.DnsHttpClient.Query(Ae.Dns.Protocol.DnsMessage, CancellationToken)
+  nameWithType: DnsHttpClient.Query(DnsMessage, CancellationToken)
 - uid: Ae.Dns.Client.DnsHttpClient.Query*
   name: Query
   href: Ae.Dns/Ae.Dns.Client.DnsHttpClient.html#Ae_Dns_Client_DnsHttpClient_Query_
@@ -160,6 +186,269 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.DnsHttpClient.Query
   nameWithType: DnsHttpClient.Query
+- uid: Ae.Dns.Client.DnsHttpClient.ToString
+  name: ToString()
+  href: Ae.Dns/Ae.Dns.Client.DnsHttpClient.html#Ae_Dns_Client_DnsHttpClient_ToString
+  commentId: M:Ae.Dns.Client.DnsHttpClient.ToString
+  fullName: Ae.Dns.Client.DnsHttpClient.ToString()
+  nameWithType: DnsHttpClient.ToString()
+- uid: Ae.Dns.Client.DnsHttpClient.ToString*
+  name: ToString
+  href: Ae.Dns/Ae.Dns.Client.DnsHttpClient.html#Ae_Dns_Client_DnsHttpClient_ToString_
+  commentId: Overload:Ae.Dns.Client.DnsHttpClient.ToString
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsHttpClient.ToString
+  nameWithType: DnsHttpClient.ToString
+- uid: Ae.Dns.Client.DnsMetricsClient
+  name: DnsMetricsClient
+  href: Ae.Dns/Ae.Dns.Client.DnsMetricsClient.html
+  commentId: T:Ae.Dns.Client.DnsMetricsClient
+  fullName: Ae.Dns.Client.DnsMetricsClient
+  nameWithType: DnsMetricsClient
+- uid: Ae.Dns.Client.DnsMetricsClient.#ctor(Ae.Dns.Protocol.IDnsClient)
+  name: DnsMetricsClient(IDnsClient)
+  href: Ae.Dns/Ae.Dns.Client.DnsMetricsClient.html#Ae_Dns_Client_DnsMetricsClient__ctor_Ae_Dns_Protocol_IDnsClient_
+  commentId: M:Ae.Dns.Client.DnsMetricsClient.#ctor(Ae.Dns.Protocol.IDnsClient)
+  fullName: Ae.Dns.Client.DnsMetricsClient.DnsMetricsClient(Ae.Dns.Protocol.IDnsClient)
+  nameWithType: DnsMetricsClient.DnsMetricsClient(IDnsClient)
+- uid: Ae.Dns.Client.DnsMetricsClient.#ctor*
+  name: DnsMetricsClient
+  href: Ae.Dns/Ae.Dns.Client.DnsMetricsClient.html#Ae_Dns_Client_DnsMetricsClient__ctor_
+  commentId: Overload:Ae.Dns.Client.DnsMetricsClient.#ctor
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsMetricsClient.DnsMetricsClient
+  nameWithType: DnsMetricsClient.DnsMetricsClient
+- uid: Ae.Dns.Client.DnsMetricsClient.Dispose
+  name: Dispose()
+  href: Ae.Dns/Ae.Dns.Client.DnsMetricsClient.html#Ae_Dns_Client_DnsMetricsClient_Dispose
+  commentId: M:Ae.Dns.Client.DnsMetricsClient.Dispose
+  fullName: Ae.Dns.Client.DnsMetricsClient.Dispose()
+  nameWithType: DnsMetricsClient.Dispose()
+- uid: Ae.Dns.Client.DnsMetricsClient.Dispose*
+  name: Dispose
+  href: Ae.Dns/Ae.Dns.Client.DnsMetricsClient.html#Ae_Dns_Client_DnsMetricsClient_Dispose_
+  commentId: Overload:Ae.Dns.Client.DnsMetricsClient.Dispose
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsMetricsClient.Dispose
+  nameWithType: DnsMetricsClient.Dispose
+- uid: Ae.Dns.Client.DnsMetricsClient.ExceptionErrorCounterName
+  name: ExceptionErrorCounterName
+  href: Ae.Dns/Ae.Dns.Client.DnsMetricsClient.html#Ae_Dns_Client_DnsMetricsClient_ExceptionErrorCounterName
+  commentId: F:Ae.Dns.Client.DnsMetricsClient.ExceptionErrorCounterName
+  fullName: Ae.Dns.Client.DnsMetricsClient.ExceptionErrorCounterName
+  nameWithType: DnsMetricsClient.ExceptionErrorCounterName
+- uid: Ae.Dns.Client.DnsMetricsClient.MeterName
+  name: MeterName
+  href: Ae.Dns/Ae.Dns.Client.DnsMetricsClient.html#Ae_Dns_Client_DnsMetricsClient_MeterName
+  commentId: F:Ae.Dns.Client.DnsMetricsClient.MeterName
+  fullName: Ae.Dns.Client.DnsMetricsClient.MeterName
+  nameWithType: DnsMetricsClient.MeterName
+- uid: Ae.Dns.Client.DnsMetricsClient.MissingErrorCounterName
+  name: MissingErrorCounterName
+  href: Ae.Dns/Ae.Dns.Client.DnsMetricsClient.html#Ae_Dns_Client_DnsMetricsClient_MissingErrorCounterName
+  commentId: F:Ae.Dns.Client.DnsMetricsClient.MissingErrorCounterName
+  fullName: Ae.Dns.Client.DnsMetricsClient.MissingErrorCounterName
+  nameWithType: DnsMetricsClient.MissingErrorCounterName
+- uid: Ae.Dns.Client.DnsMetricsClient.OtherErrorCounterName
+  name: OtherErrorCounterName
+  href: Ae.Dns/Ae.Dns.Client.DnsMetricsClient.html#Ae_Dns_Client_DnsMetricsClient_OtherErrorCounterName
+  commentId: F:Ae.Dns.Client.DnsMetricsClient.OtherErrorCounterName
+  fullName: Ae.Dns.Client.DnsMetricsClient.OtherErrorCounterName
+  nameWithType: DnsMetricsClient.OtherErrorCounterName
+- uid: Ae.Dns.Client.DnsMetricsClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  name: Query(DnsMessage, CancellationToken)
+  href: Ae.Dns/Ae.Dns.Client.DnsMetricsClient.html#Ae_Dns_Client_DnsMetricsClient_Query_Ae_Dns_Protocol_DnsMessage_CancellationToken_
+  commentId: M:Ae.Dns.Client.DnsMetricsClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  fullName: Ae.Dns.Client.DnsMetricsClient.Query(Ae.Dns.Protocol.DnsMessage, CancellationToken)
+  nameWithType: DnsMetricsClient.Query(DnsMessage, CancellationToken)
+- uid: Ae.Dns.Client.DnsMetricsClient.Query*
+  name: Query
+  href: Ae.Dns/Ae.Dns.Client.DnsMetricsClient.html#Ae_Dns_Client_DnsMetricsClient_Query_
+  commentId: Overload:Ae.Dns.Client.DnsMetricsClient.Query
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsMetricsClient.Query
+  nameWithType: DnsMetricsClient.Query
+- uid: Ae.Dns.Client.DnsMetricsClient.RefusedErrorCounterName
+  name: RefusedErrorCounterName
+  href: Ae.Dns/Ae.Dns.Client.DnsMetricsClient.html#Ae_Dns_Client_DnsMetricsClient_RefusedErrorCounterName
+  commentId: F:Ae.Dns.Client.DnsMetricsClient.RefusedErrorCounterName
+  fullName: Ae.Dns.Client.DnsMetricsClient.RefusedErrorCounterName
+  nameWithType: DnsMetricsClient.RefusedErrorCounterName
+- uid: Ae.Dns.Client.DnsMetricsClient.SuccessCounterName
+  name: SuccessCounterName
+  href: Ae.Dns/Ae.Dns.Client.DnsMetricsClient.html#Ae_Dns_Client_DnsMetricsClient_SuccessCounterName
+  commentId: F:Ae.Dns.Client.DnsMetricsClient.SuccessCounterName
+  fullName: Ae.Dns.Client.DnsMetricsClient.SuccessCounterName
+  nameWithType: DnsMetricsClient.SuccessCounterName
+- uid: Ae.Dns.Client.DnsRacerClient
+  name: DnsRacerClient
+  href: Ae.Dns/Ae.Dns.Client.DnsRacerClient.html
+  commentId: T:Ae.Dns.Client.DnsRacerClient
+  fullName: Ae.Dns.Client.DnsRacerClient
+  nameWithType: DnsRacerClient
+- uid: Ae.Dns.Client.DnsRacerClient.#ctor(IEnumerable{Ae.Dns.Protocol.IDnsClient})
+  name: DnsRacerClient(IEnumerable<IDnsClient>)
+  href: Ae.Dns/Ae.Dns.Client.DnsRacerClient.html#Ae_Dns_Client_DnsRacerClient__ctor_IEnumerable_Ae_Dns_Protocol_IDnsClient__
+  commentId: M:Ae.Dns.Client.DnsRacerClient.#ctor(IEnumerable{Ae.Dns.Protocol.IDnsClient})
+  name.vb: DnsRacerClient(IEnumerable(Of IDnsClient))
+  fullName: Ae.Dns.Client.DnsRacerClient.DnsRacerClient(IEnumerable<Ae.Dns.Protocol.IDnsClient>)
+  fullName.vb: Ae.Dns.Client.DnsRacerClient.DnsRacerClient(IEnumerable(Of Ae.Dns.Protocol.IDnsClient))
+  nameWithType: DnsRacerClient.DnsRacerClient(IEnumerable<IDnsClient>)
+  nameWithType.vb: DnsRacerClient.DnsRacerClient(IEnumerable(Of IDnsClient))
+- uid: Ae.Dns.Client.DnsRacerClient.#ctor(ILogger{Ae.Dns.Client.DnsRacerClient},IEnumerable{Ae.Dns.Protocol.IDnsClient})
+  name: DnsRacerClient(ILogger<DnsRacerClient>, IEnumerable<IDnsClient>)
+  href: Ae.Dns/Ae.Dns.Client.DnsRacerClient.html#Ae_Dns_Client_DnsRacerClient__ctor_ILogger_Ae_Dns_Client_DnsRacerClient__IEnumerable_Ae_Dns_Protocol_IDnsClient__
+  commentId: M:Ae.Dns.Client.DnsRacerClient.#ctor(ILogger{Ae.Dns.Client.DnsRacerClient},IEnumerable{Ae.Dns.Protocol.IDnsClient})
+  name.vb: DnsRacerClient(ILogger(Of DnsRacerClient), IEnumerable(Of IDnsClient))
+  fullName: Ae.Dns.Client.DnsRacerClient.DnsRacerClient(ILogger<Ae.Dns.Client.DnsRacerClient>, IEnumerable<Ae.Dns.Protocol.IDnsClient>)
+  fullName.vb: Ae.Dns.Client.DnsRacerClient.DnsRacerClient(ILogger(Of Ae.Dns.Client.DnsRacerClient), IEnumerable(Of Ae.Dns.Protocol.IDnsClient))
+  nameWithType: DnsRacerClient.DnsRacerClient(ILogger<DnsRacerClient>, IEnumerable<IDnsClient>)
+  nameWithType.vb: DnsRacerClient.DnsRacerClient(ILogger(Of DnsRacerClient), IEnumerable(Of IDnsClient))
+- uid: Ae.Dns.Client.DnsRacerClient.#ctor*
+  name: DnsRacerClient
+  href: Ae.Dns/Ae.Dns.Client.DnsRacerClient.html#Ae_Dns_Client_DnsRacerClient__ctor_
+  commentId: Overload:Ae.Dns.Client.DnsRacerClient.#ctor
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsRacerClient.DnsRacerClient
+  nameWithType: DnsRacerClient.DnsRacerClient
+- uid: Ae.Dns.Client.DnsRacerClient.Dispose
+  name: Dispose()
+  href: Ae.Dns/Ae.Dns.Client.DnsRacerClient.html#Ae_Dns_Client_DnsRacerClient_Dispose
+  commentId: M:Ae.Dns.Client.DnsRacerClient.Dispose
+  fullName: Ae.Dns.Client.DnsRacerClient.Dispose()
+  nameWithType: DnsRacerClient.Dispose()
+- uid: Ae.Dns.Client.DnsRacerClient.Dispose*
+  name: Dispose
+  href: Ae.Dns/Ae.Dns.Client.DnsRacerClient.html#Ae_Dns_Client_DnsRacerClient_Dispose_
+  commentId: Overload:Ae.Dns.Client.DnsRacerClient.Dispose
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsRacerClient.Dispose
+  nameWithType: DnsRacerClient.Dispose
+- uid: Ae.Dns.Client.DnsRacerClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  name: Query(DnsMessage, CancellationToken)
+  href: Ae.Dns/Ae.Dns.Client.DnsRacerClient.html#Ae_Dns_Client_DnsRacerClient_Query_Ae_Dns_Protocol_DnsMessage_CancellationToken_
+  commentId: M:Ae.Dns.Client.DnsRacerClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  fullName: Ae.Dns.Client.DnsRacerClient.Query(Ae.Dns.Protocol.DnsMessage, CancellationToken)
+  nameWithType: DnsRacerClient.Query(DnsMessage, CancellationToken)
+- uid: Ae.Dns.Client.DnsRacerClient.Query*
+  name: Query
+  href: Ae.Dns/Ae.Dns.Client.DnsRacerClient.html#Ae_Dns_Client_DnsRacerClient_Query_
+  commentId: Overload:Ae.Dns.Client.DnsRacerClient.Query
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsRacerClient.Query
+  nameWithType: DnsRacerClient.Query
+- uid: Ae.Dns.Client.DnsRebindMitigationClient
+  name: DnsRebindMitigationClient
+  href: Ae.Dns/Ae.Dns.Client.DnsRebindMitigationClient.html
+  commentId: T:Ae.Dns.Client.DnsRebindMitigationClient
+  fullName: Ae.Dns.Client.DnsRebindMitigationClient
+  nameWithType: DnsRebindMitigationClient
+- uid: Ae.Dns.Client.DnsRebindMitigationClient.#ctor(Ae.Dns.Protocol.IDnsClient)
+  name: DnsRebindMitigationClient(IDnsClient)
+  href: Ae.Dns/Ae.Dns.Client.DnsRebindMitigationClient.html#Ae_Dns_Client_DnsRebindMitigationClient__ctor_Ae_Dns_Protocol_IDnsClient_
+  commentId: M:Ae.Dns.Client.DnsRebindMitigationClient.#ctor(Ae.Dns.Protocol.IDnsClient)
+  fullName: Ae.Dns.Client.DnsRebindMitigationClient.DnsRebindMitigationClient(Ae.Dns.Protocol.IDnsClient)
+  nameWithType: DnsRebindMitigationClient.DnsRebindMitigationClient(IDnsClient)
+- uid: Ae.Dns.Client.DnsRebindMitigationClient.#ctor(ILogger{Ae.Dns.Client.DnsRebindMitigationClient},Ae.Dns.Protocol.IDnsClient)
+  name: DnsRebindMitigationClient(ILogger<DnsRebindMitigationClient>, IDnsClient)
+  href: Ae.Dns/Ae.Dns.Client.DnsRebindMitigationClient.html#Ae_Dns_Client_DnsRebindMitigationClient__ctor_ILogger_Ae_Dns_Client_DnsRebindMitigationClient__Ae_Dns_Protocol_IDnsClient_
+  commentId: M:Ae.Dns.Client.DnsRebindMitigationClient.#ctor(ILogger{Ae.Dns.Client.DnsRebindMitigationClient},Ae.Dns.Protocol.IDnsClient)
+  name.vb: DnsRebindMitigationClient(ILogger(Of DnsRebindMitigationClient), IDnsClient)
+  fullName: Ae.Dns.Client.DnsRebindMitigationClient.DnsRebindMitigationClient(ILogger<Ae.Dns.Client.DnsRebindMitigationClient>, Ae.Dns.Protocol.IDnsClient)
+  fullName.vb: Ae.Dns.Client.DnsRebindMitigationClient.DnsRebindMitigationClient(ILogger(Of Ae.Dns.Client.DnsRebindMitigationClient), Ae.Dns.Protocol.IDnsClient)
+  nameWithType: DnsRebindMitigationClient.DnsRebindMitigationClient(ILogger<DnsRebindMitigationClient>, IDnsClient)
+  nameWithType.vb: DnsRebindMitigationClient.DnsRebindMitigationClient(ILogger(Of DnsRebindMitigationClient), IDnsClient)
+- uid: Ae.Dns.Client.DnsRebindMitigationClient.#ctor*
+  name: DnsRebindMitigationClient
+  href: Ae.Dns/Ae.Dns.Client.DnsRebindMitigationClient.html#Ae_Dns_Client_DnsRebindMitigationClient__ctor_
+  commentId: Overload:Ae.Dns.Client.DnsRebindMitigationClient.#ctor
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsRebindMitigationClient.DnsRebindMitigationClient
+  nameWithType: DnsRebindMitigationClient.DnsRebindMitigationClient
+- uid: Ae.Dns.Client.DnsRebindMitigationClient.Dispose
+  name: Dispose()
+  href: Ae.Dns/Ae.Dns.Client.DnsRebindMitigationClient.html#Ae_Dns_Client_DnsRebindMitigationClient_Dispose
+  commentId: M:Ae.Dns.Client.DnsRebindMitigationClient.Dispose
+  fullName: Ae.Dns.Client.DnsRebindMitigationClient.Dispose()
+  nameWithType: DnsRebindMitigationClient.Dispose()
+- uid: Ae.Dns.Client.DnsRebindMitigationClient.Dispose*
+  name: Dispose
+  href: Ae.Dns/Ae.Dns.Client.DnsRebindMitigationClient.html#Ae_Dns_Client_DnsRebindMitigationClient_Dispose_
+  commentId: Overload:Ae.Dns.Client.DnsRebindMitigationClient.Dispose
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsRebindMitigationClient.Dispose
+  nameWithType: DnsRebindMitigationClient.Dispose
+- uid: Ae.Dns.Client.DnsRebindMitigationClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  name: Query(DnsMessage, CancellationToken)
+  href: Ae.Dns/Ae.Dns.Client.DnsRebindMitigationClient.html#Ae_Dns_Client_DnsRebindMitigationClient_Query_Ae_Dns_Protocol_DnsMessage_CancellationToken_
+  commentId: M:Ae.Dns.Client.DnsRebindMitigationClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  fullName: Ae.Dns.Client.DnsRebindMitigationClient.Query(Ae.Dns.Protocol.DnsMessage, CancellationToken)
+  nameWithType: DnsRebindMitigationClient.Query(DnsMessage, CancellationToken)
+- uid: Ae.Dns.Client.DnsRebindMitigationClient.Query*
+  name: Query
+  href: Ae.Dns/Ae.Dns.Client.DnsRebindMitigationClient.html#Ae_Dns_Client_DnsRebindMitigationClient_Query_
+  commentId: Overload:Ae.Dns.Client.DnsRebindMitigationClient.Query
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsRebindMitigationClient.Query
+  nameWithType: DnsRebindMitigationClient.Query
+- uid: Ae.Dns.Client.DnsRebindMitigationClient.ToString
+  name: ToString()
+  href: Ae.Dns/Ae.Dns.Client.DnsRebindMitigationClient.html#Ae_Dns_Client_DnsRebindMitigationClient_ToString
+  commentId: M:Ae.Dns.Client.DnsRebindMitigationClient.ToString
+  fullName: Ae.Dns.Client.DnsRebindMitigationClient.ToString()
+  nameWithType: DnsRebindMitigationClient.ToString()
+- uid: Ae.Dns.Client.DnsRebindMitigationClient.ToString*
+  name: ToString
+  href: Ae.Dns/Ae.Dns.Client.DnsRebindMitigationClient.html#Ae_Dns_Client_DnsRebindMitigationClient_ToString_
+  commentId: Overload:Ae.Dns.Client.DnsRebindMitigationClient.ToString
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsRebindMitigationClient.ToString
+  nameWithType: DnsRebindMitigationClient.ToString
+- uid: Ae.Dns.Client.DnsRecursiveClient
+  name: DnsRecursiveClient
+  href: Ae.Dns/Ae.Dns.Client.DnsRecursiveClient.html
+  commentId: T:Ae.Dns.Client.DnsRecursiveClient
+  fullName: Ae.Dns.Client.DnsRecursiveClient
+  nameWithType: DnsRecursiveClient
+- uid: Ae.Dns.Client.DnsRecursiveClient.#ctor(System.Boolean)
+  name: DnsRecursiveClient(Boolean)
+  href: Ae.Dns/Ae.Dns.Client.DnsRecursiveClient.html#Ae_Dns_Client_DnsRecursiveClient__ctor_System_Boolean_
+  commentId: M:Ae.Dns.Client.DnsRecursiveClient.#ctor(System.Boolean)
+  fullName: Ae.Dns.Client.DnsRecursiveClient.DnsRecursiveClient(System.Boolean)
+  nameWithType: DnsRecursiveClient.DnsRecursiveClient(Boolean)
+- uid: Ae.Dns.Client.DnsRecursiveClient.#ctor*
+  name: DnsRecursiveClient
+  href: Ae.Dns/Ae.Dns.Client.DnsRecursiveClient.html#Ae_Dns_Client_DnsRecursiveClient__ctor_
+  commentId: Overload:Ae.Dns.Client.DnsRecursiveClient.#ctor
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsRecursiveClient.DnsRecursiveClient
+  nameWithType: DnsRecursiveClient.DnsRecursiveClient
+- uid: Ae.Dns.Client.DnsRecursiveClient.Dispose
+  name: Dispose()
+  href: Ae.Dns/Ae.Dns.Client.DnsRecursiveClient.html#Ae_Dns_Client_DnsRecursiveClient_Dispose
+  commentId: M:Ae.Dns.Client.DnsRecursiveClient.Dispose
+  fullName: Ae.Dns.Client.DnsRecursiveClient.Dispose()
+  nameWithType: DnsRecursiveClient.Dispose()
+- uid: Ae.Dns.Client.DnsRecursiveClient.Dispose*
+  name: Dispose
+  href: Ae.Dns/Ae.Dns.Client.DnsRecursiveClient.html#Ae_Dns_Client_DnsRecursiveClient_Dispose_
+  commentId: Overload:Ae.Dns.Client.DnsRecursiveClient.Dispose
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsRecursiveClient.Dispose
+  nameWithType: DnsRecursiveClient.Dispose
+- uid: Ae.Dns.Client.DnsRecursiveClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  name: Query(DnsMessage, CancellationToken)
+  href: Ae.Dns/Ae.Dns.Client.DnsRecursiveClient.html#Ae_Dns_Client_DnsRecursiveClient_Query_Ae_Dns_Protocol_DnsMessage_CancellationToken_
+  commentId: M:Ae.Dns.Client.DnsRecursiveClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  fullName: Ae.Dns.Client.DnsRecursiveClient.Query(Ae.Dns.Protocol.DnsMessage, CancellationToken)
+  nameWithType: DnsRecursiveClient.Query(DnsMessage, CancellationToken)
+- uid: Ae.Dns.Client.DnsRecursiveClient.Query*
+  name: Query
+  href: Ae.Dns/Ae.Dns.Client.DnsRecursiveClient.html#Ae_Dns_Client_DnsRecursiveClient_Query_
+  commentId: Overload:Ae.Dns.Client.DnsRecursiveClient.Query
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsRecursiveClient.Query
+  nameWithType: DnsRecursiveClient.Query
 - uid: Ae.Dns.Client.DnsRoundRobinClient
   name: DnsRoundRobinClient
   href: Ae.Dns/Ae.Dns.Client.DnsRoundRobinClient.html
@@ -204,12 +493,12 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.DnsRoundRobinClient.Dispose
   nameWithType: DnsRoundRobinClient.Dispose
-- uid: Ae.Dns.Client.DnsRoundRobinClient.Query(Ae.Dns.Protocol.DnsHeader,CancellationToken)
-  name: Query(DnsHeader, CancellationToken)
-  href: Ae.Dns/Ae.Dns.Client.DnsRoundRobinClient.html#Ae_Dns_Client_DnsRoundRobinClient_Query_Ae_Dns_Protocol_DnsHeader_CancellationToken_
-  commentId: M:Ae.Dns.Client.DnsRoundRobinClient.Query(Ae.Dns.Protocol.DnsHeader,CancellationToken)
-  fullName: Ae.Dns.Client.DnsRoundRobinClient.Query(Ae.Dns.Protocol.DnsHeader, CancellationToken)
-  nameWithType: DnsRoundRobinClient.Query(DnsHeader, CancellationToken)
+- uid: Ae.Dns.Client.DnsRoundRobinClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  name: Query(DnsMessage, CancellationToken)
+  href: Ae.Dns/Ae.Dns.Client.DnsRoundRobinClient.html#Ae_Dns_Client_DnsRoundRobinClient_Query_Ae_Dns_Protocol_DnsMessage_CancellationToken_
+  commentId: M:Ae.Dns.Client.DnsRoundRobinClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  fullName: Ae.Dns.Client.DnsRoundRobinClient.Query(Ae.Dns.Protocol.DnsMessage, CancellationToken)
+  nameWithType: DnsRoundRobinClient.Query(DnsMessage, CancellationToken)
 - uid: Ae.Dns.Client.DnsRoundRobinClient.Query*
   name: Query
   href: Ae.Dns/Ae.Dns.Client.DnsRoundRobinClient.html#Ae_Dns_Client_DnsRoundRobinClient_Query_
@@ -297,12 +586,12 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.DnsTcpClient.Dispose
   nameWithType: DnsTcpClient.Dispose
-- uid: Ae.Dns.Client.DnsTcpClient.Query(Ae.Dns.Protocol.DnsHeader,CancellationToken)
-  name: Query(DnsHeader, CancellationToken)
-  href: Ae.Dns/Ae.Dns.Client.DnsTcpClient.html#Ae_Dns_Client_DnsTcpClient_Query_Ae_Dns_Protocol_DnsHeader_CancellationToken_
-  commentId: M:Ae.Dns.Client.DnsTcpClient.Query(Ae.Dns.Protocol.DnsHeader,CancellationToken)
-  fullName: Ae.Dns.Client.DnsTcpClient.Query(Ae.Dns.Protocol.DnsHeader, CancellationToken)
-  nameWithType: DnsTcpClient.Query(DnsHeader, CancellationToken)
+- uid: Ae.Dns.Client.DnsTcpClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  name: Query(DnsMessage, CancellationToken)
+  href: Ae.Dns/Ae.Dns.Client.DnsTcpClient.html#Ae_Dns_Client_DnsTcpClient_Query_Ae_Dns_Protocol_DnsMessage_CancellationToken_
+  commentId: M:Ae.Dns.Client.DnsTcpClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  fullName: Ae.Dns.Client.DnsTcpClient.Query(Ae.Dns.Protocol.DnsMessage, CancellationToken)
+  nameWithType: DnsTcpClient.Query(DnsMessage, CancellationToken)
 - uid: Ae.Dns.Client.DnsTcpClient.Query*
   name: Query
   href: Ae.Dns/Ae.Dns.Client.DnsTcpClient.html#Ae_Dns_Client_DnsTcpClient_Query_
@@ -310,6 +599,19 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.DnsTcpClient.Query
   nameWithType: DnsTcpClient.Query
+- uid: Ae.Dns.Client.DnsTcpClient.ToString
+  name: ToString()
+  href: Ae.Dns/Ae.Dns.Client.DnsTcpClient.html#Ae_Dns_Client_DnsTcpClient_ToString
+  commentId: M:Ae.Dns.Client.DnsTcpClient.ToString
+  fullName: Ae.Dns.Client.DnsTcpClient.ToString()
+  nameWithType: DnsTcpClient.ToString()
+- uid: Ae.Dns.Client.DnsTcpClient.ToString*
+  name: ToString
+  href: Ae.Dns/Ae.Dns.Client.DnsTcpClient.html#Ae_Dns_Client_DnsTcpClient_ToString_
+  commentId: Overload:Ae.Dns.Client.DnsTcpClient.ToString
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsTcpClient.ToString
+  nameWithType: DnsTcpClient.ToString
 - uid: Ae.Dns.Client.DnsUdpClient
   name: DnsUdpClient
   href: Ae.Dns/Ae.Dns.Client.DnsUdpClient.html
@@ -366,12 +668,12 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.DnsUdpClient.Dispose
   nameWithType: DnsUdpClient.Dispose
-- uid: Ae.Dns.Client.DnsUdpClient.Query(Ae.Dns.Protocol.DnsHeader,CancellationToken)
-  name: Query(DnsHeader, CancellationToken)
-  href: Ae.Dns/Ae.Dns.Client.DnsUdpClient.html#Ae_Dns_Client_DnsUdpClient_Query_Ae_Dns_Protocol_DnsHeader_CancellationToken_
-  commentId: M:Ae.Dns.Client.DnsUdpClient.Query(Ae.Dns.Protocol.DnsHeader,CancellationToken)
-  fullName: Ae.Dns.Client.DnsUdpClient.Query(Ae.Dns.Protocol.DnsHeader, CancellationToken)
-  nameWithType: DnsUdpClient.Query(DnsHeader, CancellationToken)
+- uid: Ae.Dns.Client.DnsUdpClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  name: Query(DnsMessage, CancellationToken)
+  href: Ae.Dns/Ae.Dns.Client.DnsUdpClient.html#Ae_Dns_Client_DnsUdpClient_Query_Ae_Dns_Protocol_DnsMessage_CancellationToken_
+  commentId: M:Ae.Dns.Client.DnsUdpClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  fullName: Ae.Dns.Client.DnsUdpClient.Query(Ae.Dns.Protocol.DnsMessage, CancellationToken)
+  nameWithType: DnsUdpClient.Query(DnsMessage, CancellationToken)
 - uid: Ae.Dns.Client.DnsUdpClient.Query*
   name: Query
   href: Ae.Dns/Ae.Dns.Client.DnsUdpClient.html#Ae_Dns_Client_DnsUdpClient_Query_
@@ -379,12 +681,57 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.DnsUdpClient.Query
   nameWithType: DnsUdpClient.Query
+- uid: Ae.Dns.Client.DnsUdpClient.ToString
+  name: ToString()
+  href: Ae.Dns/Ae.Dns.Client.DnsUdpClient.html#Ae_Dns_Client_DnsUdpClient_ToString
+  commentId: M:Ae.Dns.Client.DnsUdpClient.ToString
+  fullName: Ae.Dns.Client.DnsUdpClient.ToString()
+  nameWithType: DnsUdpClient.ToString()
+- uid: Ae.Dns.Client.DnsUdpClient.ToString*
+  name: ToString
+  href: Ae.Dns/Ae.Dns.Client.DnsUdpClient.html#Ae_Dns_Client_DnsUdpClient_ToString_
+  commentId: Overload:Ae.Dns.Client.DnsUdpClient.ToString
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsUdpClient.ToString
+  nameWithType: DnsUdpClient.ToString
 - uid: Ae.Dns.Client.Exceptions
   name: Ae.Dns.Client.Exceptions
   href: Ae.Dns/Ae.Dns.Client.Exceptions.html
   commentId: N:Ae.Dns.Client.Exceptions
   fullName: Ae.Dns.Client.Exceptions
   nameWithType: Ae.Dns.Client.Exceptions
+- uid: Ae.Dns.Client.Exceptions.DnsClientException
+  name: DnsClientException
+  href: Ae.Dns/Ae.Dns.Client.Exceptions.DnsClientException.html
+  commentId: T:Ae.Dns.Client.Exceptions.DnsClientException
+  fullName: Ae.Dns.Client.Exceptions.DnsClientException
+  nameWithType: DnsClientException
+- uid: Ae.Dns.Client.Exceptions.DnsClientException.#ctor(System.String,System.String)
+  name: DnsClientException(String, String)
+  href: Ae.Dns/Ae.Dns.Client.Exceptions.DnsClientException.html#Ae_Dns_Client_Exceptions_DnsClientException__ctor_System_String_System_String_
+  commentId: M:Ae.Dns.Client.Exceptions.DnsClientException.#ctor(System.String,System.String)
+  fullName: Ae.Dns.Client.Exceptions.DnsClientException.DnsClientException(System.String, System.String)
+  nameWithType: DnsClientException.DnsClientException(String, String)
+- uid: Ae.Dns.Client.Exceptions.DnsClientException.#ctor*
+  name: DnsClientException
+  href: Ae.Dns/Ae.Dns.Client.Exceptions.DnsClientException.html#Ae_Dns_Client_Exceptions_DnsClientException__ctor_
+  commentId: Overload:Ae.Dns.Client.Exceptions.DnsClientException.#ctor
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Exceptions.DnsClientException.DnsClientException
+  nameWithType: DnsClientException.DnsClientException
+- uid: Ae.Dns.Client.Exceptions.DnsClientException.Domain
+  name: Domain
+  href: Ae.Dns/Ae.Dns.Client.Exceptions.DnsClientException.html#Ae_Dns_Client_Exceptions_DnsClientException_Domain
+  commentId: P:Ae.Dns.Client.Exceptions.DnsClientException.Domain
+  fullName: Ae.Dns.Client.Exceptions.DnsClientException.Domain
+  nameWithType: DnsClientException.Domain
+- uid: Ae.Dns.Client.Exceptions.DnsClientException.Domain*
+  name: Domain
+  href: Ae.Dns/Ae.Dns.Client.Exceptions.DnsClientException.html#Ae_Dns_Client_Exceptions_DnsClientException_Domain_
+  commentId: Overload:Ae.Dns.Client.Exceptions.DnsClientException.Domain
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Exceptions.DnsClientException.Domain
+  nameWithType: DnsClientException.Domain
 - uid: Ae.Dns.Client.Exceptions.DnsClientTimeoutException
   name: DnsClientTimeoutException
   href: Ae.Dns/Ae.Dns.Client.Exceptions.DnsClientTimeoutException.html
@@ -404,19 +751,6 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.Exceptions.DnsClientTimeoutException.DnsClientTimeoutException
   nameWithType: DnsClientTimeoutException.DnsClientTimeoutException
-- uid: Ae.Dns.Client.Exceptions.DnsClientTimeoutException.Domain
-  name: Domain
-  href: Ae.Dns/Ae.Dns.Client.Exceptions.DnsClientTimeoutException.html#Ae_Dns_Client_Exceptions_DnsClientTimeoutException_Domain
-  commentId: P:Ae.Dns.Client.Exceptions.DnsClientTimeoutException.Domain
-  fullName: Ae.Dns.Client.Exceptions.DnsClientTimeoutException.Domain
-  nameWithType: DnsClientTimeoutException.Domain
-- uid: Ae.Dns.Client.Exceptions.DnsClientTimeoutException.Domain*
-  name: Domain
-  href: Ae.Dns/Ae.Dns.Client.Exceptions.DnsClientTimeoutException.html#Ae_Dns_Client_Exceptions_DnsClientTimeoutException_Domain_
-  commentId: Overload:Ae.Dns.Client.Exceptions.DnsClientTimeoutException.Domain
-  isSpec: "True"
-  fullName: Ae.Dns.Client.Exceptions.DnsClientTimeoutException.Domain
-  nameWithType: DnsClientTimeoutException.Domain
 - uid: Ae.Dns.Client.Exceptions.DnsClientTimeoutException.Timeout
   name: Timeout
   href: Ae.Dns/Ae.Dns.Client.Exceptions.DnsClientTimeoutException.html#Ae_Dns_Client_Exceptions_DnsClientTimeoutException_Timeout
@@ -467,12 +801,12 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.Filters.DnsCompositeAndFilter.DnsCompositeAndFilter
   nameWithType: DnsCompositeAndFilter.DnsCompositeAndFilter
-- uid: Ae.Dns.Client.Filters.DnsCompositeAndFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  name: IsPermitted(DnsHeader)
-  href: Ae.Dns/Ae.Dns.Client.Filters.DnsCompositeAndFilter.html#Ae_Dns_Client_Filters_DnsCompositeAndFilter_IsPermitted_Ae_Dns_Protocol_DnsHeader_
-  commentId: M:Ae.Dns.Client.Filters.DnsCompositeAndFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  fullName: Ae.Dns.Client.Filters.DnsCompositeAndFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  nameWithType: DnsCompositeAndFilter.IsPermitted(DnsHeader)
+- uid: Ae.Dns.Client.Filters.DnsCompositeAndFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  name: IsPermitted(DnsMessage)
+  href: Ae.Dns/Ae.Dns.Client.Filters.DnsCompositeAndFilter.html#Ae_Dns_Client_Filters_DnsCompositeAndFilter_IsPermitted_Ae_Dns_Protocol_DnsMessage_
+  commentId: M:Ae.Dns.Client.Filters.DnsCompositeAndFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  fullName: Ae.Dns.Client.Filters.DnsCompositeAndFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  nameWithType: DnsCompositeAndFilter.IsPermitted(DnsMessage)
 - uid: Ae.Dns.Client.Filters.DnsCompositeAndFilter.IsPermitted*
   name: IsPermitted
   href: Ae.Dns/Ae.Dns.Client.Filters.DnsCompositeAndFilter.html#Ae_Dns_Client_Filters_DnsCompositeAndFilter_IsPermitted_
@@ -511,12 +845,12 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.Filters.DnsCompositeOrFilter.DnsCompositeOrFilter
   nameWithType: DnsCompositeOrFilter.DnsCompositeOrFilter
-- uid: Ae.Dns.Client.Filters.DnsCompositeOrFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  name: IsPermitted(DnsHeader)
-  href: Ae.Dns/Ae.Dns.Client.Filters.DnsCompositeOrFilter.html#Ae_Dns_Client_Filters_DnsCompositeOrFilter_IsPermitted_Ae_Dns_Protocol_DnsHeader_
-  commentId: M:Ae.Dns.Client.Filters.DnsCompositeOrFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  fullName: Ae.Dns.Client.Filters.DnsCompositeOrFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  nameWithType: DnsCompositeOrFilter.IsPermitted(DnsHeader)
+- uid: Ae.Dns.Client.Filters.DnsCompositeOrFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  name: IsPermitted(DnsMessage)
+  href: Ae.Dns/Ae.Dns.Client.Filters.DnsCompositeOrFilter.html#Ae_Dns_Client_Filters_DnsCompositeOrFilter_IsPermitted_Ae_Dns_Protocol_DnsMessage_
+  commentId: M:Ae.Dns.Client.Filters.DnsCompositeOrFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  fullName: Ae.Dns.Client.Filters.DnsCompositeOrFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  nameWithType: DnsCompositeOrFilter.IsPermitted(DnsMessage)
 - uid: Ae.Dns.Client.Filters.DnsCompositeOrFilter.IsPermitted*
   name: IsPermitted
   href: Ae.Dns/Ae.Dns.Client.Filters.DnsCompositeOrFilter.html#Ae_Dns_Client_Filters_DnsCompositeOrFilter_IsPermitted_
@@ -530,15 +864,15 @@ references:
   commentId: T:Ae.Dns.Client.Filters.DnsDelegateFilter
   fullName: Ae.Dns.Client.Filters.DnsDelegateFilter
   nameWithType: DnsDelegateFilter
-- uid: Ae.Dns.Client.Filters.DnsDelegateFilter.#ctor(Func{Ae.Dns.Protocol.DnsHeader,System.Boolean})
-  name: DnsDelegateFilter(Func<DnsHeader, Boolean>)
-  href: Ae.Dns/Ae.Dns.Client.Filters.DnsDelegateFilter.html#Ae_Dns_Client_Filters_DnsDelegateFilter__ctor_Func_Ae_Dns_Protocol_DnsHeader_System_Boolean__
-  commentId: M:Ae.Dns.Client.Filters.DnsDelegateFilter.#ctor(Func{Ae.Dns.Protocol.DnsHeader,System.Boolean})
-  name.vb: DnsDelegateFilter(Func(Of DnsHeader, Boolean))
-  fullName: Ae.Dns.Client.Filters.DnsDelegateFilter.DnsDelegateFilter(Func<Ae.Dns.Protocol.DnsHeader, System.Boolean>)
-  fullName.vb: Ae.Dns.Client.Filters.DnsDelegateFilter.DnsDelegateFilter(Func(Of Ae.Dns.Protocol.DnsHeader, System.Boolean))
-  nameWithType: DnsDelegateFilter.DnsDelegateFilter(Func<DnsHeader, Boolean>)
-  nameWithType.vb: DnsDelegateFilter.DnsDelegateFilter(Func(Of DnsHeader, Boolean))
+- uid: Ae.Dns.Client.Filters.DnsDelegateFilter.#ctor(Func{Ae.Dns.Protocol.DnsMessage,System.Boolean})
+  name: DnsDelegateFilter(Func<DnsMessage, Boolean>)
+  href: Ae.Dns/Ae.Dns.Client.Filters.DnsDelegateFilter.html#Ae_Dns_Client_Filters_DnsDelegateFilter__ctor_Func_Ae_Dns_Protocol_DnsMessage_System_Boolean__
+  commentId: M:Ae.Dns.Client.Filters.DnsDelegateFilter.#ctor(Func{Ae.Dns.Protocol.DnsMessage,System.Boolean})
+  name.vb: DnsDelegateFilter(Func(Of DnsMessage, Boolean))
+  fullName: Ae.Dns.Client.Filters.DnsDelegateFilter.DnsDelegateFilter(Func<Ae.Dns.Protocol.DnsMessage, System.Boolean>)
+  fullName.vb: Ae.Dns.Client.Filters.DnsDelegateFilter.DnsDelegateFilter(Func(Of Ae.Dns.Protocol.DnsMessage, System.Boolean))
+  nameWithType: DnsDelegateFilter.DnsDelegateFilter(Func<DnsMessage, Boolean>)
+  nameWithType.vb: DnsDelegateFilter.DnsDelegateFilter(Func(Of DnsMessage, Boolean))
 - uid: Ae.Dns.Client.Filters.DnsDelegateFilter.#ctor*
   name: DnsDelegateFilter
   href: Ae.Dns/Ae.Dns.Client.Filters.DnsDelegateFilter.html#Ae_Dns_Client_Filters_DnsDelegateFilter__ctor_
@@ -546,12 +880,12 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.Filters.DnsDelegateFilter.DnsDelegateFilter
   nameWithType: DnsDelegateFilter.DnsDelegateFilter
-- uid: Ae.Dns.Client.Filters.DnsDelegateFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  name: IsPermitted(DnsHeader)
-  href: Ae.Dns/Ae.Dns.Client.Filters.DnsDelegateFilter.html#Ae_Dns_Client_Filters_DnsDelegateFilter_IsPermitted_Ae_Dns_Protocol_DnsHeader_
-  commentId: M:Ae.Dns.Client.Filters.DnsDelegateFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  fullName: Ae.Dns.Client.Filters.DnsDelegateFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  nameWithType: DnsDelegateFilter.IsPermitted(DnsHeader)
+- uid: Ae.Dns.Client.Filters.DnsDelegateFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  name: IsPermitted(DnsMessage)
+  href: Ae.Dns/Ae.Dns.Client.Filters.DnsDelegateFilter.html#Ae_Dns_Client_Filters_DnsDelegateFilter_IsPermitted_Ae_Dns_Protocol_DnsMessage_
+  commentId: M:Ae.Dns.Client.Filters.DnsDelegateFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  fullName: Ae.Dns.Client.Filters.DnsDelegateFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  nameWithType: DnsDelegateFilter.IsPermitted(DnsMessage)
 - uid: Ae.Dns.Client.Filters.DnsDelegateFilter.IsPermitted*
   name: IsPermitted
   href: Ae.Dns/Ae.Dns.Client.Filters.DnsDelegateFilter.html#Ae_Dns_Client_Filters_DnsDelegateFilter_IsPermitted_
@@ -597,12 +931,12 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.Filters.DnsDomainSuffixFilter.AddSuffixFilters
   nameWithType: DnsDomainSuffixFilter.AddSuffixFilters
-- uid: Ae.Dns.Client.Filters.DnsDomainSuffixFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  name: IsPermitted(DnsHeader)
-  href: Ae.Dns/Ae.Dns.Client.Filters.DnsDomainSuffixFilter.html#Ae_Dns_Client_Filters_DnsDomainSuffixFilter_IsPermitted_Ae_Dns_Protocol_DnsHeader_
-  commentId: M:Ae.Dns.Client.Filters.DnsDomainSuffixFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  fullName: Ae.Dns.Client.Filters.DnsDomainSuffixFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  nameWithType: DnsDomainSuffixFilter.IsPermitted(DnsHeader)
+- uid: Ae.Dns.Client.Filters.DnsDomainSuffixFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  name: IsPermitted(DnsMessage)
+  href: Ae.Dns/Ae.Dns.Client.Filters.DnsDomainSuffixFilter.html#Ae_Dns_Client_Filters_DnsDomainSuffixFilter_IsPermitted_Ae_Dns_Protocol_DnsMessage_
+  commentId: M:Ae.Dns.Client.Filters.DnsDomainSuffixFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  fullName: Ae.Dns.Client.Filters.DnsDomainSuffixFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  nameWithType: DnsDomainSuffixFilter.IsPermitted(DnsMessage)
 - uid: Ae.Dns.Client.Filters.DnsDomainSuffixFilter.IsPermitted*
   name: IsPermitted
   href: Ae.Dns/Ae.Dns.Client.Filters.DnsDomainSuffixFilter.html#Ae_Dns_Client_Filters_DnsDomainSuffixFilter_IsPermitted_
@@ -610,6 +944,25 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.Filters.DnsDomainSuffixFilter.IsPermitted
   nameWithType: DnsDomainSuffixFilter.IsPermitted
+- uid: Ae.Dns.Client.Filters.DnsLocalNetworkQueryFilter
+  name: DnsLocalNetworkQueryFilter
+  href: Ae.Dns/Ae.Dns.Client.Filters.DnsLocalNetworkQueryFilter.html
+  commentId: T:Ae.Dns.Client.Filters.DnsLocalNetworkQueryFilter
+  fullName: Ae.Dns.Client.Filters.DnsLocalNetworkQueryFilter
+  nameWithType: DnsLocalNetworkQueryFilter
+- uid: Ae.Dns.Client.Filters.DnsLocalNetworkQueryFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  name: IsPermitted(DnsMessage)
+  href: Ae.Dns/Ae.Dns.Client.Filters.DnsLocalNetworkQueryFilter.html#Ae_Dns_Client_Filters_DnsLocalNetworkQueryFilter_IsPermitted_Ae_Dns_Protocol_DnsMessage_
+  commentId: M:Ae.Dns.Client.Filters.DnsLocalNetworkQueryFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  fullName: Ae.Dns.Client.Filters.DnsLocalNetworkQueryFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  nameWithType: DnsLocalNetworkQueryFilter.IsPermitted(DnsMessage)
+- uid: Ae.Dns.Client.Filters.DnsLocalNetworkQueryFilter.IsPermitted*
+  name: IsPermitted
+  href: Ae.Dns/Ae.Dns.Client.Filters.DnsLocalNetworkQueryFilter.html#Ae_Dns_Client_Filters_DnsLocalNetworkQueryFilter_IsPermitted_
+  commentId: Overload:Ae.Dns.Client.Filters.DnsLocalNetworkQueryFilter.IsPermitted
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Filters.DnsLocalNetworkQueryFilter.IsPermitted
+  nameWithType: DnsLocalNetworkQueryFilter.IsPermitted
 - uid: Ae.Dns.Client.Filters.DnsRemoteSetFilter
   name: DnsRemoteSetFilter
   href: Ae.Dns/Ae.Dns.Client.Filters.DnsRemoteSetFilter.html
@@ -673,12 +1026,12 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.Filters.DnsRemoteSetFilter.AddRemoteBlockList
   nameWithType: DnsRemoteSetFilter.AddRemoteBlockList
-- uid: Ae.Dns.Client.Filters.DnsRemoteSetFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  name: IsPermitted(DnsHeader)
-  href: Ae.Dns/Ae.Dns.Client.Filters.DnsRemoteSetFilter.html#Ae_Dns_Client_Filters_DnsRemoteSetFilter_IsPermitted_Ae_Dns_Protocol_DnsHeader_
-  commentId: M:Ae.Dns.Client.Filters.DnsRemoteSetFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  fullName: Ae.Dns.Client.Filters.DnsRemoteSetFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  nameWithType: DnsRemoteSetFilter.IsPermitted(DnsHeader)
+- uid: Ae.Dns.Client.Filters.DnsRemoteSetFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  name: IsPermitted(DnsMessage)
+  href: Ae.Dns/Ae.Dns.Client.Filters.DnsRemoteSetFilter.html#Ae_Dns_Client_Filters_DnsRemoteSetFilter_IsPermitted_Ae_Dns_Protocol_DnsMessage_
+  commentId: M:Ae.Dns.Client.Filters.DnsRemoteSetFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  fullName: Ae.Dns.Client.Filters.DnsRemoteSetFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  nameWithType: DnsRemoteSetFilter.IsPermitted(DnsMessage)
 - uid: Ae.Dns.Client.Filters.DnsRemoteSetFilter.IsPermitted*
   name: IsPermitted
   href: Ae.Dns/Ae.Dns.Client.Filters.DnsRemoteSetFilter.html#Ae_Dns_Client_Filters_DnsRemoteSetFilter_IsPermitted_
@@ -692,12 +1045,12 @@ references:
   commentId: T:Ae.Dns.Client.Filters.IDnsFilter
   fullName: Ae.Dns.Client.Filters.IDnsFilter
   nameWithType: IDnsFilter
-- uid: Ae.Dns.Client.Filters.IDnsFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  name: IsPermitted(DnsHeader)
-  href: Ae.Dns/Ae.Dns.Client.Filters.IDnsFilter.html#Ae_Dns_Client_Filters_IDnsFilter_IsPermitted_Ae_Dns_Protocol_DnsHeader_
-  commentId: M:Ae.Dns.Client.Filters.IDnsFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  fullName: Ae.Dns.Client.Filters.IDnsFilter.IsPermitted(Ae.Dns.Protocol.DnsHeader)
-  nameWithType: IDnsFilter.IsPermitted(DnsHeader)
+- uid: Ae.Dns.Client.Filters.IDnsFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  name: IsPermitted(DnsMessage)
+  href: Ae.Dns/Ae.Dns.Client.Filters.IDnsFilter.html#Ae_Dns_Client_Filters_IDnsFilter_IsPermitted_Ae_Dns_Protocol_DnsMessage_
+  commentId: M:Ae.Dns.Client.Filters.IDnsFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  fullName: Ae.Dns.Client.Filters.IDnsFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)
+  nameWithType: IDnsFilter.IsPermitted(DnsMessage)
 - uid: Ae.Dns.Client.Filters.IDnsFilter.IsPermitted*
   name: IsPermitted
   href: Ae.Dns/Ae.Dns.Client.Filters.IDnsFilter.html#Ae_Dns_Client_Filters_IDnsFilter_IsPermitted_
@@ -737,6 +1090,367 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.IDnsSocketClientFactory.CreateUdpClient
   nameWithType: IDnsSocketClientFactory.CreateUdpClient
+- uid: Ae.Dns.Client.Lookup
+  name: Ae.Dns.Client.Lookup
+  href: Ae.Dns/Ae.Dns.Client.Lookup.html
+  commentId: N:Ae.Dns.Client.Lookup
+  fullName: Ae.Dns.Client.Lookup
+  nameWithType: Ae.Dns.Client.Lookup
+- uid: Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource
+  name: DhcpdLeasesDnsLookupSource
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.html
+  commentId: T:Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource
+  fullName: Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource
+  nameWithType: DhcpdLeasesDnsLookupSource
+- uid: Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.#ctor(ILogger{Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource},FileInfo,System.String)
+  name: DhcpdLeasesDnsLookupSource(ILogger<DhcpdLeasesDnsLookupSource>, FileInfo, String)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.html#Ae_Dns_Client_Lookup_DhcpdLeasesDnsLookupSource__ctor_ILogger_Ae_Dns_Client_Lookup_DhcpdLeasesDnsLookupSource__FileInfo_System_String_
+  commentId: M:Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.#ctor(ILogger{Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource},FileInfo,System.String)
+  name.vb: DhcpdLeasesDnsLookupSource(ILogger(Of DhcpdLeasesDnsLookupSource), FileInfo, String)
+  fullName: Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.DhcpdLeasesDnsLookupSource(ILogger<Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource>, FileInfo, System.String)
+  fullName.vb: Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.DhcpdLeasesDnsLookupSource(ILogger(Of Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource), FileInfo, System.String)
+  nameWithType: DhcpdLeasesDnsLookupSource.DhcpdLeasesDnsLookupSource(ILogger<DhcpdLeasesDnsLookupSource>, FileInfo, String)
+  nameWithType.vb: DhcpdLeasesDnsLookupSource.DhcpdLeasesDnsLookupSource(ILogger(Of DhcpdLeasesDnsLookupSource), FileInfo, String)
+- uid: Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.#ctor*
+  name: DhcpdLeasesDnsLookupSource
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.html#Ae_Dns_Client_Lookup_DhcpdLeasesDnsLookupSource__ctor_
+  commentId: Overload:Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.#ctor
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.DhcpdLeasesDnsLookupSource
+  nameWithType: DhcpdLeasesDnsLookupSource.DhcpdLeasesDnsLookupSource
+- uid: Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.LoadLookup(StreamReader)
+  name: LoadLookup(StreamReader)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.html#Ae_Dns_Client_Lookup_DhcpdLeasesDnsLookupSource_LoadLookup_StreamReader_
+  commentId: M:Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.LoadLookup(StreamReader)
+  fullName: Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.LoadLookup(StreamReader)
+  nameWithType: DhcpdLeasesDnsLookupSource.LoadLookup(StreamReader)
+- uid: Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.LoadLookup*
+  name: LoadLookup
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.html#Ae_Dns_Client_Lookup_DhcpdLeasesDnsLookupSource_LoadLookup_
+  commentId: Overload:Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.LoadLookup
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.LoadLookup
+  nameWithType: DhcpdLeasesDnsLookupSource.LoadLookup
+- uid: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource
+  name: DictionaryDnsLookupSource
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.html
+  commentId: T:Ae.Dns.Client.Lookup.DictionaryDnsLookupSource
+  fullName: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource
+  nameWithType: DictionaryDnsLookupSource
+- uid: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.#ctor(IEnumerable{KeyValuePair{System.String,IPAddress}})
+  name: DictionaryDnsLookupSource(IEnumerable<KeyValuePair<String, IPAddress>>)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.html#Ae_Dns_Client_Lookup_DictionaryDnsLookupSource__ctor_IEnumerable_KeyValuePair_System_String_IPAddress___
+  commentId: M:Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.#ctor(IEnumerable{KeyValuePair{System.String,IPAddress}})
+  name.vb: DictionaryDnsLookupSource(IEnumerable(Of KeyValuePair(Of String, IPAddress)))
+  fullName: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.DictionaryDnsLookupSource(IEnumerable<KeyValuePair<System.String, IPAddress>>)
+  fullName.vb: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.DictionaryDnsLookupSource(IEnumerable(Of KeyValuePair(Of System.String, IPAddress)))
+  nameWithType: DictionaryDnsLookupSource.DictionaryDnsLookupSource(IEnumerable<KeyValuePair<String, IPAddress>>)
+  nameWithType.vb: DictionaryDnsLookupSource.DictionaryDnsLookupSource(IEnumerable(Of KeyValuePair(Of String, IPAddress)))
+- uid: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.#ctor*
+  name: DictionaryDnsLookupSource
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.html#Ae_Dns_Client_Lookup_DictionaryDnsLookupSource__ctor_
+  commentId: Overload:Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.#ctor
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.DictionaryDnsLookupSource
+  nameWithType: DictionaryDnsLookupSource.DictionaryDnsLookupSource
+- uid: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.Dispose
+  name: Dispose()
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.html#Ae_Dns_Client_Lookup_DictionaryDnsLookupSource_Dispose
+  commentId: M:Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.Dispose
+  fullName: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.Dispose()
+  nameWithType: DictionaryDnsLookupSource.Dispose()
+- uid: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.Dispose*
+  name: Dispose
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.html#Ae_Dns_Client_Lookup_DictionaryDnsLookupSource_Dispose_
+  commentId: Overload:Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.Dispose
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.Dispose
+  nameWithType: DictionaryDnsLookupSource.Dispose
+- uid: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.ToString
+  name: ToString()
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.html#Ae_Dns_Client_Lookup_DictionaryDnsLookupSource_ToString
+  commentId: M:Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.ToString
+  fullName: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.ToString()
+  nameWithType: DictionaryDnsLookupSource.ToString()
+- uid: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.ToString*
+  name: ToString
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.html#Ae_Dns_Client_Lookup_DictionaryDnsLookupSource_ToString_
+  commentId: Overload:Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.ToString
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.ToString
+  nameWithType: DictionaryDnsLookupSource.ToString
+- uid: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.TryForwardLookup(System.String,IPAddress@)
+  name: TryForwardLookup(String, out IPAddress)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.html#Ae_Dns_Client_Lookup_DictionaryDnsLookupSource_TryForwardLookup_System_String_IPAddress__
+  commentId: M:Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.TryForwardLookup(System.String,IPAddress@)
+  name.vb: TryForwardLookup(String, ByRef IPAddress)
+  fullName: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.TryForwardLookup(System.String, out IPAddress)
+  fullName.vb: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.TryForwardLookup(System.String, ByRef IPAddress)
+  nameWithType: DictionaryDnsLookupSource.TryForwardLookup(String, out IPAddress)
+  nameWithType.vb: DictionaryDnsLookupSource.TryForwardLookup(String, ByRef IPAddress)
+- uid: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.TryForwardLookup*
+  name: TryForwardLookup
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.html#Ae_Dns_Client_Lookup_DictionaryDnsLookupSource_TryForwardLookup_
+  commentId: Overload:Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.TryForwardLookup
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.TryForwardLookup
+  nameWithType: DictionaryDnsLookupSource.TryForwardLookup
+- uid: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.TryReverseLookup(IPAddress,System.String@)
+  name: TryReverseLookup(IPAddress, out String)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.html#Ae_Dns_Client_Lookup_DictionaryDnsLookupSource_TryReverseLookup_IPAddress_System_String__
+  commentId: M:Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.TryReverseLookup(IPAddress,System.String@)
+  name.vb: TryReverseLookup(IPAddress, ByRef String)
+  fullName: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.TryReverseLookup(IPAddress, out System.String)
+  fullName.vb: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.TryReverseLookup(IPAddress, ByRef System.String)
+  nameWithType: DictionaryDnsLookupSource.TryReverseLookup(IPAddress, out String)
+  nameWithType.vb: DictionaryDnsLookupSource.TryReverseLookup(IPAddress, ByRef String)
+- uid: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.TryReverseLookup*
+  name: TryReverseLookup
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.html#Ae_Dns_Client_Lookup_DictionaryDnsLookupSource_TryReverseLookup_
+  commentId: Overload:Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.TryReverseLookup
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.TryReverseLookup
+  nameWithType: DictionaryDnsLookupSource.TryReverseLookup
+- uid: Ae.Dns.Client.Lookup.DnsStaticLookupClient
+  name: DnsStaticLookupClient
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DnsStaticLookupClient.html
+  commentId: T:Ae.Dns.Client.Lookup.DnsStaticLookupClient
+  fullName: Ae.Dns.Client.Lookup.DnsStaticLookupClient
+  nameWithType: DnsStaticLookupClient
+- uid: Ae.Dns.Client.Lookup.DnsStaticLookupClient.#ctor(Ae.Dns.Protocol.IDnsClient,Ae.Dns.Client.Lookup.IDnsLookupSource[])
+  name: DnsStaticLookupClient(IDnsClient, IDnsLookupSource[])
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DnsStaticLookupClient.html#Ae_Dns_Client_Lookup_DnsStaticLookupClient__ctor_Ae_Dns_Protocol_IDnsClient_Ae_Dns_Client_Lookup_IDnsLookupSource___
+  commentId: M:Ae.Dns.Client.Lookup.DnsStaticLookupClient.#ctor(Ae.Dns.Protocol.IDnsClient,Ae.Dns.Client.Lookup.IDnsLookupSource[])
+  name.vb: DnsStaticLookupClient(IDnsClient, IDnsLookupSource())
+  fullName: Ae.Dns.Client.Lookup.DnsStaticLookupClient.DnsStaticLookupClient(Ae.Dns.Protocol.IDnsClient, Ae.Dns.Client.Lookup.IDnsLookupSource[])
+  fullName.vb: Ae.Dns.Client.Lookup.DnsStaticLookupClient.DnsStaticLookupClient(Ae.Dns.Protocol.IDnsClient, Ae.Dns.Client.Lookup.IDnsLookupSource())
+  nameWithType: DnsStaticLookupClient.DnsStaticLookupClient(IDnsClient, IDnsLookupSource[])
+  nameWithType.vb: DnsStaticLookupClient.DnsStaticLookupClient(IDnsClient, IDnsLookupSource())
+- uid: Ae.Dns.Client.Lookup.DnsStaticLookupClient.#ctor*
+  name: DnsStaticLookupClient
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DnsStaticLookupClient.html#Ae_Dns_Client_Lookup_DnsStaticLookupClient__ctor_
+  commentId: Overload:Ae.Dns.Client.Lookup.DnsStaticLookupClient.#ctor
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.DnsStaticLookupClient.DnsStaticLookupClient
+  nameWithType: DnsStaticLookupClient.DnsStaticLookupClient
+- uid: Ae.Dns.Client.Lookup.DnsStaticLookupClient.Dispose
+  name: Dispose()
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DnsStaticLookupClient.html#Ae_Dns_Client_Lookup_DnsStaticLookupClient_Dispose
+  commentId: M:Ae.Dns.Client.Lookup.DnsStaticLookupClient.Dispose
+  fullName: Ae.Dns.Client.Lookup.DnsStaticLookupClient.Dispose()
+  nameWithType: DnsStaticLookupClient.Dispose()
+- uid: Ae.Dns.Client.Lookup.DnsStaticLookupClient.Dispose*
+  name: Dispose
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DnsStaticLookupClient.html#Ae_Dns_Client_Lookup_DnsStaticLookupClient_Dispose_
+  commentId: Overload:Ae.Dns.Client.Lookup.DnsStaticLookupClient.Dispose
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.DnsStaticLookupClient.Dispose
+  nameWithType: DnsStaticLookupClient.Dispose
+- uid: Ae.Dns.Client.Lookup.DnsStaticLookupClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  name: Query(DnsMessage, CancellationToken)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DnsStaticLookupClient.html#Ae_Dns_Client_Lookup_DnsStaticLookupClient_Query_Ae_Dns_Protocol_DnsMessage_CancellationToken_
+  commentId: M:Ae.Dns.Client.Lookup.DnsStaticLookupClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  fullName: Ae.Dns.Client.Lookup.DnsStaticLookupClient.Query(Ae.Dns.Protocol.DnsMessage, CancellationToken)
+  nameWithType: DnsStaticLookupClient.Query(DnsMessage, CancellationToken)
+- uid: Ae.Dns.Client.Lookup.DnsStaticLookupClient.Query*
+  name: Query
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DnsStaticLookupClient.html#Ae_Dns_Client_Lookup_DnsStaticLookupClient_Query_
+  commentId: Overload:Ae.Dns.Client.Lookup.DnsStaticLookupClient.Query
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.DnsStaticLookupClient.Query
+  nameWithType: DnsStaticLookupClient.Query
+- uid: Ae.Dns.Client.Lookup.DnsStaticLookupClient.ToString
+  name: ToString()
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DnsStaticLookupClient.html#Ae_Dns_Client_Lookup_DnsStaticLookupClient_ToString
+  commentId: M:Ae.Dns.Client.Lookup.DnsStaticLookupClient.ToString
+  fullName: Ae.Dns.Client.Lookup.DnsStaticLookupClient.ToString()
+  nameWithType: DnsStaticLookupClient.ToString()
+- uid: Ae.Dns.Client.Lookup.DnsStaticLookupClient.ToString*
+  name: ToString
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DnsStaticLookupClient.html#Ae_Dns_Client_Lookup_DnsStaticLookupClient_ToString_
+  commentId: Overload:Ae.Dns.Client.Lookup.DnsStaticLookupClient.ToString
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.DnsStaticLookupClient.ToString
+  nameWithType: DnsStaticLookupClient.ToString
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource
+  name: FileDnsLookupSource
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html
+  commentId: T:Ae.Dns.Client.Lookup.FileDnsLookupSource
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource
+  nameWithType: FileDnsLookupSource
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.#ctor(ILogger{Ae.Dns.Client.Lookup.FileDnsLookupSource},FileInfo)
+  name: FileDnsLookupSource(ILogger<FileDnsLookupSource>, FileInfo)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource__ctor_ILogger_Ae_Dns_Client_Lookup_FileDnsLookupSource__FileInfo_
+  commentId: M:Ae.Dns.Client.Lookup.FileDnsLookupSource.#ctor(ILogger{Ae.Dns.Client.Lookup.FileDnsLookupSource},FileInfo)
+  name.vb: FileDnsLookupSource(ILogger(Of FileDnsLookupSource), FileInfo)
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource.FileDnsLookupSource(ILogger<Ae.Dns.Client.Lookup.FileDnsLookupSource>, FileInfo)
+  fullName.vb: Ae.Dns.Client.Lookup.FileDnsLookupSource.FileDnsLookupSource(ILogger(Of Ae.Dns.Client.Lookup.FileDnsLookupSource), FileInfo)
+  nameWithType: FileDnsLookupSource.FileDnsLookupSource(ILogger<FileDnsLookupSource>, FileInfo)
+  nameWithType.vb: FileDnsLookupSource.FileDnsLookupSource(ILogger(Of FileDnsLookupSource), FileInfo)
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.#ctor*
+  name: FileDnsLookupSource
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource__ctor_
+  commentId: Overload:Ae.Dns.Client.Lookup.FileDnsLookupSource.#ctor
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource.FileDnsLookupSource
+  nameWithType: FileDnsLookupSource.FileDnsLookupSource
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.Dispose
+  name: Dispose()
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource_Dispose
+  commentId: M:Ae.Dns.Client.Lookup.FileDnsLookupSource.Dispose
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource.Dispose()
+  nameWithType: FileDnsLookupSource.Dispose()
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.Dispose*
+  name: Dispose
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource_Dispose_
+  commentId: Overload:Ae.Dns.Client.Lookup.FileDnsLookupSource.Dispose
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource.Dispose
+  nameWithType: FileDnsLookupSource.Dispose
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.LoadLookup(StreamReader)
+  name: LoadLookup(StreamReader)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource_LoadLookup_StreamReader_
+  commentId: M:Ae.Dns.Client.Lookup.FileDnsLookupSource.LoadLookup(StreamReader)
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource.LoadLookup(StreamReader)
+  nameWithType: FileDnsLookupSource.LoadLookup(StreamReader)
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.LoadLookup*
+  name: LoadLookup
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource_LoadLookup_
+  commentId: Overload:Ae.Dns.Client.Lookup.FileDnsLookupSource.LoadLookup
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource.LoadLookup
+  nameWithType: FileDnsLookupSource.LoadLookup
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.ReloadFile
+  name: ReloadFile()
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource_ReloadFile
+  commentId: M:Ae.Dns.Client.Lookup.FileDnsLookupSource.ReloadFile
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource.ReloadFile()
+  nameWithType: FileDnsLookupSource.ReloadFile()
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.ReloadFile*
+  name: ReloadFile
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource_ReloadFile_
+  commentId: Overload:Ae.Dns.Client.Lookup.FileDnsLookupSource.ReloadFile
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource.ReloadFile
+  nameWithType: FileDnsLookupSource.ReloadFile
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.ToString
+  name: ToString()
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource_ToString
+  commentId: M:Ae.Dns.Client.Lookup.FileDnsLookupSource.ToString
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource.ToString()
+  nameWithType: FileDnsLookupSource.ToString()
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.ToString*
+  name: ToString
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource_ToString_
+  commentId: Overload:Ae.Dns.Client.Lookup.FileDnsLookupSource.ToString
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource.ToString
+  nameWithType: FileDnsLookupSource.ToString
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.TryForwardLookup(System.String,IPAddress@)
+  name: TryForwardLookup(String, out IPAddress)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource_TryForwardLookup_System_String_IPAddress__
+  commentId: M:Ae.Dns.Client.Lookup.FileDnsLookupSource.TryForwardLookup(System.String,IPAddress@)
+  name.vb: TryForwardLookup(String, ByRef IPAddress)
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource.TryForwardLookup(System.String, out IPAddress)
+  fullName.vb: Ae.Dns.Client.Lookup.FileDnsLookupSource.TryForwardLookup(System.String, ByRef IPAddress)
+  nameWithType: FileDnsLookupSource.TryForwardLookup(String, out IPAddress)
+  nameWithType.vb: FileDnsLookupSource.TryForwardLookup(String, ByRef IPAddress)
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.TryForwardLookup*
+  name: TryForwardLookup
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource_TryForwardLookup_
+  commentId: Overload:Ae.Dns.Client.Lookup.FileDnsLookupSource.TryForwardLookup
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource.TryForwardLookup
+  nameWithType: FileDnsLookupSource.TryForwardLookup
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.TryReverseLookup(IPAddress,System.String@)
+  name: TryReverseLookup(IPAddress, out String)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource_TryReverseLookup_IPAddress_System_String__
+  commentId: M:Ae.Dns.Client.Lookup.FileDnsLookupSource.TryReverseLookup(IPAddress,System.String@)
+  name.vb: TryReverseLookup(IPAddress, ByRef String)
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource.TryReverseLookup(IPAddress, out System.String)
+  fullName.vb: Ae.Dns.Client.Lookup.FileDnsLookupSource.TryReverseLookup(IPAddress, ByRef System.String)
+  nameWithType: FileDnsLookupSource.TryReverseLookup(IPAddress, out String)
+  nameWithType.vb: FileDnsLookupSource.TryReverseLookup(IPAddress, ByRef String)
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.TryReverseLookup*
+  name: TryReverseLookup
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource_TryReverseLookup_
+  commentId: Overload:Ae.Dns.Client.Lookup.FileDnsLookupSource.TryReverseLookup
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource.TryReverseLookup
+  nameWithType: FileDnsLookupSource.TryReverseLookup
+- uid: Ae.Dns.Client.Lookup.HostsFileDnsLookupSource
+  name: HostsFileDnsLookupSource
+  href: Ae.Dns/Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.html
+  commentId: T:Ae.Dns.Client.Lookup.HostsFileDnsLookupSource
+  fullName: Ae.Dns.Client.Lookup.HostsFileDnsLookupSource
+  nameWithType: HostsFileDnsLookupSource
+- uid: Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.#ctor(ILogger{Ae.Dns.Client.Lookup.HostsFileDnsLookupSource},FileInfo)
+  name: HostsFileDnsLookupSource(ILogger<HostsFileDnsLookupSource>, FileInfo)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.html#Ae_Dns_Client_Lookup_HostsFileDnsLookupSource__ctor_ILogger_Ae_Dns_Client_Lookup_HostsFileDnsLookupSource__FileInfo_
+  commentId: M:Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.#ctor(ILogger{Ae.Dns.Client.Lookup.HostsFileDnsLookupSource},FileInfo)
+  name.vb: HostsFileDnsLookupSource(ILogger(Of HostsFileDnsLookupSource), FileInfo)
+  fullName: Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.HostsFileDnsLookupSource(ILogger<Ae.Dns.Client.Lookup.HostsFileDnsLookupSource>, FileInfo)
+  fullName.vb: Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.HostsFileDnsLookupSource(ILogger(Of Ae.Dns.Client.Lookup.HostsFileDnsLookupSource), FileInfo)
+  nameWithType: HostsFileDnsLookupSource.HostsFileDnsLookupSource(ILogger<HostsFileDnsLookupSource>, FileInfo)
+  nameWithType.vb: HostsFileDnsLookupSource.HostsFileDnsLookupSource(ILogger(Of HostsFileDnsLookupSource), FileInfo)
+- uid: Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.#ctor*
+  name: HostsFileDnsLookupSource
+  href: Ae.Dns/Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.html#Ae_Dns_Client_Lookup_HostsFileDnsLookupSource__ctor_
+  commentId: Overload:Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.#ctor
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.HostsFileDnsLookupSource
+  nameWithType: HostsFileDnsLookupSource.HostsFileDnsLookupSource
+- uid: Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.LoadLookup(StreamReader)
+  name: LoadLookup(StreamReader)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.html#Ae_Dns_Client_Lookup_HostsFileDnsLookupSource_LoadLookup_StreamReader_
+  commentId: M:Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.LoadLookup(StreamReader)
+  fullName: Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.LoadLookup(StreamReader)
+  nameWithType: HostsFileDnsLookupSource.LoadLookup(StreamReader)
+- uid: Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.LoadLookup*
+  name: LoadLookup
+  href: Ae.Dns/Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.html#Ae_Dns_Client_Lookup_HostsFileDnsLookupSource_LoadLookup_
+  commentId: Overload:Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.LoadLookup
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.LoadLookup
+  nameWithType: HostsFileDnsLookupSource.LoadLookup
+- uid: Ae.Dns.Client.Lookup.IDnsLookupSource
+  name: IDnsLookupSource
+  href: Ae.Dns/Ae.Dns.Client.Lookup.IDnsLookupSource.html
+  commentId: T:Ae.Dns.Client.Lookup.IDnsLookupSource
+  fullName: Ae.Dns.Client.Lookup.IDnsLookupSource
+  nameWithType: IDnsLookupSource
+- uid: Ae.Dns.Client.Lookup.IDnsLookupSource.TryForwardLookup(System.String,IPAddress@)
+  name: TryForwardLookup(String, out IPAddress)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.IDnsLookupSource.html#Ae_Dns_Client_Lookup_IDnsLookupSource_TryForwardLookup_System_String_IPAddress__
+  commentId: M:Ae.Dns.Client.Lookup.IDnsLookupSource.TryForwardLookup(System.String,IPAddress@)
+  name.vb: TryForwardLookup(String, ByRef IPAddress)
+  fullName: Ae.Dns.Client.Lookup.IDnsLookupSource.TryForwardLookup(System.String, out IPAddress)
+  fullName.vb: Ae.Dns.Client.Lookup.IDnsLookupSource.TryForwardLookup(System.String, ByRef IPAddress)
+  nameWithType: IDnsLookupSource.TryForwardLookup(String, out IPAddress)
+  nameWithType.vb: IDnsLookupSource.TryForwardLookup(String, ByRef IPAddress)
+- uid: Ae.Dns.Client.Lookup.IDnsLookupSource.TryForwardLookup*
+  name: TryForwardLookup
+  href: Ae.Dns/Ae.Dns.Client.Lookup.IDnsLookupSource.html#Ae_Dns_Client_Lookup_IDnsLookupSource_TryForwardLookup_
+  commentId: Overload:Ae.Dns.Client.Lookup.IDnsLookupSource.TryForwardLookup
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.IDnsLookupSource.TryForwardLookup
+  nameWithType: IDnsLookupSource.TryForwardLookup
+- uid: Ae.Dns.Client.Lookup.IDnsLookupSource.TryReverseLookup(IPAddress,System.String@)
+  name: TryReverseLookup(IPAddress, out String)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.IDnsLookupSource.html#Ae_Dns_Client_Lookup_IDnsLookupSource_TryReverseLookup_IPAddress_System_String__
+  commentId: M:Ae.Dns.Client.Lookup.IDnsLookupSource.TryReverseLookup(IPAddress,System.String@)
+  name.vb: TryReverseLookup(IPAddress, ByRef String)
+  fullName: Ae.Dns.Client.Lookup.IDnsLookupSource.TryReverseLookup(IPAddress, out System.String)
+  fullName.vb: Ae.Dns.Client.Lookup.IDnsLookupSource.TryReverseLookup(IPAddress, ByRef System.String)
+  nameWithType: IDnsLookupSource.TryReverseLookup(IPAddress, out String)
+  nameWithType.vb: IDnsLookupSource.TryReverseLookup(IPAddress, ByRef String)
+- uid: Ae.Dns.Client.Lookup.IDnsLookupSource.TryReverseLookup*
+  name: TryReverseLookup
+  href: Ae.Dns/Ae.Dns.Client.Lookup.IDnsLookupSource.html#Ae_Dns_Client_Lookup_IDnsLookupSource_TryReverseLookup_
+  commentId: Overload:Ae.Dns.Client.Lookup.IDnsLookupSource.TryReverseLookup
+  isSpec: "True"
+  fullName: Ae.Dns.Client.Lookup.IDnsLookupSource.TryReverseLookup
+  nameWithType: IDnsLookupSource.TryReverseLookup
 - uid: Ae.Dns.Client.ServiceCollectionExtensions
   name: ServiceCollectionExtensions
   href: Ae.Dns/Ae.Dns.Client.ServiceCollectionExtensions.html
@@ -756,118 +1470,63 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.ServiceCollectionExtensions.AddDnsClient
   nameWithType: ServiceCollectionExtensions.AddDnsClient
+- uid: Ae.Dns.Metrics.InfluxDb
+  name: Ae.Dns.Metrics.InfluxDb
+  href: Ae.Dns/Ae.Dns.Metrics.InfluxDb.html
+  commentId: N:Ae.Dns.Metrics.InfluxDb
+  fullName: Ae.Dns.Metrics.InfluxDb
+  nameWithType: Ae.Dns.Metrics.InfluxDb
+- uid: Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient
+  name: DnsAppMetricsClient
+  href: Ae.Dns/Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.html
+  commentId: T:Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient
+  fullName: Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient
+  nameWithType: DnsAppMetricsClient
+- uid: Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.#ctor(IMetrics,Ae.Dns.Protocol.IDnsClient)
+  name: DnsAppMetricsClient(IMetrics, IDnsClient)
+  href: Ae.Dns/Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.html#Ae_Dns_Metrics_InfluxDb_DnsAppMetricsClient__ctor_IMetrics_Ae_Dns_Protocol_IDnsClient_
+  commentId: M:Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.#ctor(IMetrics,Ae.Dns.Protocol.IDnsClient)
+  fullName: Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.DnsAppMetricsClient(IMetrics, Ae.Dns.Protocol.IDnsClient)
+  nameWithType: DnsAppMetricsClient.DnsAppMetricsClient(IMetrics, IDnsClient)
+- uid: Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.#ctor*
+  name: DnsAppMetricsClient
+  href: Ae.Dns/Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.html#Ae_Dns_Metrics_InfluxDb_DnsAppMetricsClient__ctor_
+  commentId: Overload:Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.#ctor
+  isSpec: "True"
+  fullName: Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.DnsAppMetricsClient
+  nameWithType: DnsAppMetricsClient.DnsAppMetricsClient
+- uid: Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.Dispose
+  name: Dispose()
+  href: Ae.Dns/Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.html#Ae_Dns_Metrics_InfluxDb_DnsAppMetricsClient_Dispose
+  commentId: M:Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.Dispose
+  fullName: Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.Dispose()
+  nameWithType: DnsAppMetricsClient.Dispose()
+- uid: Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.Dispose*
+  name: Dispose
+  href: Ae.Dns/Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.html#Ae_Dns_Metrics_InfluxDb_DnsAppMetricsClient_Dispose_
+  commentId: Overload:Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.Dispose
+  isSpec: "True"
+  fullName: Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.Dispose
+  nameWithType: DnsAppMetricsClient.Dispose
+- uid: Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  name: Query(DnsMessage, CancellationToken)
+  href: Ae.Dns/Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.html#Ae_Dns_Metrics_InfluxDb_DnsAppMetricsClient_Query_Ae_Dns_Protocol_DnsMessage_CancellationToken_
+  commentId: M:Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  fullName: Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.Query(Ae.Dns.Protocol.DnsMessage, CancellationToken)
+  nameWithType: DnsAppMetricsClient.Query(DnsMessage, CancellationToken)
+- uid: Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.Query*
+  name: Query
+  href: Ae.Dns/Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.html#Ae_Dns_Metrics_InfluxDb_DnsAppMetricsClient_Query_
+  commentId: Overload:Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.Query
+  isSpec: "True"
+  fullName: Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.Query
+  nameWithType: DnsAppMetricsClient.Query
 - uid: Ae.Dns.Protocol
   name: Ae.Dns.Protocol
   href: Ae.Dns/Ae.Dns.Protocol.html
   commentId: N:Ae.Dns.Protocol
   fullName: Ae.Dns.Protocol
   nameWithType: Ae.Dns.Protocol
-- uid: Ae.Dns.Protocol.DnsAnswer
-  name: DnsAnswer
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html
-  commentId: T:Ae.Dns.Protocol.DnsAnswer
-  fullName: Ae.Dns.Protocol.DnsAnswer
-  nameWithType: DnsAnswer
-- uid: Ae.Dns.Protocol.DnsAnswer.Answers
-  name: Answers
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html#Ae_Dns_Protocol_DnsAnswer_Answers
-  commentId: P:Ae.Dns.Protocol.DnsAnswer.Answers
-  fullName: Ae.Dns.Protocol.DnsAnswer.Answers
-  nameWithType: DnsAnswer.Answers
-- uid: Ae.Dns.Protocol.DnsAnswer.Answers*
-  name: Answers
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html#Ae_Dns_Protocol_DnsAnswer_Answers_
-  commentId: Overload:Ae.Dns.Protocol.DnsAnswer.Answers
-  isSpec: "True"
-  fullName: Ae.Dns.Protocol.DnsAnswer.Answers
-  nameWithType: DnsAnswer.Answers
-- uid: Ae.Dns.Protocol.DnsAnswer.Equals(Ae.Dns.Protocol.DnsAnswer)
-  name: Equals(DnsAnswer)
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html#Ae_Dns_Protocol_DnsAnswer_Equals_Ae_Dns_Protocol_DnsAnswer_
-  commentId: M:Ae.Dns.Protocol.DnsAnswer.Equals(Ae.Dns.Protocol.DnsAnswer)
-  fullName: Ae.Dns.Protocol.DnsAnswer.Equals(Ae.Dns.Protocol.DnsAnswer)
-  nameWithType: DnsAnswer.Equals(DnsAnswer)
-- uid: Ae.Dns.Protocol.DnsAnswer.Equals(System.Object)
-  name: Equals(Object)
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html#Ae_Dns_Protocol_DnsAnswer_Equals_System_Object_
-  commentId: M:Ae.Dns.Protocol.DnsAnswer.Equals(System.Object)
-  fullName: Ae.Dns.Protocol.DnsAnswer.Equals(System.Object)
-  nameWithType: DnsAnswer.Equals(Object)
-- uid: Ae.Dns.Protocol.DnsAnswer.Equals*
-  name: Equals
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html#Ae_Dns_Protocol_DnsAnswer_Equals_
-  commentId: Overload:Ae.Dns.Protocol.DnsAnswer.Equals
-  isSpec: "True"
-  fullName: Ae.Dns.Protocol.DnsAnswer.Equals
-  nameWithType: DnsAnswer.Equals
-- uid: Ae.Dns.Protocol.DnsAnswer.GetHashCode
-  name: GetHashCode()
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html#Ae_Dns_Protocol_DnsAnswer_GetHashCode
-  commentId: M:Ae.Dns.Protocol.DnsAnswer.GetHashCode
-  fullName: Ae.Dns.Protocol.DnsAnswer.GetHashCode()
-  nameWithType: DnsAnswer.GetHashCode()
-- uid: Ae.Dns.Protocol.DnsAnswer.GetHashCode*
-  name: GetHashCode
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html#Ae_Dns_Protocol_DnsAnswer_GetHashCode_
-  commentId: Overload:Ae.Dns.Protocol.DnsAnswer.GetHashCode
-  isSpec: "True"
-  fullName: Ae.Dns.Protocol.DnsAnswer.GetHashCode
-  nameWithType: DnsAnswer.GetHashCode
-- uid: Ae.Dns.Protocol.DnsAnswer.Header
-  name: Header
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html#Ae_Dns_Protocol_DnsAnswer_Header
-  commentId: P:Ae.Dns.Protocol.DnsAnswer.Header
-  fullName: Ae.Dns.Protocol.DnsAnswer.Header
-  nameWithType: DnsAnswer.Header
-- uid: Ae.Dns.Protocol.DnsAnswer.Header*
-  name: Header
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html#Ae_Dns_Protocol_DnsAnswer_Header_
-  commentId: Overload:Ae.Dns.Protocol.DnsAnswer.Header
-  isSpec: "True"
-  fullName: Ae.Dns.Protocol.DnsAnswer.Header
-  nameWithType: DnsAnswer.Header
-- uid: Ae.Dns.Protocol.DnsAnswer.ReadBytes(System.Byte[],System.Int32@)
-  name: ReadBytes(Byte[], ref Int32)
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html#Ae_Dns_Protocol_DnsAnswer_ReadBytes_System_Byte___System_Int32__
-  commentId: M:Ae.Dns.Protocol.DnsAnswer.ReadBytes(System.Byte[],System.Int32@)
-  name.vb: ReadBytes(Byte(), ByRef Int32)
-  fullName: Ae.Dns.Protocol.DnsAnswer.ReadBytes(System.Byte[], ref System.Int32)
-  fullName.vb: Ae.Dns.Protocol.DnsAnswer.ReadBytes(System.Byte(), ByRef System.Int32)
-  nameWithType: DnsAnswer.ReadBytes(Byte[], ref Int32)
-  nameWithType.vb: DnsAnswer.ReadBytes(Byte(), ByRef Int32)
-- uid: Ae.Dns.Protocol.DnsAnswer.ReadBytes*
-  name: ReadBytes
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html#Ae_Dns_Protocol_DnsAnswer_ReadBytes_
-  commentId: Overload:Ae.Dns.Protocol.DnsAnswer.ReadBytes
-  isSpec: "True"
-  fullName: Ae.Dns.Protocol.DnsAnswer.ReadBytes
-  nameWithType: DnsAnswer.ReadBytes
-- uid: Ae.Dns.Protocol.DnsAnswer.ToString
-  name: ToString()
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html#Ae_Dns_Protocol_DnsAnswer_ToString
-  commentId: M:Ae.Dns.Protocol.DnsAnswer.ToString
-  fullName: Ae.Dns.Protocol.DnsAnswer.ToString()
-  nameWithType: DnsAnswer.ToString()
-- uid: Ae.Dns.Protocol.DnsAnswer.ToString*
-  name: ToString
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html#Ae_Dns_Protocol_DnsAnswer_ToString_
-  commentId: Overload:Ae.Dns.Protocol.DnsAnswer.ToString
-  isSpec: "True"
-  fullName: Ae.Dns.Protocol.DnsAnswer.ToString
-  nameWithType: DnsAnswer.ToString
-- uid: Ae.Dns.Protocol.DnsAnswer.WriteBytes
-  name: WriteBytes()
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html#Ae_Dns_Protocol_DnsAnswer_WriteBytes
-  commentId: M:Ae.Dns.Protocol.DnsAnswer.WriteBytes
-  fullName: Ae.Dns.Protocol.DnsAnswer.WriteBytes()
-  nameWithType: DnsAnswer.WriteBytes()
-- uid: Ae.Dns.Protocol.DnsAnswer.WriteBytes*
-  name: WriteBytes
-  href: Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html#Ae_Dns_Protocol_DnsAnswer_WriteBytes_
-  commentId: Overload:Ae.Dns.Protocol.DnsAnswer.WriteBytes
-  isSpec: "True"
-  fullName: Ae.Dns.Protocol.DnsAnswer.WriteBytes
-  nameWithType: DnsAnswer.WriteBytes
 - uid: Ae.Dns.Protocol.DnsByteExtensions
   name: DnsByteExtensions
   href: Ae.Dns/Ae.Dns.Protocol.DnsByteExtensions.html
@@ -1241,6 +1900,19 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Protocol.DnsHeader.ResponseCode
   nameWithType: DnsHeader.ResponseCode
+- uid: Ae.Dns.Protocol.DnsHeader.Tags
+  name: Tags
+  href: Ae.Dns/Ae.Dns.Protocol.DnsHeader.html#Ae_Dns_Protocol_DnsHeader_Tags
+  commentId: P:Ae.Dns.Protocol.DnsHeader.Tags
+  fullName: Ae.Dns.Protocol.DnsHeader.Tags
+  nameWithType: DnsHeader.Tags
+- uid: Ae.Dns.Protocol.DnsHeader.Tags*
+  name: Tags
+  href: Ae.Dns/Ae.Dns.Protocol.DnsHeader.html#Ae_Dns_Protocol_DnsHeader_Tags_
+  commentId: Overload:Ae.Dns.Protocol.DnsHeader.Tags
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsHeader.Tags
+  nameWithType: DnsHeader.Tags
 - uid: Ae.Dns.Protocol.DnsHeader.ToString
   name: ToString()
   href: Ae.Dns/Ae.Dns.Protocol.DnsHeader.html#Ae_Dns_Protocol_DnsHeader_ToString
@@ -1280,6 +1952,138 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Protocol.DnsHeader.WriteBytes
   nameWithType: DnsHeader.WriteBytes
+- uid: Ae.Dns.Protocol.DnsMessage
+  name: DnsMessage
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html
+  commentId: T:Ae.Dns.Protocol.DnsMessage
+  fullName: Ae.Dns.Protocol.DnsMessage
+  nameWithType: DnsMessage
+- uid: Ae.Dns.Protocol.DnsMessage.Additional
+  name: Additional
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_Additional
+  commentId: P:Ae.Dns.Protocol.DnsMessage.Additional
+  fullName: Ae.Dns.Protocol.DnsMessage.Additional
+  nameWithType: DnsMessage.Additional
+- uid: Ae.Dns.Protocol.DnsMessage.Additional*
+  name: Additional
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_Additional_
+  commentId: Overload:Ae.Dns.Protocol.DnsMessage.Additional
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsMessage.Additional
+  nameWithType: DnsMessage.Additional
+- uid: Ae.Dns.Protocol.DnsMessage.Answers
+  name: Answers
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_Answers
+  commentId: P:Ae.Dns.Protocol.DnsMessage.Answers
+  fullName: Ae.Dns.Protocol.DnsMessage.Answers
+  nameWithType: DnsMessage.Answers
+- uid: Ae.Dns.Protocol.DnsMessage.Answers*
+  name: Answers
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_Answers_
+  commentId: Overload:Ae.Dns.Protocol.DnsMessage.Answers
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsMessage.Answers
+  nameWithType: DnsMessage.Answers
+- uid: Ae.Dns.Protocol.DnsMessage.Equals(Ae.Dns.Protocol.DnsMessage)
+  name: Equals(DnsMessage)
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_Equals_Ae_Dns_Protocol_DnsMessage_
+  commentId: M:Ae.Dns.Protocol.DnsMessage.Equals(Ae.Dns.Protocol.DnsMessage)
+  fullName: Ae.Dns.Protocol.DnsMessage.Equals(Ae.Dns.Protocol.DnsMessage)
+  nameWithType: DnsMessage.Equals(DnsMessage)
+- uid: Ae.Dns.Protocol.DnsMessage.Equals(System.Object)
+  name: Equals(Object)
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_Equals_System_Object_
+  commentId: M:Ae.Dns.Protocol.DnsMessage.Equals(System.Object)
+  fullName: Ae.Dns.Protocol.DnsMessage.Equals(System.Object)
+  nameWithType: DnsMessage.Equals(Object)
+- uid: Ae.Dns.Protocol.DnsMessage.Equals*
+  name: Equals
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_Equals_
+  commentId: Overload:Ae.Dns.Protocol.DnsMessage.Equals
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsMessage.Equals
+  nameWithType: DnsMessage.Equals
+- uid: Ae.Dns.Protocol.DnsMessage.GetHashCode
+  name: GetHashCode()
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_GetHashCode
+  commentId: M:Ae.Dns.Protocol.DnsMessage.GetHashCode
+  fullName: Ae.Dns.Protocol.DnsMessage.GetHashCode()
+  nameWithType: DnsMessage.GetHashCode()
+- uid: Ae.Dns.Protocol.DnsMessage.GetHashCode*
+  name: GetHashCode
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_GetHashCode_
+  commentId: Overload:Ae.Dns.Protocol.DnsMessage.GetHashCode
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsMessage.GetHashCode
+  nameWithType: DnsMessage.GetHashCode
+- uid: Ae.Dns.Protocol.DnsMessage.Header
+  name: Header
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_Header
+  commentId: P:Ae.Dns.Protocol.DnsMessage.Header
+  fullName: Ae.Dns.Protocol.DnsMessage.Header
+  nameWithType: DnsMessage.Header
+- uid: Ae.Dns.Protocol.DnsMessage.Header*
+  name: Header
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_Header_
+  commentId: Overload:Ae.Dns.Protocol.DnsMessage.Header
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsMessage.Header
+  nameWithType: DnsMessage.Header
+- uid: Ae.Dns.Protocol.DnsMessage.Nameservers
+  name: Nameservers
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_Nameservers
+  commentId: P:Ae.Dns.Protocol.DnsMessage.Nameservers
+  fullName: Ae.Dns.Protocol.DnsMessage.Nameservers
+  nameWithType: DnsMessage.Nameservers
+- uid: Ae.Dns.Protocol.DnsMessage.Nameservers*
+  name: Nameservers
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_Nameservers_
+  commentId: Overload:Ae.Dns.Protocol.DnsMessage.Nameservers
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsMessage.Nameservers
+  nameWithType: DnsMessage.Nameservers
+- uid: Ae.Dns.Protocol.DnsMessage.ReadBytes(System.Byte[],System.Int32@)
+  name: ReadBytes(Byte[], ref Int32)
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_ReadBytes_System_Byte___System_Int32__
+  commentId: M:Ae.Dns.Protocol.DnsMessage.ReadBytes(System.Byte[],System.Int32@)
+  name.vb: ReadBytes(Byte(), ByRef Int32)
+  fullName: Ae.Dns.Protocol.DnsMessage.ReadBytes(System.Byte[], ref System.Int32)
+  fullName.vb: Ae.Dns.Protocol.DnsMessage.ReadBytes(System.Byte(), ByRef System.Int32)
+  nameWithType: DnsMessage.ReadBytes(Byte[], ref Int32)
+  nameWithType.vb: DnsMessage.ReadBytes(Byte(), ByRef Int32)
+- uid: Ae.Dns.Protocol.DnsMessage.ReadBytes*
+  name: ReadBytes
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_ReadBytes_
+  commentId: Overload:Ae.Dns.Protocol.DnsMessage.ReadBytes
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsMessage.ReadBytes
+  nameWithType: DnsMessage.ReadBytes
+- uid: Ae.Dns.Protocol.DnsMessage.ToString
+  name: ToString()
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_ToString
+  commentId: M:Ae.Dns.Protocol.DnsMessage.ToString
+  fullName: Ae.Dns.Protocol.DnsMessage.ToString()
+  nameWithType: DnsMessage.ToString()
+- uid: Ae.Dns.Protocol.DnsMessage.ToString*
+  name: ToString
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_ToString_
+  commentId: Overload:Ae.Dns.Protocol.DnsMessage.ToString
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsMessage.ToString
+  nameWithType: DnsMessage.ToString
+- uid: Ae.Dns.Protocol.DnsMessage.WriteBytes
+  name: WriteBytes()
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_WriteBytes
+  commentId: M:Ae.Dns.Protocol.DnsMessage.WriteBytes
+  fullName: Ae.Dns.Protocol.DnsMessage.WriteBytes()
+  nameWithType: DnsMessage.WriteBytes()
+- uid: Ae.Dns.Protocol.DnsMessage.WriteBytes*
+  name: WriteBytes
+  href: Ae.Dns/Ae.Dns.Protocol.DnsMessage.html#Ae_Dns_Protocol_DnsMessage_WriteBytes_
+  commentId: Overload:Ae.Dns.Protocol.DnsMessage.WriteBytes
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsMessage.WriteBytes
+  nameWithType: DnsMessage.WriteBytes
 - uid: Ae.Dns.Protocol.DnsQueryFactory
   name: DnsQueryFactory
   href: Ae.Dns/Ae.Dns.Protocol.DnsQueryFactory.html
@@ -1325,6 +2129,194 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Protocol.DnsQueryFactory.GenerateId
   nameWithType: DnsQueryFactory.GenerateId
+- uid: Ae.Dns.Protocol.DnsRootServer
+  name: DnsRootServer
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html
+  commentId: T:Ae.Dns.Protocol.DnsRootServer
+  fullName: Ae.Dns.Protocol.DnsRootServer
+  nameWithType: DnsRootServer
+- uid: Ae.Dns.Protocol.DnsRootServer.#ctor(System.Char,System.String,System.String,System.String)
+  name: DnsRootServer(Char, String, String, String)
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer__ctor_System_Char_System_String_System_String_System_String_
+  commentId: M:Ae.Dns.Protocol.DnsRootServer.#ctor(System.Char,System.String,System.String,System.String)
+  fullName: Ae.Dns.Protocol.DnsRootServer.DnsRootServer(System.Char, System.String, System.String, System.String)
+  nameWithType: DnsRootServer.DnsRootServer(Char, String, String, String)
+- uid: Ae.Dns.Protocol.DnsRootServer.#ctor*
+  name: DnsRootServer
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer__ctor_
+  commentId: Overload:Ae.Dns.Protocol.DnsRootServer.#ctor
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsRootServer.DnsRootServer
+  nameWithType: DnsRootServer.DnsRootServer
+- uid: Ae.Dns.Protocol.DnsRootServer.A
+  name: A
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_A
+  commentId: F:Ae.Dns.Protocol.DnsRootServer.A
+  fullName: Ae.Dns.Protocol.DnsRootServer.A
+  nameWithType: DnsRootServer.A
+- uid: Ae.Dns.Protocol.DnsRootServer.All
+  name: All
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_All
+  commentId: P:Ae.Dns.Protocol.DnsRootServer.All
+  fullName: Ae.Dns.Protocol.DnsRootServer.All
+  nameWithType: DnsRootServer.All
+- uid: Ae.Dns.Protocol.DnsRootServer.All*
+  name: All
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_All_
+  commentId: Overload:Ae.Dns.Protocol.DnsRootServer.All
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsRootServer.All
+  nameWithType: DnsRootServer.All
+- uid: Ae.Dns.Protocol.DnsRootServer.B
+  name: B
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_B
+  commentId: F:Ae.Dns.Protocol.DnsRootServer.B
+  fullName: Ae.Dns.Protocol.DnsRootServer.B
+  nameWithType: DnsRootServer.B
+- uid: Ae.Dns.Protocol.DnsRootServer.C
+  name: C
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_C
+  commentId: F:Ae.Dns.Protocol.DnsRootServer.C
+  fullName: Ae.Dns.Protocol.DnsRootServer.C
+  nameWithType: DnsRootServer.C
+- uid: Ae.Dns.Protocol.DnsRootServer.D
+  name: D
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_D
+  commentId: F:Ae.Dns.Protocol.DnsRootServer.D
+  fullName: Ae.Dns.Protocol.DnsRootServer.D
+  nameWithType: DnsRootServer.D
+- uid: Ae.Dns.Protocol.DnsRootServer.E
+  name: E
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_E
+  commentId: F:Ae.Dns.Protocol.DnsRootServer.E
+  fullName: Ae.Dns.Protocol.DnsRootServer.E
+  nameWithType: DnsRootServer.E
+- uid: Ae.Dns.Protocol.DnsRootServer.F
+  name: F
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_F
+  commentId: F:Ae.Dns.Protocol.DnsRootServer.F
+  fullName: Ae.Dns.Protocol.DnsRootServer.F
+  nameWithType: DnsRootServer.F
+- uid: Ae.Dns.Protocol.DnsRootServer.G
+  name: G
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_G
+  commentId: F:Ae.Dns.Protocol.DnsRootServer.G
+  fullName: Ae.Dns.Protocol.DnsRootServer.G
+  nameWithType: DnsRootServer.G
+- uid: Ae.Dns.Protocol.DnsRootServer.H
+  name: H
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_H
+  commentId: F:Ae.Dns.Protocol.DnsRootServer.H
+  fullName: Ae.Dns.Protocol.DnsRootServer.H
+  nameWithType: DnsRootServer.H
+- uid: Ae.Dns.Protocol.DnsRootServer.Hostname
+  name: Hostname
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_Hostname
+  commentId: P:Ae.Dns.Protocol.DnsRootServer.Hostname
+  fullName: Ae.Dns.Protocol.DnsRootServer.Hostname
+  nameWithType: DnsRootServer.Hostname
+- uid: Ae.Dns.Protocol.DnsRootServer.Hostname*
+  name: Hostname
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_Hostname_
+  commentId: Overload:Ae.Dns.Protocol.DnsRootServer.Hostname
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsRootServer.Hostname
+  nameWithType: DnsRootServer.Hostname
+- uid: Ae.Dns.Protocol.DnsRootServer.I
+  name: I
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_I
+  commentId: F:Ae.Dns.Protocol.DnsRootServer.I
+  fullName: Ae.Dns.Protocol.DnsRootServer.I
+  nameWithType: DnsRootServer.I
+- uid: Ae.Dns.Protocol.DnsRootServer.Ipv4Address
+  name: Ipv4Address
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_Ipv4Address
+  commentId: P:Ae.Dns.Protocol.DnsRootServer.Ipv4Address
+  fullName: Ae.Dns.Protocol.DnsRootServer.Ipv4Address
+  nameWithType: DnsRootServer.Ipv4Address
+- uid: Ae.Dns.Protocol.DnsRootServer.Ipv4Address*
+  name: Ipv4Address
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_Ipv4Address_
+  commentId: Overload:Ae.Dns.Protocol.DnsRootServer.Ipv4Address
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsRootServer.Ipv4Address
+  nameWithType: DnsRootServer.Ipv4Address
+- uid: Ae.Dns.Protocol.DnsRootServer.Ipv6Address
+  name: Ipv6Address
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_Ipv6Address
+  commentId: P:Ae.Dns.Protocol.DnsRootServer.Ipv6Address
+  fullName: Ae.Dns.Protocol.DnsRootServer.Ipv6Address
+  nameWithType: DnsRootServer.Ipv6Address
+- uid: Ae.Dns.Protocol.DnsRootServer.Ipv6Address*
+  name: Ipv6Address
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_Ipv6Address_
+  commentId: Overload:Ae.Dns.Protocol.DnsRootServer.Ipv6Address
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsRootServer.Ipv6Address
+  nameWithType: DnsRootServer.Ipv6Address
+- uid: Ae.Dns.Protocol.DnsRootServer.J
+  name: J
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_J
+  commentId: F:Ae.Dns.Protocol.DnsRootServer.J
+  fullName: Ae.Dns.Protocol.DnsRootServer.J
+  nameWithType: DnsRootServer.J
+- uid: Ae.Dns.Protocol.DnsRootServer.K
+  name: K
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_K
+  commentId: F:Ae.Dns.Protocol.DnsRootServer.K
+  fullName: Ae.Dns.Protocol.DnsRootServer.K
+  nameWithType: DnsRootServer.K
+- uid: Ae.Dns.Protocol.DnsRootServer.L
+  name: L
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_L
+  commentId: F:Ae.Dns.Protocol.DnsRootServer.L
+  fullName: Ae.Dns.Protocol.DnsRootServer.L
+  nameWithType: DnsRootServer.L
+- uid: Ae.Dns.Protocol.DnsRootServer.Letter
+  name: Letter
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_Letter
+  commentId: P:Ae.Dns.Protocol.DnsRootServer.Letter
+  fullName: Ae.Dns.Protocol.DnsRootServer.Letter
+  nameWithType: DnsRootServer.Letter
+- uid: Ae.Dns.Protocol.DnsRootServer.Letter*
+  name: Letter
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_Letter_
+  commentId: Overload:Ae.Dns.Protocol.DnsRootServer.Letter
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsRootServer.Letter
+  nameWithType: DnsRootServer.Letter
+- uid: Ae.Dns.Protocol.DnsRootServer.M
+  name: M
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_M
+  commentId: F:Ae.Dns.Protocol.DnsRootServer.M
+  fullName: Ae.Dns.Protocol.DnsRootServer.M
+  nameWithType: DnsRootServer.M
+- uid: Ae.Dns.Protocol.DnsRootServer.Operator
+  name: Operator
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_Operator
+  commentId: P:Ae.Dns.Protocol.DnsRootServer.Operator
+  fullName: Ae.Dns.Protocol.DnsRootServer.Operator
+  nameWithType: DnsRootServer.Operator
+- uid: Ae.Dns.Protocol.DnsRootServer.Operator*
+  name: Operator
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_Operator_
+  commentId: Overload:Ae.Dns.Protocol.DnsRootServer.Operator
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsRootServer.Operator
+  nameWithType: DnsRootServer.Operator
+- uid: Ae.Dns.Protocol.DnsRootServer.ToString
+  name: ToString()
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_ToString
+  commentId: M:Ae.Dns.Protocol.DnsRootServer.ToString
+  fullName: Ae.Dns.Protocol.DnsRootServer.ToString()
+  nameWithType: DnsRootServer.ToString()
+- uid: Ae.Dns.Protocol.DnsRootServer.ToString*
+  name: ToString
+  href: Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html#Ae_Dns_Protocol_DnsRootServer_ToString_
+  commentId: Overload:Ae.Dns.Protocol.DnsRootServer.ToString
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.DnsRootServer.ToString
+  nameWithType: DnsRootServer.ToString
 - uid: Ae.Dns.Protocol.Enums
   name: Ae.Dns.Protocol.Enums
   href: Ae.Dns/Ae.Dns.Protocol.Enums.html
@@ -2128,12 +3120,12 @@ references:
   commentId: T:Ae.Dns.Protocol.IDnsClient
   fullName: Ae.Dns.Protocol.IDnsClient
   nameWithType: IDnsClient
-- uid: Ae.Dns.Protocol.IDnsClient.Query(Ae.Dns.Protocol.DnsHeader,CancellationToken)
-  name: Query(DnsHeader, CancellationToken)
-  href: Ae.Dns/Ae.Dns.Protocol.IDnsClient.html#Ae_Dns_Protocol_IDnsClient_Query_Ae_Dns_Protocol_DnsHeader_CancellationToken_
-  commentId: M:Ae.Dns.Protocol.IDnsClient.Query(Ae.Dns.Protocol.DnsHeader,CancellationToken)
-  fullName: Ae.Dns.Protocol.IDnsClient.Query(Ae.Dns.Protocol.DnsHeader, CancellationToken)
-  nameWithType: IDnsClient.Query(DnsHeader, CancellationToken)
+- uid: Ae.Dns.Protocol.IDnsClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  name: Query(DnsMessage, CancellationToken)
+  href: Ae.Dns/Ae.Dns.Protocol.IDnsClient.html#Ae_Dns_Protocol_IDnsClient_Query_Ae_Dns_Protocol_DnsMessage_CancellationToken_
+  commentId: M:Ae.Dns.Protocol.IDnsClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  fullName: Ae.Dns.Protocol.IDnsClient.Query(Ae.Dns.Protocol.DnsMessage, CancellationToken)
+  nameWithType: IDnsClient.Query(DnsMessage, CancellationToken)
 - uid: Ae.Dns.Protocol.IDnsClient.Query*
   name: Query
   href: Ae.Dns/Ae.Dns.Protocol.IDnsClient.html#Ae_Dns_Protocol_IDnsClient_Query_
@@ -2166,6 +3158,38 @@ references:
   commentId: N:Ae.Dns.Protocol.Records
   fullName: Ae.Dns.Protocol.Records
   nameWithType: Ae.Dns.Protocol.Records
+- uid: Ae.Dns.Protocol.Records.DnsDomainResource
+  name: DnsDomainResource
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsDomainResource.html
+  commentId: T:Ae.Dns.Protocol.Records.DnsDomainResource
+  fullName: Ae.Dns.Protocol.Records.DnsDomainResource
+  nameWithType: DnsDomainResource
+- uid: Ae.Dns.Protocol.Records.DnsDomainResource.Domain
+  name: Domain
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsDomainResource.html#Ae_Dns_Protocol_Records_DnsDomainResource_Domain
+  commentId: P:Ae.Dns.Protocol.Records.DnsDomainResource.Domain
+  fullName: Ae.Dns.Protocol.Records.DnsDomainResource.Domain
+  nameWithType: DnsDomainResource.Domain
+- uid: Ae.Dns.Protocol.Records.DnsDomainResource.Domain*
+  name: Domain
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsDomainResource.html#Ae_Dns_Protocol_Records_DnsDomainResource_Domain_
+  commentId: Overload:Ae.Dns.Protocol.Records.DnsDomainResource.Domain
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.Records.DnsDomainResource.Domain
+  nameWithType: DnsDomainResource.Domain
+- uid: Ae.Dns.Protocol.Records.DnsDomainResource.ToString
+  name: ToString()
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsDomainResource.html#Ae_Dns_Protocol_Records_DnsDomainResource_ToString
+  commentId: M:Ae.Dns.Protocol.Records.DnsDomainResource.ToString
+  fullName: Ae.Dns.Protocol.Records.DnsDomainResource.ToString()
+  nameWithType: DnsDomainResource.ToString()
+- uid: Ae.Dns.Protocol.Records.DnsDomainResource.ToString*
+  name: ToString
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsDomainResource.html#Ae_Dns_Protocol_Records_DnsDomainResource_ToString_
+  commentId: Overload:Ae.Dns.Protocol.Records.DnsDomainResource.ToString
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.Records.DnsDomainResource.ToString
+  nameWithType: DnsDomainResource.ToString
 - uid: Ae.Dns.Protocol.Records.DnsIpAddressResource
   name: DnsIpAddressResource
   href: Ae.Dns/Ae.Dns.Protocol.Records.DnsIpAddressResource.html
@@ -2233,6 +3257,19 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Protocol.Records.DnsIpAddressResource.ReadBytes
   nameWithType: DnsIpAddressResource.ReadBytes
+- uid: Ae.Dns.Protocol.Records.DnsIpAddressResource.ToString
+  name: ToString()
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsIpAddressResource.html#Ae_Dns_Protocol_Records_DnsIpAddressResource_ToString
+  commentId: M:Ae.Dns.Protocol.Records.DnsIpAddressResource.ToString
+  fullName: Ae.Dns.Protocol.Records.DnsIpAddressResource.ToString()
+  nameWithType: DnsIpAddressResource.ToString()
+- uid: Ae.Dns.Protocol.Records.DnsIpAddressResource.ToString*
+  name: ToString
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsIpAddressResource.html#Ae_Dns_Protocol_Records_DnsIpAddressResource_ToString_
+  commentId: Overload:Ae.Dns.Protocol.Records.DnsIpAddressResource.ToString
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.Records.DnsIpAddressResource.ToString
+  nameWithType: DnsIpAddressResource.ToString
 - uid: Ae.Dns.Protocol.Records.DnsIpAddressResource.WriteBytes
   name: WriteBytes()
   href: Ae.Dns/Ae.Dns.Protocol.Records.DnsIpAddressResource.html#Ae_Dns_Protocol_Records_DnsIpAddressResource_WriteBytes
@@ -2326,6 +3363,19 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Protocol.Records.DnsMxResource.ReadBytes
   nameWithType: DnsMxResource.ReadBytes
+- uid: Ae.Dns.Protocol.Records.DnsMxResource.ToString
+  name: ToString()
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsMxResource.html#Ae_Dns_Protocol_Records_DnsMxResource_ToString
+  commentId: M:Ae.Dns.Protocol.Records.DnsMxResource.ToString
+  fullName: Ae.Dns.Protocol.Records.DnsMxResource.ToString()
+  nameWithType: DnsMxResource.ToString()
+- uid: Ae.Dns.Protocol.Records.DnsMxResource.ToString*
+  name: ToString
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsMxResource.html#Ae_Dns_Protocol_Records_DnsMxResource_ToString_
+  commentId: Overload:Ae.Dns.Protocol.Records.DnsMxResource.ToString
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.Records.DnsMxResource.ToString
+  nameWithType: DnsMxResource.ToString
 - uid: Ae.Dns.Protocol.Records.DnsMxResource.WriteBytes
   name: WriteBytes()
   href: Ae.Dns/Ae.Dns.Protocol.Records.DnsMxResource.html#Ae_Dns_Protocol_Records_DnsMxResource_WriteBytes
@@ -2655,73 +3705,92 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Protocol.Records.DnsSoaResource.WriteBytes
   nameWithType: DnsSoaResource.WriteBytes
+- uid: Ae.Dns.Protocol.Records.DnsStringResource
+  name: DnsStringResource
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsStringResource.html
+  commentId: T:Ae.Dns.Protocol.Records.DnsStringResource
+  fullName: Ae.Dns.Protocol.Records.DnsStringResource
+  nameWithType: DnsStringResource
+- uid: Ae.Dns.Protocol.Records.DnsStringResource.Entries
+  name: Entries
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_Entries
+  commentId: P:Ae.Dns.Protocol.Records.DnsStringResource.Entries
+  fullName: Ae.Dns.Protocol.Records.DnsStringResource.Entries
+  nameWithType: DnsStringResource.Entries
+- uid: Ae.Dns.Protocol.Records.DnsStringResource.Entries*
+  name: Entries
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_Entries_
+  commentId: Overload:Ae.Dns.Protocol.Records.DnsStringResource.Entries
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.Records.DnsStringResource.Entries
+  nameWithType: DnsStringResource.Entries
+- uid: Ae.Dns.Protocol.Records.DnsStringResource.Equals(Ae.Dns.Protocol.Records.DnsStringResource)
+  name: Equals(DnsStringResource)
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_Equals_Ae_Dns_Protocol_Records_DnsStringResource_
+  commentId: M:Ae.Dns.Protocol.Records.DnsStringResource.Equals(Ae.Dns.Protocol.Records.DnsStringResource)
+  fullName: Ae.Dns.Protocol.Records.DnsStringResource.Equals(Ae.Dns.Protocol.Records.DnsStringResource)
+  nameWithType: DnsStringResource.Equals(DnsStringResource)
+- uid: Ae.Dns.Protocol.Records.DnsStringResource.Equals(System.Object)
+  name: Equals(Object)
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_Equals_System_Object_
+  commentId: M:Ae.Dns.Protocol.Records.DnsStringResource.Equals(System.Object)
+  fullName: Ae.Dns.Protocol.Records.DnsStringResource.Equals(System.Object)
+  nameWithType: DnsStringResource.Equals(Object)
+- uid: Ae.Dns.Protocol.Records.DnsStringResource.Equals*
+  name: Equals
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_Equals_
+  commentId: Overload:Ae.Dns.Protocol.Records.DnsStringResource.Equals
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.Records.DnsStringResource.Equals
+  nameWithType: DnsStringResource.Equals
+- uid: Ae.Dns.Protocol.Records.DnsStringResource.GetHashCode
+  name: GetHashCode()
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_GetHashCode
+  commentId: M:Ae.Dns.Protocol.Records.DnsStringResource.GetHashCode
+  fullName: Ae.Dns.Protocol.Records.DnsStringResource.GetHashCode()
+  nameWithType: DnsStringResource.GetHashCode()
+- uid: Ae.Dns.Protocol.Records.DnsStringResource.GetHashCode*
+  name: GetHashCode
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_GetHashCode_
+  commentId: Overload:Ae.Dns.Protocol.Records.DnsStringResource.GetHashCode
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.Records.DnsStringResource.GetHashCode
+  nameWithType: DnsStringResource.GetHashCode
+- uid: Ae.Dns.Protocol.Records.DnsStringResource.ReadBytes(System.Byte[],System.Int32@,System.Int32)
+  name: ReadBytes(Byte[], ref Int32, Int32)
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_ReadBytes_System_Byte___System_Int32__System_Int32_
+  commentId: M:Ae.Dns.Protocol.Records.DnsStringResource.ReadBytes(System.Byte[],System.Int32@,System.Int32)
+  name.vb: ReadBytes(Byte(), ByRef Int32, Int32)
+  fullName: Ae.Dns.Protocol.Records.DnsStringResource.ReadBytes(System.Byte[], ref System.Int32, System.Int32)
+  fullName.vb: Ae.Dns.Protocol.Records.DnsStringResource.ReadBytes(System.Byte(), ByRef System.Int32, System.Int32)
+  nameWithType: DnsStringResource.ReadBytes(Byte[], ref Int32, Int32)
+  nameWithType.vb: DnsStringResource.ReadBytes(Byte(), ByRef Int32, Int32)
+- uid: Ae.Dns.Protocol.Records.DnsStringResource.ReadBytes*
+  name: ReadBytes
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_ReadBytes_
+  commentId: Overload:Ae.Dns.Protocol.Records.DnsStringResource.ReadBytes
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.Records.DnsStringResource.ReadBytes
+  nameWithType: DnsStringResource.ReadBytes
+- uid: Ae.Dns.Protocol.Records.DnsStringResource.WriteBytes
+  name: WriteBytes()
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_WriteBytes
+  commentId: M:Ae.Dns.Protocol.Records.DnsStringResource.WriteBytes
+  fullName: Ae.Dns.Protocol.Records.DnsStringResource.WriteBytes()
+  nameWithType: DnsStringResource.WriteBytes()
+- uid: Ae.Dns.Protocol.Records.DnsStringResource.WriteBytes*
+  name: WriteBytes
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_WriteBytes_
+  commentId: Overload:Ae.Dns.Protocol.Records.DnsStringResource.WriteBytes
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.Records.DnsStringResource.WriteBytes
+  nameWithType: DnsStringResource.WriteBytes
 - uid: Ae.Dns.Protocol.Records.DnsTextResource
   name: DnsTextResource
   href: Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.html
   commentId: T:Ae.Dns.Protocol.Records.DnsTextResource
   fullName: Ae.Dns.Protocol.Records.DnsTextResource
   nameWithType: DnsTextResource
-- uid: Ae.Dns.Protocol.Records.DnsTextResource.Equals(Ae.Dns.Protocol.Records.DnsTextResource)
-  name: Equals(DnsTextResource)
-  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.html#Ae_Dns_Protocol_Records_DnsTextResource_Equals_Ae_Dns_Protocol_Records_DnsTextResource_
-  commentId: M:Ae.Dns.Protocol.Records.DnsTextResource.Equals(Ae.Dns.Protocol.Records.DnsTextResource)
-  fullName: Ae.Dns.Protocol.Records.DnsTextResource.Equals(Ae.Dns.Protocol.Records.DnsTextResource)
-  nameWithType: DnsTextResource.Equals(DnsTextResource)
-- uid: Ae.Dns.Protocol.Records.DnsTextResource.Equals(System.Object)
-  name: Equals(Object)
-  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.html#Ae_Dns_Protocol_Records_DnsTextResource_Equals_System_Object_
-  commentId: M:Ae.Dns.Protocol.Records.DnsTextResource.Equals(System.Object)
-  fullName: Ae.Dns.Protocol.Records.DnsTextResource.Equals(System.Object)
-  nameWithType: DnsTextResource.Equals(Object)
-- uid: Ae.Dns.Protocol.Records.DnsTextResource.Equals*
-  name: Equals
-  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.html#Ae_Dns_Protocol_Records_DnsTextResource_Equals_
-  commentId: Overload:Ae.Dns.Protocol.Records.DnsTextResource.Equals
-  isSpec: "True"
-  fullName: Ae.Dns.Protocol.Records.DnsTextResource.Equals
-  nameWithType: DnsTextResource.Equals
-- uid: Ae.Dns.Protocol.Records.DnsTextResource.GetHashCode
-  name: GetHashCode()
-  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.html#Ae_Dns_Protocol_Records_DnsTextResource_GetHashCode
-  commentId: M:Ae.Dns.Protocol.Records.DnsTextResource.GetHashCode
-  fullName: Ae.Dns.Protocol.Records.DnsTextResource.GetHashCode()
-  nameWithType: DnsTextResource.GetHashCode()
-- uid: Ae.Dns.Protocol.Records.DnsTextResource.GetHashCode*
-  name: GetHashCode
-  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.html#Ae_Dns_Protocol_Records_DnsTextResource_GetHashCode_
-  commentId: Overload:Ae.Dns.Protocol.Records.DnsTextResource.GetHashCode
-  isSpec: "True"
-  fullName: Ae.Dns.Protocol.Records.DnsTextResource.GetHashCode
-  nameWithType: DnsTextResource.GetHashCode
-- uid: Ae.Dns.Protocol.Records.DnsTextResource.ReadBytes(System.Byte[],System.Int32@,System.Int32)
-  name: ReadBytes(Byte[], ref Int32, Int32)
-  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.html#Ae_Dns_Protocol_Records_DnsTextResource_ReadBytes_System_Byte___System_Int32__System_Int32_
-  commentId: M:Ae.Dns.Protocol.Records.DnsTextResource.ReadBytes(System.Byte[],System.Int32@,System.Int32)
-  name.vb: ReadBytes(Byte(), ByRef Int32, Int32)
-  fullName: Ae.Dns.Protocol.Records.DnsTextResource.ReadBytes(System.Byte[], ref System.Int32, System.Int32)
-  fullName.vb: Ae.Dns.Protocol.Records.DnsTextResource.ReadBytes(System.Byte(), ByRef System.Int32, System.Int32)
-  nameWithType: DnsTextResource.ReadBytes(Byte[], ref Int32, Int32)
-  nameWithType.vb: DnsTextResource.ReadBytes(Byte(), ByRef Int32, Int32)
-- uid: Ae.Dns.Protocol.Records.DnsTextResource.ReadBytes*
-  name: ReadBytes
-  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.html#Ae_Dns_Protocol_Records_DnsTextResource_ReadBytes_
-  commentId: Overload:Ae.Dns.Protocol.Records.DnsTextResource.ReadBytes
-  isSpec: "True"
-  fullName: Ae.Dns.Protocol.Records.DnsTextResource.ReadBytes
-  nameWithType: DnsTextResource.ReadBytes
-- uid: Ae.Dns.Protocol.Records.DnsTextResource.Text
-  name: Text
-  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.html#Ae_Dns_Protocol_Records_DnsTextResource_Text
-  commentId: P:Ae.Dns.Protocol.Records.DnsTextResource.Text
-  fullName: Ae.Dns.Protocol.Records.DnsTextResource.Text
-  nameWithType: DnsTextResource.Text
-- uid: Ae.Dns.Protocol.Records.DnsTextResource.Text*
-  name: Text
-  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.html#Ae_Dns_Protocol_Records_DnsTextResource_Text_
-  commentId: Overload:Ae.Dns.Protocol.Records.DnsTextResource.Text
-  isSpec: "True"
-  fullName: Ae.Dns.Protocol.Records.DnsTextResource.Text
-  nameWithType: DnsTextResource.Text
 - uid: Ae.Dns.Protocol.Records.DnsTextResource.ToString
   name: ToString()
   href: Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.html#Ae_Dns_Protocol_Records_DnsTextResource_ToString
@@ -2735,19 +3804,6 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Protocol.Records.DnsTextResource.ToString
   nameWithType: DnsTextResource.ToString
-- uid: Ae.Dns.Protocol.Records.DnsTextResource.WriteBytes
-  name: WriteBytes()
-  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.html#Ae_Dns_Protocol_Records_DnsTextResource_WriteBytes
-  commentId: M:Ae.Dns.Protocol.Records.DnsTextResource.WriteBytes
-  fullName: Ae.Dns.Protocol.Records.DnsTextResource.WriteBytes()
-  nameWithType: DnsTextResource.WriteBytes()
-- uid: Ae.Dns.Protocol.Records.DnsTextResource.WriteBytes*
-  name: WriteBytes
-  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.html#Ae_Dns_Protocol_Records_DnsTextResource_WriteBytes_
-  commentId: Overload:Ae.Dns.Protocol.Records.DnsTextResource.WriteBytes
-  isSpec: "True"
-  fullName: Ae.Dns.Protocol.Records.DnsTextResource.WriteBytes
-  nameWithType: DnsTextResource.WriteBytes
 - uid: Ae.Dns.Protocol.Records.DnsUnknownResource
   name: DnsUnknownResource
   href: Ae.Dns/Ae.Dns.Protocol.Records.DnsUnknownResource.html
@@ -2815,6 +3871,19 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Protocol.Records.DnsUnknownResource.ReadBytes
   nameWithType: DnsUnknownResource.ReadBytes
+- uid: Ae.Dns.Protocol.Records.DnsUnknownResource.ToString
+  name: ToString()
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsUnknownResource.html#Ae_Dns_Protocol_Records_DnsUnknownResource_ToString
+  commentId: M:Ae.Dns.Protocol.Records.DnsUnknownResource.ToString
+  fullName: Ae.Dns.Protocol.Records.DnsUnknownResource.ToString()
+  nameWithType: DnsUnknownResource.ToString()
+- uid: Ae.Dns.Protocol.Records.DnsUnknownResource.ToString*
+  name: ToString
+  href: Ae.Dns/Ae.Dns.Protocol.Records.DnsUnknownResource.html#Ae_Dns_Protocol_Records_DnsUnknownResource_ToString_
+  commentId: Overload:Ae.Dns.Protocol.Records.DnsUnknownResource.ToString
+  isSpec: "True"
+  fullName: Ae.Dns.Protocol.Records.DnsUnknownResource.ToString
+  nameWithType: DnsUnknownResource.ToString
 - uid: Ae.Dns.Protocol.Records.DnsUnknownResource.WriteBytes
   name: WriteBytes()
   href: Ae.Dns/Ae.Dns.Protocol.Records.DnsUnknownResource.html#Ae_Dns_Protocol_Records_DnsUnknownResource_WriteBytes
@@ -4084,28 +5153,72 @@ references:
   commentId: N:Ae.Synthetics.Alerting
   fullName: Ae.Synthetics.Alerting
   nameWithType: Ae.Synthetics.Alerting
+- uid: Ae.Synthetics.Alerting.InfluxDb
+  name: Ae.Synthetics.Alerting.InfluxDb
+  href: Ae.Synthetics/Ae.Synthetics.Alerting.InfluxDb.html
+  commentId: N:Ae.Synthetics.Alerting.InfluxDb
+  fullName: Ae.Synthetics.Alerting.InfluxDb
+  nameWithType: Ae.Synthetics.Alerting.InfluxDb
+- uid: Ae.Synthetics.Alerting.InfluxDb.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  href: Ae.Synthetics/Ae.Synthetics.Alerting.InfluxDb.ServiceCollectionExtensions.html
+  commentId: T:Ae.Synthetics.Alerting.InfluxDb.ServiceCollectionExtensions
+  fullName: Ae.Synthetics.Alerting.InfluxDb.ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+- uid: Ae.Synthetics.Alerting.InfluxDb.ServiceCollectionExtensions.AddSyntheticsInfluxAlerting(IServiceCollection,Func{IServiceProvider,WriteApiAsync})
+  name: AddSyntheticsInfluxAlerting(IServiceCollection, Func<IServiceProvider, WriteApiAsync>)
+  href: Ae.Synthetics/Ae.Synthetics.Alerting.InfluxDb.ServiceCollectionExtensions.html#Ae_Synthetics_Alerting_InfluxDb_ServiceCollectionExtensions_AddSyntheticsInfluxAlerting_IServiceCollection_Func_IServiceProvider_WriteApiAsync__
+  commentId: M:Ae.Synthetics.Alerting.InfluxDb.ServiceCollectionExtensions.AddSyntheticsInfluxAlerting(IServiceCollection,Func{IServiceProvider,WriteApiAsync})
+  name.vb: AddSyntheticsInfluxAlerting(IServiceCollection, Func(Of IServiceProvider, WriteApiAsync))
+  fullName: Ae.Synthetics.Alerting.InfluxDb.ServiceCollectionExtensions.AddSyntheticsInfluxAlerting(IServiceCollection, Func<IServiceProvider, WriteApiAsync>)
+  fullName.vb: Ae.Synthetics.Alerting.InfluxDb.ServiceCollectionExtensions.AddSyntheticsInfluxAlerting(IServiceCollection, Func(Of IServiceProvider, WriteApiAsync))
+  nameWithType: ServiceCollectionExtensions.AddSyntheticsInfluxAlerting(IServiceCollection, Func<IServiceProvider, WriteApiAsync>)
+  nameWithType.vb: ServiceCollectionExtensions.AddSyntheticsInfluxAlerting(IServiceCollection, Func(Of IServiceProvider, WriteApiAsync))
+- uid: Ae.Synthetics.Alerting.InfluxDb.ServiceCollectionExtensions.AddSyntheticsInfluxAlerting*
+  name: AddSyntheticsInfluxAlerting
+  href: Ae.Synthetics/Ae.Synthetics.Alerting.InfluxDb.ServiceCollectionExtensions.html#Ae_Synthetics_Alerting_InfluxDb_ServiceCollectionExtensions_AddSyntheticsInfluxAlerting_
+  commentId: Overload:Ae.Synthetics.Alerting.InfluxDb.ServiceCollectionExtensions.AddSyntheticsInfluxAlerting
+  isSpec: "True"
+  fullName: Ae.Synthetics.Alerting.InfluxDb.ServiceCollectionExtensions.AddSyntheticsInfluxAlerting
+  nameWithType: ServiceCollectionExtensions.AddSyntheticsInfluxAlerting
 - uid: Ae.Synthetics.Alerting.ISyntheticsAlerter
   name: ISyntheticsAlerter
   href: Ae.Synthetics/Ae.Synthetics.Alerting.ISyntheticsAlerter.html
   commentId: T:Ae.Synthetics.Alerting.ISyntheticsAlerter
   fullName: Ae.Synthetics.Alerting.ISyntheticsAlerter
   nameWithType: ISyntheticsAlerter
-- uid: Ae.Synthetics.Alerting.ISyntheticsAlerter.AlertFailure(IReadOnlyList{System.String},Type,Exception,TimeSpan,CancellationToken)
-  name: AlertFailure(IReadOnlyList<String>, Type, Exception, TimeSpan, CancellationToken)
-  href: Ae.Synthetics/Ae.Synthetics.Alerting.ISyntheticsAlerter.html#Ae_Synthetics_Alerting_ISyntheticsAlerter_AlertFailure_IReadOnlyList_System_String__Type_Exception_TimeSpan_CancellationToken_
-  commentId: M:Ae.Synthetics.Alerting.ISyntheticsAlerter.AlertFailure(IReadOnlyList{System.String},Type,Exception,TimeSpan,CancellationToken)
-  name.vb: AlertFailure(IReadOnlyList(Of String), Type, Exception, TimeSpan, CancellationToken)
-  fullName: Ae.Synthetics.Alerting.ISyntheticsAlerter.AlertFailure(IReadOnlyList<System.String>, Type, Exception, TimeSpan, CancellationToken)
-  fullName.vb: Ae.Synthetics.Alerting.ISyntheticsAlerter.AlertFailure(IReadOnlyList(Of System.String), Type, Exception, TimeSpan, CancellationToken)
-  nameWithType: ISyntheticsAlerter.AlertFailure(IReadOnlyList<String>, Type, Exception, TimeSpan, CancellationToken)
-  nameWithType.vb: ISyntheticsAlerter.AlertFailure(IReadOnlyList(Of String), Type, Exception, TimeSpan, CancellationToken)
-- uid: Ae.Synthetics.Alerting.ISyntheticsAlerter.AlertFailure*
-  name: AlertFailure
-  href: Ae.Synthetics/Ae.Synthetics.Alerting.ISyntheticsAlerter.html#Ae_Synthetics_Alerting_ISyntheticsAlerter_AlertFailure_
-  commentId: Overload:Ae.Synthetics.Alerting.ISyntheticsAlerter.AlertFailure
+- uid: Ae.Synthetics.Alerting.ISyntheticsAlerter.Failure(IReadOnlyList{System.String},System.String,Exception,TimeSpan,CancellationToken)
+  name: Failure(IReadOnlyList<String>, String, Exception, TimeSpan, CancellationToken)
+  href: Ae.Synthetics/Ae.Synthetics.Alerting.ISyntheticsAlerter.html#Ae_Synthetics_Alerting_ISyntheticsAlerter_Failure_IReadOnlyList_System_String__System_String_Exception_TimeSpan_CancellationToken_
+  commentId: M:Ae.Synthetics.Alerting.ISyntheticsAlerter.Failure(IReadOnlyList{System.String},System.String,Exception,TimeSpan,CancellationToken)
+  name.vb: Failure(IReadOnlyList(Of String), String, Exception, TimeSpan, CancellationToken)
+  fullName: Ae.Synthetics.Alerting.ISyntheticsAlerter.Failure(IReadOnlyList<System.String>, System.String, Exception, TimeSpan, CancellationToken)
+  fullName.vb: Ae.Synthetics.Alerting.ISyntheticsAlerter.Failure(IReadOnlyList(Of System.String), System.String, Exception, TimeSpan, CancellationToken)
+  nameWithType: ISyntheticsAlerter.Failure(IReadOnlyList<String>, String, Exception, TimeSpan, CancellationToken)
+  nameWithType.vb: ISyntheticsAlerter.Failure(IReadOnlyList(Of String), String, Exception, TimeSpan, CancellationToken)
+- uid: Ae.Synthetics.Alerting.ISyntheticsAlerter.Failure*
+  name: Failure
+  href: Ae.Synthetics/Ae.Synthetics.Alerting.ISyntheticsAlerter.html#Ae_Synthetics_Alerting_ISyntheticsAlerter_Failure_
+  commentId: Overload:Ae.Synthetics.Alerting.ISyntheticsAlerter.Failure
   isSpec: "True"
-  fullName: Ae.Synthetics.Alerting.ISyntheticsAlerter.AlertFailure
-  nameWithType: ISyntheticsAlerter.AlertFailure
+  fullName: Ae.Synthetics.Alerting.ISyntheticsAlerter.Failure
+  nameWithType: ISyntheticsAlerter.Failure
+- uid: Ae.Synthetics.Alerting.ISyntheticsAlerter.Success(IReadOnlyList{System.String},System.String,TimeSpan,CancellationToken)
+  name: Success(IReadOnlyList<String>, String, TimeSpan, CancellationToken)
+  href: Ae.Synthetics/Ae.Synthetics.Alerting.ISyntheticsAlerter.html#Ae_Synthetics_Alerting_ISyntheticsAlerter_Success_IReadOnlyList_System_String__System_String_TimeSpan_CancellationToken_
+  commentId: M:Ae.Synthetics.Alerting.ISyntheticsAlerter.Success(IReadOnlyList{System.String},System.String,TimeSpan,CancellationToken)
+  name.vb: Success(IReadOnlyList(Of String), String, TimeSpan, CancellationToken)
+  fullName: Ae.Synthetics.Alerting.ISyntheticsAlerter.Success(IReadOnlyList<System.String>, System.String, TimeSpan, CancellationToken)
+  fullName.vb: Ae.Synthetics.Alerting.ISyntheticsAlerter.Success(IReadOnlyList(Of System.String), System.String, TimeSpan, CancellationToken)
+  nameWithType: ISyntheticsAlerter.Success(IReadOnlyList<String>, String, TimeSpan, CancellationToken)
+  nameWithType.vb: ISyntheticsAlerter.Success(IReadOnlyList(Of String), String, TimeSpan, CancellationToken)
+- uid: Ae.Synthetics.Alerting.ISyntheticsAlerter.Success*
+  name: Success
+  href: Ae.Synthetics/Ae.Synthetics.Alerting.ISyntheticsAlerter.html#Ae_Synthetics_Alerting_ISyntheticsAlerter_Success_
+  commentId: Overload:Ae.Synthetics.Alerting.ISyntheticsAlerter.Success
+  isSpec: "True"
+  fullName: Ae.Synthetics.Alerting.ISyntheticsAlerter.Success
+  nameWithType: ISyntheticsAlerter.Success
 - uid: Ae.Synthetics.Alerting.Ses
   name: Ae.Synthetics.Alerting.Ses
   href: Ae.Synthetics/Ae.Synthetics.Alerting.Ses.html
@@ -4163,6 +5276,60 @@ references:
   isSpec: "True"
   fullName: Ae.Synthetics.Alerting.Ses.SesSyntheticsAlerterConfig.Sender
   nameWithType: SesSyntheticsAlerterConfig.Sender
+- uid: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter
+  name: SyntheticsLoggerAlerter
+  href: Ae.Synthetics/Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.html
+  commentId: T:Ae.Synthetics.Alerting.SyntheticsLoggerAlerter
+  fullName: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter
+  nameWithType: SyntheticsLoggerAlerter
+- uid: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.#ctor(ILogger{Ae.Synthetics.Alerting.SyntheticsLoggerAlerter})
+  name: SyntheticsLoggerAlerter(ILogger<SyntheticsLoggerAlerter>)
+  href: Ae.Synthetics/Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.html#Ae_Synthetics_Alerting_SyntheticsLoggerAlerter__ctor_ILogger_Ae_Synthetics_Alerting_SyntheticsLoggerAlerter__
+  commentId: M:Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.#ctor(ILogger{Ae.Synthetics.Alerting.SyntheticsLoggerAlerter})
+  name.vb: SyntheticsLoggerAlerter(ILogger(Of SyntheticsLoggerAlerter))
+  fullName: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.SyntheticsLoggerAlerter(ILogger<Ae.Synthetics.Alerting.SyntheticsLoggerAlerter>)
+  fullName.vb: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.SyntheticsLoggerAlerter(ILogger(Of Ae.Synthetics.Alerting.SyntheticsLoggerAlerter))
+  nameWithType: SyntheticsLoggerAlerter.SyntheticsLoggerAlerter(ILogger<SyntheticsLoggerAlerter>)
+  nameWithType.vb: SyntheticsLoggerAlerter.SyntheticsLoggerAlerter(ILogger(Of SyntheticsLoggerAlerter))
+- uid: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.#ctor*
+  name: SyntheticsLoggerAlerter
+  href: Ae.Synthetics/Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.html#Ae_Synthetics_Alerting_SyntheticsLoggerAlerter__ctor_
+  commentId: Overload:Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.#ctor
+  isSpec: "True"
+  fullName: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.SyntheticsLoggerAlerter
+  nameWithType: SyntheticsLoggerAlerter.SyntheticsLoggerAlerter
+- uid: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.Failure(IReadOnlyList{System.String},System.String,Exception,TimeSpan,CancellationToken)
+  name: Failure(IReadOnlyList<String>, String, Exception, TimeSpan, CancellationToken)
+  href: Ae.Synthetics/Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.html#Ae_Synthetics_Alerting_SyntheticsLoggerAlerter_Failure_IReadOnlyList_System_String__System_String_Exception_TimeSpan_CancellationToken_
+  commentId: M:Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.Failure(IReadOnlyList{System.String},System.String,Exception,TimeSpan,CancellationToken)
+  name.vb: Failure(IReadOnlyList(Of String), String, Exception, TimeSpan, CancellationToken)
+  fullName: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.Failure(IReadOnlyList<System.String>, System.String, Exception, TimeSpan, CancellationToken)
+  fullName.vb: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.Failure(IReadOnlyList(Of System.String), System.String, Exception, TimeSpan, CancellationToken)
+  nameWithType: SyntheticsLoggerAlerter.Failure(IReadOnlyList<String>, String, Exception, TimeSpan, CancellationToken)
+  nameWithType.vb: SyntheticsLoggerAlerter.Failure(IReadOnlyList(Of String), String, Exception, TimeSpan, CancellationToken)
+- uid: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.Failure*
+  name: Failure
+  href: Ae.Synthetics/Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.html#Ae_Synthetics_Alerting_SyntheticsLoggerAlerter_Failure_
+  commentId: Overload:Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.Failure
+  isSpec: "True"
+  fullName: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.Failure
+  nameWithType: SyntheticsLoggerAlerter.Failure
+- uid: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.Success(IReadOnlyList{System.String},System.String,TimeSpan,CancellationToken)
+  name: Success(IReadOnlyList<String>, String, TimeSpan, CancellationToken)
+  href: Ae.Synthetics/Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.html#Ae_Synthetics_Alerting_SyntheticsLoggerAlerter_Success_IReadOnlyList_System_String__System_String_TimeSpan_CancellationToken_
+  commentId: M:Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.Success(IReadOnlyList{System.String},System.String,TimeSpan,CancellationToken)
+  name.vb: Success(IReadOnlyList(Of String), String, TimeSpan, CancellationToken)
+  fullName: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.Success(IReadOnlyList<System.String>, System.String, TimeSpan, CancellationToken)
+  fullName.vb: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.Success(IReadOnlyList(Of System.String), System.String, TimeSpan, CancellationToken)
+  nameWithType: SyntheticsLoggerAlerter.Success(IReadOnlyList<String>, String, TimeSpan, CancellationToken)
+  nameWithType.vb: SyntheticsLoggerAlerter.Success(IReadOnlyList(Of String), String, TimeSpan, CancellationToken)
+- uid: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.Success*
+  name: Success
+  href: Ae.Synthetics/Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.html#Ae_Synthetics_Alerting_SyntheticsLoggerAlerter_Success_
+  commentId: Overload:Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.Success
+  isSpec: "True"
+  fullName: Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.Success
+  nameWithType: SyntheticsLoggerAlerter.Success
 - uid: Ae.Synthetics.Runner
   name: Ae.Synthetics.Runner
   href: Ae.Synthetics/Ae.Synthetics.Runner.html
@@ -4207,6 +5374,19 @@ references:
   commentId: T:Ae.Synthetics.Runner.ISyntheticTest
   fullName: Ae.Synthetics.Runner.ISyntheticTest
   nameWithType: ISyntheticTest
+- uid: Ae.Synthetics.Runner.ISyntheticTest.Name
+  name: Name
+  href: Ae.Synthetics/Ae.Synthetics.Runner.ISyntheticTest.html#Ae_Synthetics_Runner_ISyntheticTest_Name
+  commentId: P:Ae.Synthetics.Runner.ISyntheticTest.Name
+  fullName: Ae.Synthetics.Runner.ISyntheticTest.Name
+  nameWithType: ISyntheticTest.Name
+- uid: Ae.Synthetics.Runner.ISyntheticTest.Name*
+  name: Name
+  href: Ae.Synthetics/Ae.Synthetics.Runner.ISyntheticTest.html#Ae_Synthetics_Runner_ISyntheticTest_Name_
+  commentId: Overload:Ae.Synthetics.Runner.ISyntheticTest.Name
+  isSpec: "True"
+  fullName: Ae.Synthetics.Runner.ISyntheticTest.Name
+  nameWithType: ISyntheticTest.Name
 - uid: Ae.Synthetics.Runner.ISyntheticTest.Run(ILogger,CancellationToken)
   name: Run(ILogger, CancellationToken)
   href: Ae.Synthetics/Ae.Synthetics.Runner.ISyntheticTest.html#Ae_Synthetics_Runner_ISyntheticTest_Run_ILogger_CancellationToken_
@@ -4258,6 +5438,19 @@ references:
   isSpec: "True"
   fullName: Ae.Synthetics.Runner.SyntheticsRunnerConfig.LogFormatter
   nameWithType: SyntheticsRunnerConfig.LogFormatter
+- uid: Ae.Synthetics.Runner.SyntheticsRunnerConfig.RunChecksInParallel
+  name: RunChecksInParallel
+  href: Ae.Synthetics/Ae.Synthetics.Runner.SyntheticsRunnerConfig.html#Ae_Synthetics_Runner_SyntheticsRunnerConfig_RunChecksInParallel
+  commentId: P:Ae.Synthetics.Runner.SyntheticsRunnerConfig.RunChecksInParallel
+  fullName: Ae.Synthetics.Runner.SyntheticsRunnerConfig.RunChecksInParallel
+  nameWithType: SyntheticsRunnerConfig.RunChecksInParallel
+- uid: Ae.Synthetics.Runner.SyntheticsRunnerConfig.RunChecksInParallel*
+  name: RunChecksInParallel
+  href: Ae.Synthetics/Ae.Synthetics.Runner.SyntheticsRunnerConfig.html#Ae_Synthetics_Runner_SyntheticsRunnerConfig_RunChecksInParallel_
+  commentId: Overload:Ae.Synthetics.Runner.SyntheticsRunnerConfig.RunChecksInParallel
+  isSpec: "True"
+  fullName: Ae.Synthetics.Runner.SyntheticsRunnerConfig.RunChecksInParallel
+  nameWithType: SyntheticsRunnerConfig.RunChecksInParallel
 - uid: Ae.Synthetics.Runner.SyntheticsRunnerConfig.SyntheticTestCancellationGracePeriod
   name: SyntheticTestCancellationGracePeriod
   href: Ae.Synthetics/Ae.Synthetics.Runner.SyntheticsRunnerConfig.html#Ae_Synthetics_Runner_SyntheticsRunnerConfig_SyntheticTestCancellationGracePeriod

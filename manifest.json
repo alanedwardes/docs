@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/README.html",
-          "hash": "msZYirFmjI+1hetfKMJ5+A=="
+          "hash": "3FycZBf+edQiIgw/jmGLcg=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/index.html",
-          "hash": "IFmUICdoYcLsKlFyud9ubw=="
+          "hash": "50p282RvV+NgRb58N/YTiA=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Synthetics/README.html",
-          "hash": "YRisBla/J8Zgn0hc9joV2Q=="
+          "hash": "HiMab5GEf5nM6s/wV20ZWQ=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Synthetics/index.html",
-          "hash": "ujdnLqCW25cflj0ua3i5aA=="
+          "hash": "BnI1y/Pe97xSXKdUg5L2Ag=="
         }
       },
       "is_incremental": false,
@@ -164,7 +164,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.DnsCachingClient.html",
-          "hash": "uAK5uxKGBjzJVdWqvIZP1A=="
+          "hash": "ruyd5tGjRIMAJxnXKazCOQ=="
         }
       },
       "is_incremental": false,
@@ -176,7 +176,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.DnsFilterClient.html",
-          "hash": "sWVtn+dA5DBysG8uwCr1jA=="
+          "hash": "qsn4l6DR8dkXgBh9sMbD9A=="
         }
       },
       "is_incremental": false,
@@ -188,7 +188,55 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.DnsHttpClient.html",
-          "hash": "3n5CL0TTM2VB/G/jJ7CXYA=="
+          "hash": "U3lfmsOQaON++4n1oCl2NA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.DnsMetricsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.DnsMetricsClient.html",
+          "hash": "YW/UwxHycktUzWsQlGKOLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.DnsRacerClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.DnsRacerClient.html",
+          "hash": "BDidwjfXJBqEf5YfQcdm5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.DnsRebindMitigationClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.DnsRebindMitigationClient.html",
+          "hash": "iT7HN91IjVQVUFhexW/9Mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.DnsRecursiveClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.DnsRecursiveClient.html",
+          "hash": "rBVcMLYoa/9nB7trYVYymw=="
         }
       },
       "is_incremental": false,
@@ -200,7 +248,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.DnsRoundRobinClient.html",
-          "hash": "KhzywUAmgt/HZa159+URaA=="
+          "hash": "K7sLzONLy++g1a0wlb0C9A=="
         }
       },
       "is_incremental": false,
@@ -212,7 +260,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.DnsSocketClientFactory.html",
-          "hash": "4LuQl//uLzwWxd9WxrA8Tw=="
+          "hash": "Su6+7GDkN/nony/cXSOxww=="
         }
       },
       "is_incremental": false,
@@ -224,7 +272,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.DnsTcpClient.html",
-          "hash": "VFIbc+OZDqD+ZN+qXFAkmQ=="
+          "hash": "NtBlRN1pG+9uibP7ifPIdQ=="
         }
       },
       "is_incremental": false,
@@ -236,7 +284,19 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.DnsUdpClient.html",
-          "hash": "obJBsbaHpxJ/+ud3vyZaiw=="
+          "hash": "tfJEtP3ZDeK45sGKAr2tqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Exceptions.DnsClientException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Exceptions.DnsClientException.html",
+          "hash": "HE+8GhT343mMHWWCredo0A=="
         }
       },
       "is_incremental": false,
@@ -248,7 +308,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.Exceptions.DnsClientTimeoutException.html",
-          "hash": "r2SGRwQc2xKPPGblK80SDQ=="
+          "hash": "clQ4tp6Nmtm9H3z1eznfQw=="
         }
       },
       "is_incremental": false,
@@ -260,7 +320,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.Exceptions.html",
-          "hash": "O3nUaSQDvzRSF8t6jU1V7w=="
+          "hash": "eA7+OMPCDIXxLFH/BbRCcw=="
         }
       },
       "is_incremental": false,
@@ -272,7 +332,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsCompositeAndFilter.html",
-          "hash": "dWOEx/DUyr5vwI2eA7uCyQ=="
+          "hash": "G4BJfYIeZQcBLs0GEvAnIg=="
         }
       },
       "is_incremental": false,
@@ -284,7 +344,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsCompositeOrFilter.html",
-          "hash": "3SCibxroXwtDd7rkSNaVag=="
+          "hash": "FyXjN8v9Kz3Wmrwgb0EhmA=="
         }
       },
       "is_incremental": false,
@@ -296,7 +356,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsDelegateFilter.html",
-          "hash": "DePFPDs/+6wXa6QP3UGOQg=="
+          "hash": "Oerj+tlNuGFKKTt2y8phVw=="
         }
       },
       "is_incremental": false,
@@ -308,7 +368,19 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsDomainSuffixFilter.html",
-          "hash": "dWQxAErqU2lctq0IFoZyVg=="
+          "hash": "uGJAowiwC6oEd3US8jqQaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsLocalNetworkQueryFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsLocalNetworkQueryFilter.html",
+          "hash": "qYpyal+uiNQqZxiCq6W4NA=="
         }
       },
       "is_incremental": false,
@@ -320,7 +392,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.Filters.DnsRemoteSetFilter.html",
-          "hash": "x8tCfBnzYyVDRX09K0R/zw=="
+          "hash": "3qZgfzK0dz7f5uoi4sucpg=="
         }
       },
       "is_incremental": false,
@@ -332,7 +404,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.Filters.IDnsFilter.html",
-          "hash": "SCXOL553pn5Gw4oFYKqmtg=="
+          "hash": "IURqciJiVSDWbr5a038MTQ=="
         }
       },
       "is_incremental": false,
@@ -344,7 +416,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.Filters.html",
-          "hash": "5vBZW80MsdKp6Cxm/Xkf4A=="
+          "hash": "1nA5TZ09MvR0G/YsFd1Kjw=="
         }
       },
       "is_incremental": false,
@@ -356,7 +428,91 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.IDnsSocketClientFactory.html",
-          "hash": "vB+AcURvQFXATiqPEN1X7w=="
+          "hash": "xKjly14kWJBSAZM3puKKiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.html",
+          "hash": "I22+Nfmu+ihEX2TXaRJ0kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Lookup.DictionaryDnsLookupSource.html",
+          "hash": "DK+XcZpFraPJ8Q3hsXr2ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Lookup.DnsStaticLookupClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Lookup.DnsStaticLookupClient.html",
+          "hash": "ZT5bSMsajpGMDubPWfU4zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html",
+          "hash": "OFF9IYh+wTKkQ98zMZuycA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.html",
+          "hash": "WPuCj7Fpm6OIxglLXX1ZOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Lookup.IDnsLookupSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Lookup.IDnsLookupSource.html",
+          "hash": "afiEcoIOyvzYMsKBEnW4EA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Client.Lookup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Client.Lookup.html",
+          "hash": "OVtExB/KTm/7jkMsHhd+Dg=="
         }
       },
       "is_incremental": false,
@@ -368,7 +524,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.ServiceCollectionExtensions.html",
-          "hash": "jHftos8atR9joSmYK9oFGg=="
+          "hash": "gRA4N/C15bRsOz9VdaFkbA=="
         }
       },
       "is_incremental": false,
@@ -380,7 +536,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Client.html",
-          "hash": "sTOv6jVR+v6E+BJqkHBC1A=="
+          "hash": "xru9Ilu9jrzP4erJK+LVqg=="
         }
       },
       "is_incremental": false,
@@ -388,11 +544,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsAnswer.yml",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.yml",
       "output": {
         ".html": {
-          "relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsAnswer.html",
-          "hash": "5+gaypHkE2kP99xZ610arA=="
+          "relative_path": "Ae.Dns/Ae.Dns.Metrics.InfluxDb.DnsAppMetricsClient.html",
+          "hash": "nt8APb31l0S5AOxK4tA+aQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Metrics.InfluxDb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Metrics.InfluxDb.html",
+          "hash": "MaQ+4qqhri8tft2HVnCrdA=="
         }
       },
       "is_incremental": false,
@@ -404,7 +572,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsByteExtensions.html",
-          "hash": "Lae1UjpBTIdFZa+a8PHxcw=="
+          "hash": "EH3cRScNWI7KNaZhg8c1ug=="
         }
       },
       "is_incremental": false,
@@ -416,7 +584,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsDelegatingHandler.html",
-          "hash": "uxKpEObyNWDvuKhVppiSsg=="
+          "hash": "u3KqBPDwLKM02EYWY72t0A=="
         }
       },
       "is_incremental": false,
@@ -428,7 +596,19 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsHeader.html",
-          "hash": "NMCyogl5FqQmDP69rbYArA=="
+          "hash": "Jad5cZ0xsbQkPzySGp2oUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsMessage.html",
+          "hash": "BYr1zFxT6LeOTEs284JU0g=="
         }
       },
       "is_incremental": false,
@@ -440,7 +620,19 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsQueryFactory.html",
-          "hash": "0PDjoGbJlGaeZ9tLUvHH1w=="
+          "hash": "FemmWRILFSUpQhWJQjDv3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsRootServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.DnsRootServer.html",
+          "hash": "PN5i0QafcJ3RCf4eaWIXXQ=="
         }
       },
       "is_incremental": false,
@@ -452,7 +644,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.Enums.DnsOperationCode.html",
-          "hash": "7b3CyEOyrJ0X/jAtmzb78A=="
+          "hash": "T4rsvfMd4Jbx97AYQ7dWUw=="
         }
       },
       "is_incremental": false,
@@ -464,7 +656,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.Enums.DnsQueryClass.html",
-          "hash": "LCjbMF6c+BEm5Y4CB1ES7A=="
+          "hash": "urdHl8b1beuRlKq0OzYJjA=="
         }
       },
       "is_incremental": false,
@@ -476,7 +668,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.Enums.DnsQueryType.html",
-          "hash": "5TFouGFg9Se8IzwpGzI7ug=="
+          "hash": "jQlLYkrmQPtaEiWSwVz0ag=="
         }
       },
       "is_incremental": false,
@@ -488,7 +680,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.Enums.DnsResponseCode.html",
-          "hash": "mc3NsABXt5c1DN3Lc3en+Q=="
+          "hash": "eH1+jhlwXqdVjE6St1G0kQ=="
         }
       },
       "is_incremental": false,
@@ -512,7 +704,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.IDnsByteArrayReader.html",
-          "hash": "goPngjHF6REpL+7/asmJeQ=="
+          "hash": "qKpE63x2ACvWc0ZTXmO2Jw=="
         }
       },
       "is_incremental": false,
@@ -524,7 +716,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.IDnsByteArrayWriter.html",
-          "hash": "oAyhq/IjaJgKUeFosHfQzw=="
+          "hash": "Ro8aVE+SqmjpOygctLTshw=="
         }
       },
       "is_incremental": false,
@@ -536,7 +728,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.IDnsClient.html",
-          "hash": "hGkf7PUvyVZIcgu0gj418g=="
+          "hash": "KEH2nSoIlh4fcJgbDxU/sQ=="
         }
       },
       "is_incremental": false,
@@ -548,7 +740,19 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.IDnsServer.html",
-          "hash": "guSFklRsFoHaSxA7PeZ5sw=="
+          "hash": "EOcN0F5Kl5pmrn/LF/HJqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsDomainResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsDomainResource.html",
+          "hash": "jtk6EqmIbrZ7OjPFAWFYnQ=="
         }
       },
       "is_incremental": false,
@@ -560,7 +764,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsIpAddressResource.html",
-          "hash": "MnSTRR2LZhplLOuE2DZeDw=="
+          "hash": "x1WyPqZTfr0BFe9iZTmUzA=="
         }
       },
       "is_incremental": false,
@@ -572,7 +776,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsMxResource.html",
-          "hash": "30vvsz9rJIOJy+l4+ef60A=="
+          "hash": "FMyczVPSSF7uQdY2ExJUGg=="
         }
       },
       "is_incremental": false,
@@ -584,7 +788,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsResourceRecord.html",
-          "hash": "Pt9uE8h5pcSIvKtOFPawzw=="
+          "hash": "iiJI25Lik12fyD1BWIgfzw=="
         }
       },
       "is_incremental": false,
@@ -596,7 +800,19 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsSoaResource.html",
-          "hash": "is1sCE3lgghGmf8mdaU1YA=="
+          "hash": "srIcV069E7WvinSxCfW36g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsStringResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsStringResource.html",
+          "hash": "Qoi4qAg5vhEpDczEnh485A=="
         }
       },
       "is_incremental": false,
@@ -608,7 +824,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsTextResource.html",
-          "hash": "AOl8sZqW6BIyRWoMZ+AlLw=="
+          "hash": "pqijIGQ4hgM8jxKzR+AL+Q=="
         }
       },
       "is_incremental": false,
@@ -620,7 +836,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.DnsUnknownResource.html",
-          "hash": "1pf5CsFsTh5hOHXV2+8pdw=="
+          "hash": "QyMG+y+WndYkhVKqXew52A=="
         }
       },
       "is_incremental": false,
@@ -632,7 +848,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.IDnsResource.html",
-          "hash": "hBo76DNkQX0ngaw37jEhfw=="
+          "hash": "jG9MgZMZD3poXDtJsn547A=="
         }
       },
       "is_incremental": false,
@@ -644,7 +860,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.Records.html",
-          "hash": "HhLgrUVyDFtrmw7ZK3+/qA=="
+          "hash": "Pz6E/trvvz3ykS1ODrxGKA=="
         }
       },
       "is_incremental": false,
@@ -656,7 +872,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Protocol.html",
-          "hash": "kQerUYe/Jp38/nr/v2jKtQ=="
+          "hash": "YoAigvuQy7pjwPpCtjhRtA=="
         }
       },
       "is_incremental": false,
@@ -668,7 +884,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Server.DnsUdpServer.html",
-          "hash": "Obfis8NoSvCSUr0t6Pj/3A=="
+          "hash": "Ah4EqvAJIgiWOOxpTs9uLg=="
         }
       },
       "is_incremental": false,
@@ -680,7 +896,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Server.Http.DnsHttpServer.html",
-          "hash": "eV9Z4/T4sQgDi5X9ZoYOdA=="
+          "hash": "QpSvxyqMWRGy4Kd3N71j5A=="
         }
       },
       "is_incremental": false,
@@ -692,7 +908,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Server.Http.DnsMiddleware.html",
-          "hash": "hxUHI4FWO4Y9kMan3XNvCA=="
+          "hash": "ofUc+I4OMXV2/c3ygMolEg=="
         }
       },
       "is_incremental": false,
@@ -704,7 +920,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Server.Http.DnsMiddlewareConfig.html",
-          "hash": "o4fknpgvQP6EmlJ6nH/eUw=="
+          "hash": "yF8qasAxQ20Qz2gFS2dE3A=="
         }
       },
       "is_incremental": false,
@@ -716,7 +932,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Server.Http.DnsStartup.html",
-          "hash": "AzwzPHmuihW8ivZfysglxQ=="
+          "hash": "QS2Jv3OER8SUEX6I9U4T8g=="
         }
       },
       "is_incremental": false,
@@ -728,7 +944,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/Ae.Dns.Server.Http.IDnsMiddlewareConfig.html",
-          "hash": "E1uEliIPvFVeVLA0oKQ6tQ=="
+          "hash": "MOcyw1lwaeP3btn7TKyCvw=="
         }
       },
       "is_incremental": false,
@@ -764,7 +980,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Dns/toc.html",
-          "hash": "9xTMwTjS9aZ4/Wgk6+AAcQ=="
+          "hash": "DWglYnl4LKz6duxvkbOc1w=="
         }
       },
       "is_incremental": false,
@@ -776,7 +992,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Freezer/Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.html",
-          "hash": "4P3cumUIQv9dKv1DZijLHw=="
+          "hash": "chwmLeyBoXJMXTRvBtzArg=="
         }
       },
       "is_incremental": false,
@@ -788,7 +1004,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Freezer/Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriterConfiguration.html",
-          "hash": "8xjGAoinE8L5mTOftRj/cQ=="
+          "hash": "St2ilRNTRvZXzJuDJfIBew=="
         }
       },
       "is_incremental": false,
@@ -800,7 +1016,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Freezer/Ae.Freezer.Aws.AmazonS3WebsiteResourceWriter.html",
-          "hash": "K3EXzHrtnRFJ6CTAL47iKg=="
+          "hash": "8Is/KwhUh9Vs/Tzg5QLozg=="
         }
       },
       "is_incremental": false,
@@ -812,7 +1028,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Freezer/Ae.Freezer.Aws.AmazonS3WebsiteResourceWriterConfiguration.html",
-          "hash": "8+BUJcstnvX5DnRExjpelw=="
+          "hash": "qg63QK9JEKO+u5d4BfFDqQ=="
         }
       },
       "is_incremental": false,
@@ -836,7 +1052,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Freezer/Ae.Freezer.Entities.WebsiteResource.html",
-          "hash": "py7zwKSsiSSW8of1pxR3AA=="
+          "hash": "+EpJao7p5DxwoxuOvgkbSQ=="
         }
       },
       "is_incremental": false,
@@ -872,7 +1088,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Freezer/Ae.Freezer.FreezerConfiguration.html",
-          "hash": "UBl99B+5lDsuyyh/t80j1Q=="
+          "hash": "pbHCSedlO/I7BDUlgNI3Bg=="
         }
       },
       "is_incremental": false,
@@ -896,7 +1112,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Freezer/Ae.Freezer.IFreezerConfiguration.html",
-          "hash": "GmKYMLVGPvn0bJzeB9TGzw=="
+          "hash": "pIlHfdRTafrBWBrEWROZrA=="
         }
       },
       "is_incremental": false,
@@ -908,7 +1124,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Freezer/Ae.Freezer.ServiceCollectionExtensions.html",
-          "hash": "mRY6OlBQXr21zRmaZobVAQ=="
+          "hash": "4lYVCg3KzX9Ql2Aw0ZONMw=="
         }
       },
       "is_incremental": false,
@@ -932,7 +1148,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Freezer/Ae.Freezer.Writers.NullWebsiteResourceWriter.html",
-          "hash": "yD3fNmX3jU90zjC0zkdYzg=="
+          "hash": "e15t93szVi8VnlIDSzR3Lw=="
         }
       },
       "is_incremental": false,
@@ -980,7 +1196,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.ImGuiBootstrapper/Ae.ImGuiBootstrapper.ImGuiRenderer.html",
-          "hash": "zIU8oUSOhkLjfwPwaMBClA=="
+          "hash": "L9mquJZcv1K/b5UaOWD7DA=="
         }
       },
       "is_incremental": false,
@@ -992,7 +1208,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.ImGuiBootstrapper/Ae.ImGuiBootstrapper.ImGuiWindow.html",
-          "hash": "sXvotI0Ze+z1jjeWs4TkvA=="
+          "hash": "KV/I/o+eN/r08rJ4f8P2nQ=="
         }
       },
       "is_incremental": false,
@@ -1028,7 +1244,31 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.ISyntheticsAlerter.html",
-          "hash": "NfTCvulNKgtPFLLGIfq14g=="
+          "hash": "cDf+CXLNmDTUiR9wttZkZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.InfluxDb.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.InfluxDb.ServiceCollectionExtensions.html",
+          "hash": "NVpGs+1v3DAziM6N9EMimg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.InfluxDb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.InfluxDb.html",
+          "hash": "o9Lz0F8Cxn9HHvKYomDnUw=="
         }
       },
       "is_incremental": false,
@@ -1040,7 +1280,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.Ses.ServiceCollectionExtensions.html",
-          "hash": "8YLS11pKN1NkpeetPB6e7g=="
+          "hash": "ePSpF/jLydhkvjFtLRBE6A=="
         }
       },
       "is_incremental": false,
@@ -1052,7 +1292,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.Ses.SesSyntheticsAlerterConfig.html",
-          "hash": "D8nlocIQ4NUTCViYuSI0pw=="
+          "hash": "wtLgPmPGnXgJAf1Z5Z70TQ=="
         }
       },
       "is_incremental": false,
@@ -1072,11 +1312,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.SyntheticsLoggerAlerter.html",
+          "hash": "/tx+8nKSLbM5s8f7X1ecmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.yml",
       "output": {
         ".html": {
           "relative_path": "Ae.Synthetics/Ae.Synthetics.Alerting.html",
-          "hash": "CD7D7txxHcHko1wPOr70CA=="
+          "hash": "iXqps2JivN65xv19VzL6Zw=="
         }
       },
       "is_incremental": false,
@@ -1088,7 +1340,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Synthetics/Ae.Synthetics.Runner.ISyntheticTest.html",
-          "hash": "SjSWTZZFATLkxqdIXk4GKA=="
+          "hash": "XquAEKK3pO/o/ABnk39wLQ=="
         }
       },
       "is_incremental": false,
@@ -1100,7 +1352,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Synthetics/Ae.Synthetics.Runner.ISyntheticsRunner.html",
-          "hash": "zNwa/a1r2/Hl/tCqrnNR2w=="
+          "hash": "bCHOXdXiWWh0fhOO5KNYew=="
         }
       },
       "is_incremental": false,
@@ -1112,7 +1364,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Synthetics/Ae.Synthetics.Runner.ServiceCollectionExtensions.html",
-          "hash": "OUnp8DY7usJ/PuFeYL3VXQ=="
+          "hash": "dwCwB+CaVvXQr70GxiOoMw=="
         }
       },
       "is_incremental": false,
@@ -1124,7 +1376,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Synthetics/Ae.Synthetics.Runner.SyntheticsRunnerConfig.html",
-          "hash": "41WCG6yVcelbrbtbP79+PA=="
+          "hash": "XwpWGWmN0yi54UEM+bG7zg=="
         }
       },
       "is_incremental": false,
@@ -1148,7 +1400,7 @@
       "output": {
         ".html": {
           "relative_path": "Ae.Synthetics/toc.html",
-          "hash": "paD/tBX6T+s9nXQa29Gf1A=="
+          "hash": "WMW9kEIDJORr4baxIUXvDQ=="
         }
       },
       "is_incremental": false,
@@ -1160,7 +1412,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Core.Attributes.ArraySizeAttribute.html",
-          "hash": "ozGQ6m0Gt0KKKS4xoO1kow=="
+          "hash": "FkNHuT9kavd7L0dx2iLbew=="
         }
       },
       "is_incremental": false,
@@ -1172,7 +1424,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Core.Attributes.CharacterArrayAttribute.html",
-          "hash": "lKrrEFnNGPp+SXvqCtQQYg=="
+          "hash": "Qk9RvYzoGMWkp/TGJVrj5w=="
         }
       },
       "is_incremental": false,
@@ -1184,7 +1436,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Core.Attributes.RewindAttribute.html",
-          "hash": "WANEbyUfMQaID8dM95WC3A=="
+          "hash": "OGbRjNxLgHzDlewMe7z3fg=="
         }
       },
       "is_incremental": false,
@@ -1208,7 +1460,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Core.BitExtensions.html",
-          "hash": "BUhLHab3J8ToMVvGbgKIkg=="
+          "hash": "YV2aLCIwLBxaqf77+czf3g=="
         }
       },
       "is_incremental": false,
@@ -1244,7 +1496,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Core.IStreamBinaryMapper.html",
-          "hash": "Ookk3AhcE8k98j8L67hpbw=="
+          "hash": "y5a5bAs3J0nY8jtVzMfp3A=="
         }
       },
       "is_incremental": false,
@@ -1256,7 +1508,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Core.SizeSpan.html",
-          "hash": "K0MF+cempEs7Xc/v+EE2+w=="
+          "hash": "vNMmd+GQ/S9PlCjDpGXL9g=="
         }
       },
       "is_incremental": false,
@@ -1268,7 +1520,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Core.StreamBinaryMapper.html",
-          "hash": "zXADbmAC19gjVxd3wLinrQ=="
+          "hash": "52CdfwWMlmBj7bMu6OErZA=="
         }
       },
       "is_incremental": false,
@@ -1292,7 +1544,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Executable.html",
-          "hash": "wi1zkhSbx77LHPKBDF3Bbw=="
+          "hash": "WmN6ss7oxedCFUp6bQASmA=="
         }
       },
       "is_incremental": false,
@@ -1304,7 +1556,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.ExecutableMapper.html",
-          "hash": "1suLTiuCHxUylx0SxjZytQ=="
+          "hash": "4F/QLvWeipTaG+Yj+MSlWg=="
         }
       },
       "is_incremental": false,
@@ -1340,7 +1592,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.COFF_HEADER.html",
-          "hash": "1S49fdv3VxLNdSX4dxQlUQ=="
+          "hash": "UBCbeRzVIAVOYQphDADw3A=="
         }
       },
       "is_incremental": false,
@@ -1364,7 +1616,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.ICONDIR.html",
-          "hash": "F72gXqBEf3sORJF/Gg+35Q=="
+          "hash": "f6DIl8MLIKNao/2YEcQqUA=="
         }
       },
       "is_incremental": false,
@@ -1376,7 +1628,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.ICONDIRENTRY.html",
-          "hash": "n+kBYnf1elOpHE4W2g3J9g=="
+          "hash": "JJpL4pjuRD8x+yHwBHSIag=="
         }
       },
       "is_incremental": false,
@@ -1388,7 +1640,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_DATA_DIRECTORY.html",
-          "hash": "fMp5bzgaKYxedQIhcORX+g=="
+          "hash": "4GjskOo3BFwvQ3zuksqKhw=="
         }
       },
       "is_incremental": false,
@@ -1412,7 +1664,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_DOS_HEADER.html",
-          "hash": "82snVQa2cMHLmBCFqVyDUg=="
+          "hash": "Xz3TfPBVF5GIqRtn1Qz3Zw=="
         }
       },
       "is_incremental": false,
@@ -1436,7 +1688,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_OPTIONAL_HEADER.html",
-          "hash": "ehkn5iTDZGiUdqh7o6m8Dw=="
+          "hash": "nfj6ozU6W1RsIO989Doixw=="
         }
       },
       "is_incremental": false,
@@ -1448,7 +1700,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_OPTIONAL_HEADER64.html",
-          "hash": "bB+jn+PYO8fvnoUANnnXFQ=="
+          "hash": "DKlEUhMxuax9AJXADahhVA=="
         }
       },
       "is_incremental": false,
@@ -1460,7 +1712,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_PE_HEADER.html",
-          "hash": "7T5+2uVm4x122r8WuLQlnA=="
+          "hash": "88iBfG2clUwT2uuvegQPWw=="
         }
       },
       "is_incremental": false,
@@ -1472,7 +1724,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_RESOURCE_DATA_ENTRY.html",
-          "hash": "L8RdOi/Xat5wEM4ifrFXGQ=="
+          "hash": "VN1YFsoQVuCjeDn53iNZzA=="
         }
       },
       "is_incremental": false,
@@ -1484,7 +1736,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_RESOURCE_DIRECTORY.html",
-          "hash": "3aE7IW0MybRs1syC8CAX5w=="
+          "hash": "KWBqe5B4WsqCmvILJuhQ8A=="
         }
       },
       "is_incremental": false,
@@ -1496,7 +1748,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_RESOURCE_DIRECTORY_ENTRY.html",
-          "hash": "M+5+QykBjSNoUPW8x5Hijg=="
+          "hash": "Zh2vo+JHIoDPS1KyDlGL8g=="
         }
       },
       "is_incremental": false,
@@ -1520,7 +1772,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Executable.Structures.IMAGE_SECTION_HEADER.html",
-          "hash": "Ev5grBVfKzLAFtmgXS1PoA=="
+          "hash": "+NwNM7iH4TvVLkTn/DqBvQ=="
         }
       },
       "is_incremental": false,
@@ -1592,7 +1844,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.LinuxCpuInfo.html",
-          "hash": "L0AvYryzpJCVL9h0UTGfVw=="
+          "hash": "KxgcuL/hFznsWOFN+9+F1Q=="
         }
       },
       "is_incremental": false,
@@ -1604,7 +1856,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Minidump.html",
-          "hash": "yfo1JyHWEC04g6Z93BZEtw=="
+          "hash": "ASdPFwodZFFBhKuf6EHjXQ=="
         }
       },
       "is_incremental": false,
@@ -1616,7 +1868,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.MinidumpMapper.html",
-          "hash": "+VV3xyo1/3AopAs1oq0lxA=="
+          "hash": "Asr3/0FvCh1ePws8aapAIQ=="
         }
       },
       "is_incremental": false,
@@ -1628,7 +1880,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.CPU_INFORMATION.html",
-          "hash": "ZJ39vZI5NYLfp+P7C7RFhA=="
+          "hash": "m4j/lz5CzTKz7kWlopOQ8w=="
         }
       },
       "is_incremental": false,
@@ -1640,7 +1892,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.CPU_INFORMATION_OTHER_CPUINFO.html",
-          "hash": "+J+ItVD5zhSHPDFbuWL+Eg=="
+          "hash": "DqaubeUyHWHJ1I/HfhQmqg=="
         }
       },
       "is_incremental": false,
@@ -1652,7 +1904,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.CPU_INFORMATION_X86_CPUINFO.html",
-          "hash": "DA4Rg6fvC5MG90hG3cgGyg=="
+          "hash": "r0Zq0+7my6Xtd81QfyH2ug=="
         }
       },
       "is_incremental": false,
@@ -1676,7 +1928,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_DIRECTORY.html",
-          "hash": "95hofmDxuET0IEo4PfhkkA=="
+          "hash": "AqYbLzxFyEGRwTwNwklfxg=="
         }
       },
       "is_incremental": false,
@@ -1688,7 +1940,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_EXCEPTION.html",
-          "hash": "IYWaQJKkk7V6sLihG1MCgg=="
+          "hash": "MZrSnkOnTZUddQscoq710A=="
         }
       },
       "is_incremental": false,
@@ -1700,7 +1952,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_EXCEPTION_STREAM.html",
-          "hash": "D70wlfK3XjhVB52N7amXog=="
+          "hash": "g9WORRbzXig0WUbtPmmaIQ=="
         }
       },
       "is_incremental": false,
@@ -1712,7 +1964,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_HEADER.html",
-          "hash": "ddEKKv3HJZEQOAdsPp/feg=="
+          "hash": "XwHFWzYfHFJs06ZgJPgrpA=="
         }
       },
       "is_incremental": false,
@@ -1724,7 +1976,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_LOCATION_DESCRIPTOR.html",
-          "hash": "TUNhd1TGnfJ1oX3RCLf54w=="
+          "hash": "Qskc8Ef3MarQLWEn7kXgmA=="
         }
       },
       "is_incremental": false,
@@ -1736,7 +1988,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MEMORY_DESCRIPTOR.html",
-          "hash": "KiMtVf5O1M2H5XO7+m6Lkg=="
+          "hash": "/bFnT4F4txoEjoIND7qY4g=="
         }
       },
       "is_incremental": false,
@@ -1748,7 +2000,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MEMORY_LIST_STREAM.html",
-          "hash": "65So455U12djBlsWTNvtDg=="
+          "hash": "gH70dI+Z1mwvkUFSqMij5A=="
         }
       },
       "is_incremental": false,
@@ -1760,7 +2012,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MISC_INFO_STREAM.html",
-          "hash": "ciM9jA22CBZocRBYchmbfA=="
+          "hash": "DtD1dzP84nxwC+qhw+oHxQ=="
         }
       },
       "is_incremental": false,
@@ -1784,7 +2036,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MODULE.html",
-          "hash": "t6vb+4pQoMZe1BXAqwlWVQ=="
+          "hash": "ZtnQAeNqCEpooE/WmUX83w=="
         }
       },
       "is_incremental": false,
@@ -1796,7 +2048,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_MODULE_LIST_STREAM.html",
-          "hash": "FOp/gTVrfmhjLA85bA7OWQ=="
+          "hash": "wChXw/7io4rFmVnPwEYbOA=="
         }
       },
       "is_incremental": false,
@@ -1820,7 +2072,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_STRING.html",
-          "hash": "sLGQLuw5ddVvCTwV7dW/qA=="
+          "hash": "6DbXObz+Sf0pOITrzG4IDg=="
         }
       },
       "is_incremental": false,
@@ -1832,7 +2084,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_SYSTEM_INFO_STREAM.html",
-          "hash": "lGMK8naBi3NDdWFRfETInw=="
+          "hash": "hbTB3bKIWinrsfq7ReTeAA=="
         }
       },
       "is_incremental": false,
@@ -1844,7 +2096,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_THREAD.html",
-          "hash": "Fs+I7h+USTvwz1+ubx/iJg=="
+          "hash": "PuD+SnuUBh2fecTx4OBTtg=="
         }
       },
       "is_incremental": false,
@@ -1856,7 +2108,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_THREAD_INFO.html",
-          "hash": "Xy7rdxmdKPmnGfBKYChzwQ=="
+          "hash": "76TPKRW9Iecp6ibE+xpSew=="
         }
       },
       "is_incremental": false,
@@ -1868,7 +2120,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_THREAD_INFO_LIST_STREAM.html",
-          "hash": "/dFt2d97kOPQ65gMeMeUmA=="
+          "hash": "sXQxaJQ+d+reqsv9mPaZFg=="
         }
       },
       "is_incremental": false,
@@ -1880,7 +2132,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.MINIDUMP_THREAD_LIST_STREAM.html",
-          "hash": "kKtLYLayMq9cU37X+kjrwA=="
+          "hash": "1QIflqI+pR6QahsLzJdSQg=="
         }
       },
       "is_incremental": false,
@@ -1952,7 +2204,7 @@
       "output": {
         ".html": {
           "relative_path": "BinaryMapper/BinaryMapper.Windows.Minidump.Structures.VS_FIXEDFILEINFO.html",
-          "hash": "Y2HaqhOnHh6HZih1gBXy+g=="
+          "hash": "nX1nG06NqKCPmWSE7BnHTg=="
         }
       },
       "is_incremental": false,
@@ -2036,7 +2288,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.Azure.Blob.AzureBlobAdapterConfig.html",
-          "hash": "uwPnL0HMh7vtuc/NXFJpnw=="
+          "hash": "7NcuAEMq06myzlNETbEBOA=="
         }
       },
       "is_incremental": false,
@@ -2048,7 +2300,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.Azure.Blob.IAzureBlobAdapterConfig.html",
-          "hash": "7NiRyzHzeRG/DP5SM1suqA=="
+          "hash": "vhZpcVjHrElOrn0aYz6XTQ=="
         }
       },
       "is_incremental": false,
@@ -2060,7 +2312,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.Azure.Blob.ServiceCollectionExtensions.html",
-          "hash": "XYJnKC5CK3tjr5ugDOb5Rw=="
+          "hash": "virrZWEoFqMrzWBT5csZ1Q=="
         }
       },
       "is_incremental": false,
@@ -2084,7 +2336,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.S3.IS3BlobAdapterConfig.html",
-          "hash": "fJ6qvEOQMsKOEyff3DbdcA=="
+          "hash": "+CITonSqXKS/RW7G++q8Mw=="
         }
       },
       "is_incremental": false,
@@ -2096,7 +2348,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.S3.S3BlobAdapterConfig.html",
-          "hash": "uYovodIeuh1crJ5p6Lx7bQ=="
+          "hash": "GDDLvNYt+S8bEBhjGNsNdA=="
         }
       },
       "is_incremental": false,
@@ -2108,7 +2360,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Adapter.S3.ServiceCollectionExtensions.html",
-          "hash": "ZvWwk3f+5quyTMGPJpw8Hg=="
+          "hash": "ruxf4cyUlmtQa+aaaEIkag=="
         }
       },
       "is_incremental": false,
@@ -2132,7 +2384,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Controllers.LocksController.html",
-          "hash": "+scFLqk+RKaR7+HmmhX8bA=="
+          "hash": "0xzvsG5u00Th+bWe5cOnpw=="
         }
       },
       "is_incremental": false,
@@ -2144,7 +2396,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Controllers.ObjectsController.html",
-          "hash": "1gaJb4Q9pCmkh7DH+7egOQ=="
+          "hash": "XrP2MfmTldG9pAFom0aLCA=="
         }
       },
       "is_incremental": false,
@@ -2168,7 +2420,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Entities.BatchRequest.html",
-          "hash": "Rxc1GNUShN8mxGbeic8c4Q=="
+          "hash": "bf71YqIpM6QvSfvUUAXaDg=="
         }
       },
       "is_incremental": false,
@@ -2180,7 +2432,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Entities.BatchResponse.html",
-          "hash": "JMscsTRBvsFUDkBQsy+AcQ=="
+          "hash": "HPUYZZ6sgEGo+8NUmkWXXA=="
         }
       },
       "is_incremental": false,
@@ -2216,7 +2468,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.Filters.BasicAuthFilter.html",
-          "hash": "mzlIjotx087JwW6+tgeXLQ=="
+          "hash": "g8emjRxVN+JSGUW7MVdHLQ=="
         }
       },
       "is_incremental": false,
@@ -2240,7 +2492,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.LfsConstants.html",
-          "hash": "4Cbw+/N9QlzfVpzjg+lV/g=="
+          "hash": "oD9t3PZlXyt6pqnH7QR3JA=="
         }
       },
       "is_incremental": false,
@@ -2252,7 +2504,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.MvcBuilderExtensions.html",
-          "hash": "QamIgPiljFayZeZClEqzaA=="
+          "hash": "lYWkVGnhJfNJQljUZhXZYQ=="
         }
       },
       "is_incremental": false,
@@ -2264,7 +2516,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Api.ServiceCollectionExtensions.html",
-          "hash": "/sNgyjB3O+ALwy0eN9ELiA=="
+          "hash": "4a/Dz7r3805PzkLgVtP20A=="
         }
       },
       "is_incremental": false,
@@ -2288,7 +2540,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.BitBucketAuthenticatorConfig.html",
-          "hash": "h96cjdbALKsOcdEyFvJdlg=="
+          "hash": "SJK4Wfjdogx00eKXNKeGCA=="
         }
       },
       "is_incremental": false,
@@ -2300,7 +2552,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Clone.html",
-          "hash": "Vm3yXlcmBbkUqJEnQui7Qw=="
+          "hash": "T4/S/nXdoiQ+NMuKMLMl2g=="
         }
       },
       "is_incremental": false,
@@ -2312,7 +2564,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Link.html",
-          "hash": "nKFnOVqGMWMG/tXogEtmBA=="
+          "hash": "Ge0FWjSkhoU2PFMKw/a06w=="
         }
       },
       "is_incremental": false,
@@ -2324,7 +2576,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Links.html",
-          "hash": "1qt0uq4VtFAYFVETJC+ozA=="
+          "hash": "hcXQJG+fHWC25bgnjzJ/Ww=="
         }
       },
       "is_incremental": false,
@@ -2336,7 +2588,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Owner.html",
-          "hash": "Xd33gzzsVmvDKUp71fapLA=="
+          "hash": "CBgO4T6a67Bd8+tHG8pXCg=="
         }
       },
       "is_incremental": false,
@@ -2348,7 +2600,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Project.html",
-          "hash": "A9Y9wtCrVZRsSO0Kg6Oclg=="
+          "hash": "5dAfYiMRl3WDugO5SR4nOQ=="
         }
       },
       "is_incremental": false,
@@ -2360,7 +2612,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Repository.html",
-          "hash": "oiNlrPKUlasJ6QNvmcsqQQ=="
+          "hash": "+WovIvcBmBTZAwBuCEYl5g=="
         }
       },
       "is_incremental": false,
@@ -2372,7 +2624,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.RepositoryLinks.html",
-          "hash": "JgE6a4bgBUZhFQvsxTRmPg=="
+          "hash": "t99HSohZGlzEmEsNKYRxgw=="
         }
       },
       "is_incremental": false,
@@ -2384,7 +2636,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.RepositoryPermission.html",
-          "hash": "L1FIZrA3Ggp8Q1gDNa9lDg=="
+          "hash": "aRo+rZ4WScYn7cH7nvs0kw=="
         }
       },
       "is_incremental": false,
@@ -2408,7 +2660,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.RepositoryPermissions.html",
-          "hash": "aKTaasjE4CsxcNQzZedlBA=="
+          "hash": "BSKdZPwp5r320fnjLt/EQA=="
         }
       },
       "is_incremental": false,
@@ -2420,7 +2672,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.RepositorySummary.html",
-          "hash": "rh4BZbttkD1v90TqQlh3WQ=="
+          "hash": "Pzg2PHyiCNVQLR9CyobXtQ=="
         }
       },
       "is_incremental": false,
@@ -2432,7 +2684,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.User.html",
-          "hash": "eimA8LEqTz6gTe6fAgA8xg=="
+          "hash": "4lLILCyzqR2BfRv47MN4RQ=="
         }
       },
       "is_incremental": false,
@@ -2444,7 +2696,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.Entities.Workspace.html",
-          "hash": "4vkqDjvhsRqHvp0rmA83xg=="
+          "hash": "rk5NniyAwGMGUUfdgoxfPg=="
         }
       },
       "is_incremental": false,
@@ -2468,7 +2720,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.IBitBucketAuthenticatorConfig.html",
-          "hash": "I5SfSub0HxR9zxWegV0NVw=="
+          "hash": "bg//K521zv3dxuJRdO5sdw=="
         }
       },
       "is_incremental": false,
@@ -2480,7 +2732,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.BitBucket.ServiceCollectionExtensions.html",
-          "hash": "DbAZSpgk6m5VVTa9Avjmfg=="
+          "hash": "HHBlVCCx2TKaQ2JiS0qGIQ=="
         }
       },
       "is_incremental": false,
@@ -2504,7 +2756,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.GitHub.GitHubAuthenticatorConfig.html",
-          "hash": "rjm1qx/piTZif+QGOAzE+A=="
+          "hash": "ZV9ldQ19F5NYkCO6Kha4bQ=="
         }
       },
       "is_incremental": false,
@@ -2516,7 +2768,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.GitHub.IGitHubAuthenticatorConfig.html",
-          "hash": "y/Qt3y80/mAzx8HWuAz5lw=="
+          "hash": "ldXj0Pm5srZ3i0rloQ+FVg=="
         }
       },
       "is_incremental": false,
@@ -2528,7 +2780,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Authenticator.GitHub.ServiceCollectionExtensions.html",
-          "hash": "s+zbjYeom7iYdrXm15VODA=="
+          "hash": "4HYErrDWhkKgflXdaS2rRQ=="
         }
       },
       "is_incremental": false,
@@ -2552,7 +2804,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.BlobConstants.html",
-          "hash": "n/pzcAvja1BlNkjWiLQ6zw=="
+          "hash": "/XTnBAfV9sheHJgTfMpbWw=="
         }
       },
       "is_incremental": false,
@@ -2564,7 +2816,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.DictionaryAuthenticator.html",
-          "hash": "XEYczrG/YdDAj0AlSVB7EA=="
+          "hash": "bGrSZ9S4kQLgPt919ZkbDA=="
         }
       },
       "is_incremental": false,
@@ -2576,7 +2828,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.Action.html",
-          "hash": "CQ59q3PhCQh+OSN+aLNSyQ=="
+          "hash": "27V3BJLX4cSpYAL4elr1Bg=="
         }
       },
       "is_incremental": false,
@@ -2588,7 +2840,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.Actions.html",
-          "hash": "TnrVQKHpgH1rckUB9nCppw=="
+          "hash": "9tNLSSgygp1JOKzob0ninA=="
         }
       },
       "is_incremental": false,
@@ -2600,7 +2852,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.RequestObject.html",
-          "hash": "TMj6fRokzooa9Cxh0Y9J0w=="
+          "hash": "g3HVImv/GdAf7jfJj1Osuw=="
         }
       },
       "is_incremental": false,
@@ -2612,7 +2864,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.ResponseObject.html",
-          "hash": "32237s3oBLRvLh90slCEyg=="
+          "hash": "KODn2eU/0U4zt1K94r3iBg=="
         }
       },
       "is_incremental": false,
@@ -2624,7 +2876,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.Entities.ResponseObjectError.html",
-          "hash": "zPYmTraJsYcH2/dQ8ubb8g=="
+          "hash": "JkWWWX89DWLCAHgjTKcpQg=="
         }
       },
       "is_incremental": false,
@@ -2648,7 +2900,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.IAuthenticator.html",
-          "hash": "RMTYKMPUM4LDhUv0/jHHPg=="
+          "hash": "rIcQ3sh4cuHreAaRhuWDpQ=="
         }
       },
       "is_incremental": false,
@@ -2660,7 +2912,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.IBlobAdapter.html",
-          "hash": "s1KslQYiRoyeXGNrYyl3aw=="
+          "hash": "IdEOeKEK19hqqUECsjtD8g=="
         }
       },
       "is_incremental": false,
@@ -2696,7 +2948,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.ObjectManager.html",
-          "hash": "at5WTdOV0qPTN2srKL8Y1w=="
+          "hash": "W/8aXetH/LVx5oP1wh9TWQ=="
         }
       },
       "is_incremental": false,
@@ -2708,7 +2960,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.ServiceCollectionExtensions.html",
-          "hash": "qj4moWOHH8s3K9b6oKajQg=="
+          "hash": "fpUo3j3+pXHgL5dJq7TlhQ=="
         }
       },
       "is_incremental": false,
@@ -2720,7 +2972,7 @@
       "output": {
         ".html": {
           "relative_path": "Estranged.Lfs/Estranged.Lfs.Data.SignedBlob.html",
-          "hash": "Hi8iuOwmi9ljZPN69Z5ivQ=="
+          "hash": "jCD4oTnQmEkiSVtcxfuckQ=="
         }
       },
       "is_incremental": false,
@@ -2806,7 +3058,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 210,
+          "total_file_count": 231,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

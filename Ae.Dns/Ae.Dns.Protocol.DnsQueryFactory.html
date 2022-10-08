@@ -73,12 +73,12 @@
   
   <h1 id="Ae_Dns_Protocol_DnsQueryFactory" data-uid="Ae.Dns.Protocol.DnsQueryFactory" class="text-break">Class DnsQueryFactory
   </h1>
-  <div class="markdown level0 summary"><p>Provides extension methods around <a class="xref" href="Ae.Dns.Protocol.DnsHeader.html">DnsHeader</a>.</p>
+  <div class="markdown level0 summary"><p>Provides extension methods around <a class="xref" href="Ae.Dns.Protocol.DnsMessage.html">DnsMessage</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">DnsQueryFactory</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Ae.Dns.Protocol.html">Ae.Dns.Protocol</a></h6>
@@ -91,10 +91,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsQueryFactory_CreateQuery_System_String_Ae_Dns_Protocol_Enums_DnsQueryType_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsQueryFactory.CreateQuery(System.String%2CAe.Dns.Protocol.Enums.DnsQueryType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/apiSpec/new?filename=Ae_Dns_Protocol_DnsQueryFactory_CreateQuery_System_String_Ae_Dns_Protocol_Enums_DnsQueryType_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsQueryFactory.CreateQuery(System.String%2CAe.Dns.Protocol.Enums.DnsQueryType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsQueryFactory.cs/#L26">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/src/Ae.Dns.Protocol/DnsQueryFactory.cs/#L26">View Source</a>
   </span>
   <a id="Ae_Dns_Protocol_DnsQueryFactory_CreateQuery_" data-uid="Ae.Dns.Protocol.DnsQueryFactory.CreateQuery*"></a>
   <h4 id="Ae_Dns_Protocol_DnsQueryFactory_CreateQuery_System_String_Ae_Dns_Protocol_Enums_DnsQueryType_" data-uid="Ae.Dns.Protocol.DnsQueryFactory.CreateQuery(System.String,Ae.Dns.Protocol.Enums.DnsQueryType)">CreateQuery(String, DnsQueryType)</h4>
@@ -103,7 +103,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DnsHeader CreateQuery(string host, DnsQueryType type = default(DnsQueryType))</code></pre>
+    <pre><code class="lang-csharp hljs">public static DnsMessage CreateQuery(string host, DnsQueryType type = default(DnsQueryType))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -116,7 +116,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">host</span></td>
         <td><p>The DNS host to request in the query.</p>
 </td>
@@ -139,7 +139,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Ae.Dns.Protocol.DnsHeader.html">DnsHeader</a></td>
+        <td><a class="xref" href="Ae.Dns.Protocol.DnsMessage.html">DnsMessage</a></td>
         <td><p>The complete DNS query.</p>
 </td>
       </tr>
@@ -147,10 +147,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsQueryFactory_CreateReverseQuery_IPAddress_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsQueryFactory.CreateReverseQuery(IPAddress)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/apiSpec/new?filename=Ae_Dns_Protocol_DnsQueryFactory_CreateReverseQuery_IPAddress_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsQueryFactory.CreateReverseQuery(IPAddress)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsQueryFactory.cs/#L45">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/src/Ae.Dns.Protocol/DnsQueryFactory.cs/#L48">View Source</a>
   </span>
   <a id="Ae_Dns_Protocol_DnsQueryFactory_CreateReverseQuery_" data-uid="Ae.Dns.Protocol.DnsQueryFactory.CreateReverseQuery*"></a>
   <h4 id="Ae_Dns_Protocol_DnsQueryFactory_CreateReverseQuery_IPAddress_" data-uid="Ae.Dns.Protocol.DnsQueryFactory.CreateReverseQuery(IPAddress)">CreateReverseQuery(IPAddress)</h4>
@@ -159,7 +159,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DnsHeader CreateReverseQuery(IPAddress ipAddress)</code></pre>
+    <pre><code class="lang-csharp hljs">public static DnsMessage CreateReverseQuery(IPAddress ipAddress)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -189,7 +189,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Ae.Dns.Protocol.DnsHeader.html">DnsHeader</a></td>
+        <td><a class="xref" href="Ae.Dns.Protocol.DnsMessage.html">DnsMessage</a></td>
         <td><p>The correctly formatted <a class="xref" href="Ae.Dns.Protocol.Enums.DnsQueryType.html#Ae_Dns_Protocol_Enums_DnsQueryType_PTR">PTR</a> DNS query.</p>
 </td>
       </tr>
@@ -197,10 +197,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsQueryFactory_GenerateId.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsQueryFactory.GenerateId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/apiSpec/new?filename=Ae_Dns_Protocol_DnsQueryFactory_GenerateId.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsQueryFactory.GenerateId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsQueryFactory.cs/#L18">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/src/Ae.Dns.Protocol/DnsQueryFactory.cs/#L18">View Source</a>
   </span>
   <a id="Ae_Dns_Protocol_DnsQueryFactory_GenerateId_" data-uid="Ae.Dns.Protocol.DnsQueryFactory.GenerateId*"></a>
   <h4 id="Ae_Dns_Protocol_DnsQueryFactory_GenerateId" data-uid="Ae.Dns.Protocol.DnsQueryFactory.GenerateId">GenerateId()</h4>
@@ -221,7 +221,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">UInt16</a></td>
         <td><p>A random <see cref="!:System.UInt16"></see> value.</p>
 </td>
       </tr>
@@ -235,10 +235,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_DnsQueryFactory.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsQueryFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/new/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/apiSpec/new?filename=Ae_Dns_Protocol_DnsQueryFactory.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.DnsQueryFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/DnsQueryFactory.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/src/Ae.Dns.Protocol/DnsQueryFactory.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

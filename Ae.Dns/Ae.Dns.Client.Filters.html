@@ -91,6 +91,10 @@ For example, if one filter allows the query, it is successful.</p>
       <h4><a class="xref" href="Ae.Dns.Client.Filters.DnsDomainSuffixFilter.html">DnsDomainSuffixFilter</a></h4>
       <section><p>Provides the ability to use partial suffix matching to deny DNS queries.</p>
 </section>
+      <h4><a class="xref" href="Ae.Dns.Client.Filters.DnsLocalNetworkQueryFilter.html">DnsLocalNetworkQueryFilter</a></h4>
+      <section><p>A filter which disallows queries which only make sense on a local network.
+This can be used to stop local network queries hitting an upstream DNS server on the internet for example.</p>
+</section>
       <h4><a class="xref" href="Ae.Dns.Client.Filters.DnsRemoteSetFilter.html">DnsRemoteSetFilter</a></h4>
       <section><p>Provides the ability to use remote block lists
 (hosts files or line-delimited lists of domains)

@@ -87,6 +87,20 @@ forwarding uncached DNS queries to another client.</p>
       <h4><a class="xref" href="Ae.Dns.Client.DnsHttpClient.html">DnsHttpClient</a></h4>
       <section><p>Represents a DNS client which operates over HTTPS (DoH).</p>
 </section>
+      <h4><a class="xref" href="Ae.Dns.Client.DnsMetricsClient.html">DnsMetricsClient</a></h4>
+      <section><p>A client which logs metrics aganst DNS responses.</p>
+</section>
+      <h4><a class="xref" href="Ae.Dns.Client.DnsRacerClient.html">DnsRacerClient</a></h4>
+      <section><p>A client consisting of multiple <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> instances.
+At query time, two clients are picked at random, and the DNS requests race against each other.
+The first non-exceptional result is used, the slower result is discarded.</p>
+</section>
+      <h4><a class="xref" href="Ae.Dns.Client.DnsRebindMitigationClient.html">DnsRebindMitigationClient</a></h4>
+      <section><p>A client which prevents an upstream from returning a DNS record which contains a private IP address.</p>
+</section>
+      <h4><a class="xref" href="Ae.Dns.Client.DnsRecursiveClient.html">DnsRecursiveClient</a></h4>
+      <section><p>Represents a recursive DNS client which starts at the root servers to answer queries.</p>
+</section>
       <h4><a class="xref" href="Ae.Dns.Client.DnsRoundRobinClient.html">DnsRoundRobinClient</a></h4>
       <section><p>A client consisting of multiple <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> instances which are picked at random.</p>
 </section>

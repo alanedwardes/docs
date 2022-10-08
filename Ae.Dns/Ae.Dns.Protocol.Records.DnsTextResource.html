@@ -73,238 +73,56 @@
   
   <h1 id="Ae_Dns_Protocol_Records_DnsTextResource" data-uid="Ae.Dns.Protocol.Records.DnsTextResource" class="text-break">Class DnsTextResource
   </h1>
-  <div class="markdown level0 summary"><p>Represents a DNS resource containing a string.</p>
+  <div class="markdown level0 summary"><p>Represents a DNS text resource containing a string.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">DnsTextResource</span></div>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="Ae.Dns.Protocol.Records.DnsStringResource.html">DnsStringResource</a></div>
+    <div class="level2"><span class="xref">DnsTextResource</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Ae.Dns.Protocol.Records.IDnsResource.html">IDnsResource</a></div>
     <div><a class="xref" href="Ae.Dns.Protocol.IDnsByteArrayWriter.html">IDnsByteArrayWriter</a></div>
-    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Ae.Dns.Protocol.Records.DnsTextResource.html">DnsTextResource</a>&gt;</div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Ae.Dns.Protocol.Records.DnsStringResource.html">DnsStringResource</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_Entries">DnsStringResource.Entries</a>
+    </div>
+    <div>
+      <a class="xref" href="Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_Equals_Ae_Dns_Protocol_Records_DnsStringResource_">DnsStringResource.Equals(DnsStringResource)</a>
+    </div>
+    <div>
+      <a class="xref" href="Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_Equals_System_Object_">DnsStringResource.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_GetHashCode">DnsStringResource.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_ReadBytes_System_Byte___System_Int32__System_Int32_">DnsStringResource.ReadBytes(Byte[], Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Ae.Dns.Protocol.Records.DnsStringResource.html#Ae_Dns_Protocol_Records_DnsStringResource_WriteBytes">DnsStringResource.WriteBytes()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Ae.Dns.Protocol.Records.html">Ae.Dns.Protocol.Records</a></h6>
   <h6><strong>Assembly</strong>: Ae.Dns.Protocol.dll</h6>
   <h5 id="Ae_Dns_Protocol_Records_DnsTextResource_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class DnsTextResource : object, IDnsResource, IDnsByteArrayWriter, IEquatable&lt;DnsTextResource&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class DnsTextResource : DnsStringResource, IDnsResource, IDnsByteArrayWriter, IEquatable&lt;DnsStringResource&gt;</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsTextResource_Text.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsTextResource.Text%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsTextResource.cs/#L17">View Source</a>
-  </span>
-  <a id="Ae_Dns_Protocol_Records_DnsTextResource_Text_" data-uid="Ae.Dns.Protocol.Records.DnsTextResource.Text*"></a>
-  <h4 id="Ae_Dns_Protocol_Records_DnsTextResource_Text" data-uid="Ae.Dns.Protocol.Records.DnsTextResource.Text">Text</h4>
-  <div class="markdown level1 summary"><p>The text entry contained within this resource.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Text { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>The text value of this resource as a single entry, joined together with periods (.)</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsTextResource_Equals_Ae_Dns_Protocol_Records_DnsTextResource_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsTextResource.Equals(Ae.Dns.Protocol.Records.DnsTextResource)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsTextResource_ToString.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsTextResource.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsTextResource.cs/#L20">View Source</a>
-  </span>
-  <a id="Ae_Dns_Protocol_Records_DnsTextResource_Equals_" data-uid="Ae.Dns.Protocol.Records.DnsTextResource.Equals*"></a>
-  <h4 id="Ae_Dns_Protocol_Records_DnsTextResource_Equals_Ae_Dns_Protocol_Records_DnsTextResource_" data-uid="Ae.Dns.Protocol.Records.DnsTextResource.Equals(Ae.Dns.Protocol.Records.DnsTextResource)">Equals(DnsTextResource)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Equals(DnsTextResource other)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Ae.Dns.Protocol.Records.DnsTextResource.html">DnsTextResource</a></td>
-        <td><span class="parametername">other</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsTextResource_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsTextResource.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsTextResource.cs/#L23">View Source</a>
-  </span>
-  <a id="Ae_Dns_Protocol_Records_DnsTextResource_Equals_" data-uid="Ae.Dns.Protocol.Records.DnsTextResource.Equals*"></a>
-  <h4 id="Ae_Dns_Protocol_Records_DnsTextResource_Equals_System_Object_" data-uid="Ae.Dns.Protocol.Records.DnsTextResource.Equals(System.Object)">Equals(Object)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td><span class="parametername">obj</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsTextResource_GetHashCode.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsTextResource.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsTextResource.cs/#L26">View Source</a>
-  </span>
-  <a id="Ae_Dns_Protocol_Records_DnsTextResource_GetHashCode_" data-uid="Ae.Dns.Protocol.Records.DnsTextResource.GetHashCode*"></a>
-  <h4 id="Ae_Dns_Protocol_Records_DnsTextResource_GetHashCode" data-uid="Ae.Dns.Protocol.Records.DnsTextResource.GetHashCode">GetHashCode()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsTextResource_ReadBytes_System_Byte___System_Int32__System_Int32_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsTextResource.ReadBytes(System.Byte%5B%5D%2CSystem.Int32%40%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsTextResource.cs/#L29">View Source</a>
-  </span>
-  <a id="Ae_Dns_Protocol_Records_DnsTextResource_ReadBytes_" data-uid="Ae.Dns.Protocol.Records.DnsTextResource.ReadBytes*"></a>
-  <h4 id="Ae_Dns_Protocol_Records_DnsTextResource_ReadBytes_System_Byte___System_Int32__System_Int32_" data-uid="Ae.Dns.Protocol.Records.DnsTextResource.ReadBytes(System.Byte[],System.Int32@,System.Int32)">ReadBytes(Byte[], ref Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>Read from the specified byte array, starting at the specified offset.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ReadBytes(byte[] bytes, ref int offset, int length)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-        <td><span class="parametername">bytes</span></td>
-        <td><p>The byte array to read from.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">offset</span></td>
-        <td><p>The offset to start at.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">length</span></td>
-        <td><p>The maximum number of bytes to read.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsTextResource_ToString.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsTextResource.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsTextResource.cs/#L41">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/src/Ae.Dns.Protocol/Records/DnsTextResource.cs/#L9">View Source</a>
   </span>
   <a id="Ae_Dns_Protocol_Records_DnsTextResource_ToString_" data-uid="Ae.Dns.Protocol.Records.DnsTextResource.ToString*"></a>
   <h4 id="Ae_Dns_Protocol_Records_DnsTextResource_ToString" data-uid="Ae.Dns.Protocol.Records.DnsTextResource.ToString">ToString()</h4>
@@ -324,40 +142,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsTextResource_WriteBytes.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsTextResource.WriteBytes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsTextResource.cs/#L35">View Source</a>
-  </span>
-  <a id="Ae_Dns_Protocol_Records_DnsTextResource_WriteBytes_" data-uid="Ae.Dns.Protocol.Records.DnsTextResource.WriteBytes*"></a>
-  <h4 id="Ae_Dns_Protocol_Records_DnsTextResource_WriteBytes" data-uid="Ae.Dns.Protocol.Records.DnsTextResource.WriteBytes">WriteBytes()</h4>
-  <div class="markdown level1 summary"><p>Writes the contents of this class to the specified nested <see cref="!:IEnumerable&lt;T>"></see> of <see cref="!:System.Byte"></see>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IEnumerable&lt;byte&gt;&gt; WriteBytes()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;&gt;</td>
-        <td><p>A nested <see cref="!:IEnumerable&lt;T>"></see> of <see cref="!:System.Byte"></see>.</p>
-</td>
       </tr>
     </tbody>
   </table>
@@ -379,10 +165,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Dns/new/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsTextResource.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsTextResource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/new/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsTextResource.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsTextResource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/4db50e754cc0e032fbaa14c4beb4157b9bab8ea6/src/Ae.Dns.Protocol/Records/DnsTextResource.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/src/Ae.Dns.Protocol/Records/DnsTextResource.cs/#L6" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

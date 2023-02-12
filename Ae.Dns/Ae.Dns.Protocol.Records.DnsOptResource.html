@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DnsUnknownResource
+    <title>Class DnsOptResource
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DnsUnknownResource
+    <meta name="title" content="Class DnsOptResource
    ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -68,42 +68,42 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource">
+            <article class="content wrap" id="_content" data-uid="Ae.Dns.Protocol.Records.DnsOptResource">
   
   
-  <h1 id="Ae_Dns_Protocol_Records_DnsUnknownResource" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource" class="text-break">Class DnsUnknownResource
+  <h1 id="Ae_Dns_Protocol_Records_DnsOptResource" data-uid="Ae.Dns.Protocol.Records.DnsOptResource" class="text-break">Class DnsOptResource
   </h1>
-  <div class="markdown level0 summary"><p>Represents a DNS resource that this library cannot yet understand.</p>
+  <div class="markdown level0 summary"><p>Describes an EDNS0 psuedo-resource.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">DnsUnknownResource</span></div>
+    <div class="level1"><span class="xref">DnsOptResource</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Ae.Dns.Protocol.Records.IDnsResource.html">IDnsResource</a></div>
     <div><a class="xref" href="Ae.Dns.Protocol.IDnsByteArrayWriter.html">IDnsByteArrayWriter</a></div>
-    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Ae.Dns.Protocol.Records.DnsUnknownResource.html">DnsUnknownResource</a>&gt;</div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Ae.Dns.Protocol.Records.DnsOptResource.html">DnsOptResource</a>&gt;</div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Ae.Dns.Protocol.Records.html">Ae.Dns.Protocol.Records</a></h6>
   <h6><strong>Assembly</strong>: Ae.Dns.Protocol.dll</h6>
-  <h5 id="Ae_Dns_Protocol_Records_DnsUnknownResource_syntax">Syntax</h5>
+  <h5 id="Ae_Dns_Protocol_Records_DnsOptResource_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class DnsUnknownResource : object, IDnsResource, IDnsByteArrayWriter, IEquatable&lt;DnsUnknownResource&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class DnsOptResource : object, IDnsResource, IDnsByteArrayWriter, IEquatable&lt;DnsOptResource&gt;</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsUnknownResource_Raw.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsUnknownResource.Raw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsOptResource_Raw.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsOptResource.Raw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsUnknownResource.cs/#L18">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsOptResource.cs/#L16">View Source</a>
   </span>
-  <a id="Ae_Dns_Protocol_Records_DnsUnknownResource_Raw_" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource.Raw*"></a>
-  <h4 id="Ae_Dns_Protocol_Records_DnsUnknownResource_Raw" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource.Raw">Raw</h4>
+  <a id="Ae_Dns_Protocol_Records_DnsOptResource_Raw_" data-uid="Ae.Dns.Protocol.Records.DnsOptResource.Raw*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsOptResource_Raw" data-uid="Ae.Dns.Protocol.Records.DnsOptResource.Raw">Raw</h4>
   <div class="markdown level1 summary"><p>The raw bytes recieved for this DNS resource.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -132,18 +132,18 @@ For string values, due to compression the whole packet may be needed.</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsUnknownResource_Equals_Ae_Dns_Protocol_Records_DnsUnknownResource_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsUnknownResource.Equals(Ae.Dns.Protocol.Records.DnsUnknownResource)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsOptResource_Equals_Ae_Dns_Protocol_Records_DnsOptResource_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsOptResource.Equals(Ae.Dns.Protocol.Records.DnsOptResource)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsUnknownResource.cs/#L21">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsOptResource.cs/#L19">View Source</a>
   </span>
-  <a id="Ae_Dns_Protocol_Records_DnsUnknownResource_Equals_" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource.Equals*"></a>
-  <h4 id="Ae_Dns_Protocol_Records_DnsUnknownResource_Equals_Ae_Dns_Protocol_Records_DnsUnknownResource_" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource.Equals(Ae.Dns.Protocol.Records.DnsUnknownResource)">Equals(DnsUnknownResource)</h4>
+  <a id="Ae_Dns_Protocol_Records_DnsOptResource_Equals_" data-uid="Ae.Dns.Protocol.Records.DnsOptResource.Equals*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsOptResource_Equals_Ae_Dns_Protocol_Records_DnsOptResource_" data-uid="Ae.Dns.Protocol.Records.DnsOptResource.Equals(Ae.Dns.Protocol.Records.DnsOptResource)">Equals(DnsOptResource)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Equals(DnsUnknownResource other)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Equals(DnsOptResource other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -156,7 +156,7 @@ For string values, due to compression the whole packet may be needed.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Ae.Dns.Protocol.Records.DnsUnknownResource.html">DnsUnknownResource</a></td>
+        <td><a class="xref" href="Ae.Dns.Protocol.Records.DnsOptResource.html">DnsOptResource</a></td>
         <td><span class="parametername">other</span></td>
         <td></td>
       </tr>
@@ -179,13 +179,13 @@ For string values, due to compression the whole packet may be needed.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsUnknownResource_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsUnknownResource.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsOptResource_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsOptResource.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsUnknownResource.cs/#L24">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsOptResource.cs/#L22">View Source</a>
   </span>
-  <a id="Ae_Dns_Protocol_Records_DnsUnknownResource_Equals_" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource.Equals*"></a>
-  <h4 id="Ae_Dns_Protocol_Records_DnsUnknownResource_Equals_System_Object_" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource.Equals(System.Object)">Equals(Object)</h4>
+  <a id="Ae_Dns_Protocol_Records_DnsOptResource_Equals_" data-uid="Ae.Dns.Protocol.Records.DnsOptResource.Equals*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsOptResource_Equals_System_Object_" data-uid="Ae.Dns.Protocol.Records.DnsOptResource.Equals(System.Object)">Equals(Object)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -226,13 +226,13 @@ For string values, due to compression the whole packet may be needed.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsUnknownResource_GetHashCode.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsUnknownResource.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsOptResource_GetHashCode.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsOptResource.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsUnknownResource.cs/#L27">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsOptResource.cs/#L25">View Source</a>
   </span>
-  <a id="Ae_Dns_Protocol_Records_DnsUnknownResource_GetHashCode_" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource.GetHashCode*"></a>
-  <h4 id="Ae_Dns_Protocol_Records_DnsUnknownResource_GetHashCode" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource.GetHashCode">GetHashCode()</h4>
+  <a id="Ae_Dns_Protocol_Records_DnsOptResource_GetHashCode_" data-uid="Ae.Dns.Protocol.Records.DnsOptResource.GetHashCode*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsOptResource_GetHashCode" data-uid="Ae.Dns.Protocol.Records.DnsOptResource.GetHashCode">GetHashCode()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -256,13 +256,13 @@ For string values, due to compression the whole packet may be needed.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsUnknownResource_ReadBytes_ReadOnlyMemory_System_Byte__System_Int32__System_Int32_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsUnknownResource.ReadBytes(ReadOnlyMemory%7BSystem.Byte%7D%2CSystem.Int32%40%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsOptResource_ReadBytes_ReadOnlyMemory_System_Byte__System_Int32__System_Int32_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsOptResource.ReadBytes(ReadOnlyMemory%7BSystem.Byte%7D%2CSystem.Int32%40%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsUnknownResource.cs/#L30">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsOptResource.cs/#L28">View Source</a>
   </span>
-  <a id="Ae_Dns_Protocol_Records_DnsUnknownResource_ReadBytes_" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource.ReadBytes*"></a>
-  <h4 id="Ae_Dns_Protocol_Records_DnsUnknownResource_ReadBytes_ReadOnlyMemory_System_Byte__System_Int32__System_Int32_" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource.ReadBytes(ReadOnlyMemory{System.Byte},System.Int32@,System.Int32)">ReadBytes(ReadOnlyMemory&lt;Byte&gt;, ref Int32, Int32)</h4>
+  <a id="Ae_Dns_Protocol_Records_DnsOptResource_ReadBytes_" data-uid="Ae.Dns.Protocol.Records.DnsOptResource.ReadBytes*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsOptResource_ReadBytes_ReadOnlyMemory_System_Byte__System_Int32__System_Int32_" data-uid="Ae.Dns.Protocol.Records.DnsOptResource.ReadBytes(ReadOnlyMemory{System.Byte},System.Int32@,System.Int32)">ReadBytes(ReadOnlyMemory&lt;Byte&gt;, ref Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Read from the specified byte array, starting at the specified offset.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -302,13 +302,13 @@ For string values, due to compression the whole packet may be needed.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsUnknownResource_ToString.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsUnknownResource.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsOptResource_ToString.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsOptResource.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsUnknownResource.cs/#L36">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsOptResource.cs/#L42">View Source</a>
   </span>
-  <a id="Ae_Dns_Protocol_Records_DnsUnknownResource_ToString_" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource.ToString*"></a>
-  <h4 id="Ae_Dns_Protocol_Records_DnsUnknownResource_ToString" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource.ToString">ToString()</h4>
+  <a id="Ae_Dns_Protocol_Records_DnsOptResource_ToString_" data-uid="Ae.Dns.Protocol.Records.DnsOptResource.ToString*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsOptResource_ToString" data-uid="Ae.Dns.Protocol.Records.DnsOptResource.ToString">ToString()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -332,13 +332,13 @@ For string values, due to compression the whole packet may be needed.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsUnknownResource_WriteBytes_Memory_System_Byte__System_Int32__.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsUnknownResource.WriteBytes(Memory%7BSystem.Byte%7D%2CSystem.Int32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsOptResource_WriteBytes_Memory_System_Byte__System_Int32__.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsOptResource.WriteBytes(Memory%7BSystem.Byte%7D%2CSystem.Int32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsUnknownResource.cs/#L39">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsOptResource.cs/#L34">View Source</a>
   </span>
-  <a id="Ae_Dns_Protocol_Records_DnsUnknownResource_WriteBytes_" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource.WriteBytes*"></a>
-  <h4 id="Ae_Dns_Protocol_Records_DnsUnknownResource_WriteBytes_Memory_System_Byte__System_Int32__" data-uid="Ae.Dns.Protocol.Records.DnsUnknownResource.WriteBytes(Memory{System.Byte},System.Int32@)">WriteBytes(Memory&lt;Byte&gt;, ref Int32)</h4>
+  <a id="Ae_Dns_Protocol_Records_DnsOptResource_WriteBytes_" data-uid="Ae.Dns.Protocol.Records.DnsOptResource.WriteBytes*"></a>
+  <h4 id="Ae_Dns_Protocol_Records_DnsOptResource_WriteBytes_Memory_System_Byte__System_Int32__" data-uid="Ae.Dns.Protocol.Records.DnsOptResource.WriteBytes(Memory{System.Byte},System.Int32@)">WriteBytes(Memory&lt;Byte&gt;, ref Int32)</h4>
   <div class="markdown level1 summary"><p>Write to the the specified byte array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -388,10 +388,10 @@ For string values, due to compression the whole packet may be needed.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsUnknownResource.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsUnknownResource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_Records_DnsOptResource.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.Records.DnsOptResource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsUnknownResource.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/Records/DnsOptResource.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

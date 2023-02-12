@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IDnsServer
+    <title>Interface IDnsRawClient
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IDnsServer
+    <meta name="title" content="Interface IDnsRawClient
    ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -68,37 +68,38 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Ae.Dns.Protocol.IDnsServer">
+            <article class="content wrap" id="_content" data-uid="Ae.Dns.Protocol.IDnsRawClient">
   
   
-  <h1 id="Ae_Dns_Protocol_IDnsServer" data-uid="Ae.Dns.Protocol.IDnsServer" class="text-break">Interface IDnsServer
+  <h1 id="Ae_Dns_Protocol_IDnsRawClient" data-uid="Ae.Dns.Protocol.IDnsRawClient" class="text-break">Interface IDnsRawClient
   </h1>
-  <div class="markdown level0 summary"><p>Represents a server capable of receiving DNS requests.</p>
+  <div class="markdown level0 summary"><p>Represents a client capable of accepting a contiguous region of memory,
+reading the query from it, and writing the answer back into it.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Ae.Dns.Protocol.html">Ae.Dns.Protocol</a></h6>
   <h6><strong>Assembly</strong>: Ae.Dns.Protocol.dll</h6>
-  <h5 id="Ae_Dns_Protocol_IDnsServer_syntax">Syntax</h5>
+  <h5 id="Ae_Dns_Protocol_IDnsRawClient_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IDnsServer : IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IDnsRawClient : IDisposable</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_IDnsServer_Listen_CancellationToken_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.IDnsServer.Listen(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_IDnsRawClient_Query_Memory_System_Byte__System_Int32_EndPoint_CancellationToken_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.IDnsRawClient.Query(Memory%7BSystem.Byte%7D%2CSystem.Int32%2CEndPoint%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/IDnsServer.cs/#L17">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/IDnsRawClient.cs/#L22">View Source</a>
   </span>
-  <a id="Ae_Dns_Protocol_IDnsServer_Listen_" data-uid="Ae.Dns.Protocol.IDnsServer.Listen*"></a>
-  <h4 id="Ae_Dns_Protocol_IDnsServer_Listen_CancellationToken_" data-uid="Ae.Dns.Protocol.IDnsServer.Listen(CancellationToken)">Listen(CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Listen for DNS queries.</p>
+  <a id="Ae_Dns_Protocol_IDnsRawClient_Query_" data-uid="Ae.Dns.Protocol.IDnsRawClient.Query*"></a>
+  <h4 id="Ae_Dns_Protocol_IDnsRawClient_Query_Memory_System_Byte__System_Int32_EndPoint_CancellationToken_" data-uid="Ae.Dns.Protocol.IDnsRawClient.Query(Memory{System.Byte},System.Int32,EndPoint,CancellationToken)">Query(Memory&lt;Byte&gt;, Int32, EndPoint, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Reads the number of bytes specified from the buffer, and writes back an answer to the same buffer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task Listen(CancellationToken token = null)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;DnsRawClientResponse&gt; Query(Memory&lt;byte&gt; buffer, int queryLength, EndPoint querySource, CancellationToken token = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -111,9 +112,27 @@
     </thead>
     <tbody>
       <tr>
+        <td><span class="xref">Memory</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>The buffer to read the query from, and write the answer to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">queryLength</span></td>
+        <td><p>The length of the query in the buffer, in bytes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">EndPoint</span></td>
+        <td><span class="parametername">querySource</span></td>
+        <td><p>The source address of the query, for statistics.</p>
+</td>
+      </tr>
+      <tr>
         <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">token</span></td>
-        <td><p>The <see cref="!:CancellationToken"></see> to use to stop listening.</p>
+        <td><p>The cancellation token to stop the operation.</p>
 </td>
       </tr>
     </tbody>
@@ -128,8 +147,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span></td>
-        <td><p>A task which will run forever unless cancelled.</p>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Ae.Dns.Protocol.DnsRawClientResponse.html">DnsRawClientResponse</a>&gt;</td>
+        <td><p>The number of bytes written back into the buffer.</p>
 </td>
       </tr>
     </tbody>
@@ -142,10 +161,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_IDnsServer.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.IDnsServer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_IDnsRawClient.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.IDnsRawClient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/IDnsServer.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/IDnsRawClient.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

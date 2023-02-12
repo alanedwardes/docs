@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IDnsServer
+    <title>Class DnsUdpServerOptions
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IDnsServer
+    <meta name="title" content="Class DnsUdpServerOptions
    ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -68,57 +68,49 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Ae.Dns.Protocol.IDnsServer">
+            <article class="content wrap" id="_content" data-uid="Ae.Dns.Server.DnsUdpServerOptions">
   
   
-  <h1 id="Ae_Dns_Protocol_IDnsServer" data-uid="Ae.Dns.Protocol.IDnsServer" class="text-break">Interface IDnsServer
+  <h1 id="Ae_Dns_Server_DnsUdpServerOptions" data-uid="Ae.Dns.Server.DnsUdpServerOptions" class="text-break">Class DnsUdpServerOptions
   </h1>
-  <div class="markdown level0 summary"><p>Represents a server capable of receiving DNS requests.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Ae.Dns.Protocol.html">Ae.Dns.Protocol</a></h6>
-  <h6><strong>Assembly</strong>: Ae.Dns.Protocol.dll</h6>
-  <h5 id="Ae_Dns_Protocol_IDnsServer_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IDnsServer : IDisposable</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="Ae.Dns.Server.DnsSocketServerOptions.html">DnsSocketServerOptions</a></div>
+    <div class="level2"><span class="xref">DnsUdpServerOptions</span></div>
   </div>
-  <h3 id="methods">Methods
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Ae.Dns.Server.DnsSocketServerOptions.html#Ae_Dns_Server_DnsSocketServerOptions_Endpoint">DnsSocketServerOptions.Endpoint</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Ae.Dns.Server.html">Ae.Dns.Server</a></h6>
+  <h6><strong>Assembly</strong>: Ae.Dns.Server.dll</h6>
+  <h5 id="Ae_Dns_Server_DnsUdpServerOptions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class DnsUdpServerOptions : DnsSocketServerOptions</code></pre>
+  </div>
+  <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_IDnsServer_Listen_CancellationToken_.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.IDnsServer.Listen(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Server_DnsUdpServerOptions_DefaultMaximumDatagramSize.md&amp;value=---%0Auid%3A%20Ae.Dns.Server.DnsUdpServerOptions.DefaultMaximumDatagramSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/IDnsServer.cs/#L17">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Server/DnsUdpServerOptions.cs/#L5">View Source</a>
   </span>
-  <a id="Ae_Dns_Protocol_IDnsServer_Listen_" data-uid="Ae.Dns.Protocol.IDnsServer.Listen*"></a>
-  <h4 id="Ae_Dns_Protocol_IDnsServer_Listen_CancellationToken_" data-uid="Ae.Dns.Protocol.IDnsServer.Listen(CancellationToken)">Listen(CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Listen for DNS queries.</p>
-</div>
+  <a id="Ae_Dns_Server_DnsUdpServerOptions_DefaultMaximumDatagramSize_" data-uid="Ae.Dns.Server.DnsUdpServerOptions.DefaultMaximumDatagramSize*"></a>
+  <h4 id="Ae_Dns_Server_DnsUdpServerOptions_DefaultMaximumDatagramSize" data-uid="Ae.Dns.Server.DnsUdpServerOptions.DefaultMaximumDatagramSize">DefaultMaximumDatagramSize</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task Listen(CancellationToken token = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public uint DefaultMaximumDatagramSize { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">token</span></td>
-        <td><p>The <see cref="!:CancellationToken"></see> to use to stop listening.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -128,9 +120,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span></td>
-        <td><p>A task which will run forever unless cancelled.</p>
-</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -142,10 +133,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Protocol_IDnsServer.md&amp;value=---%0Auid%3A%20Ae.Dns.Protocol.IDnsServer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Server_DnsUdpServerOptions.md&amp;value=---%0Auid%3A%20Ae.Dns.Server.DnsUdpServerOptions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Protocol/IDnsServer.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Server/DnsUdpServerOptions.cs/#L3" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -87,13 +87,14 @@ forwarding uncached DNS queries to another client.</p>
       <h4><a class="xref" href="Ae.Dns.Client.DnsHttpClient.html">DnsHttpClient</a></h4>
       <section><p>Represents a DNS client which operates over HTTPS (DoH).</p>
 </section>
-      <h4><a class="xref" href="Ae.Dns.Client.DnsMetricsClient.html">DnsMetricsClient</a></h4>
-      <section><p>A client which logs metrics aganst DNS responses.</p>
-</section>
       <h4><a class="xref" href="Ae.Dns.Client.DnsRacerClient.html">DnsRacerClient</a></h4>
       <section><p>A client consisting of multiple <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> instances.
 At query time, two clients are picked at random, and the DNS requests race against each other.
 The first non-exceptional result is used, the slower result is discarded.</p>
+</section>
+      <h4><a class="xref" href="Ae.Dns.Client.DnsRawClient.html">DnsRawClient</a></h4>
+      <section><p>Represents a client capable of accepting a contiguous region of memory,
+reading the query from it, and writing the answer back into it.</p>
 </section>
       <h4><a class="xref" href="Ae.Dns.Client.DnsRebindMitigationClient.html">DnsRebindMitigationClient</a></h4>
       <section><p>A client which prevents an upstream from returning a DNS record which contains a private IP address.</p>
@@ -104,22 +105,18 @@ The first non-exceptional result is used, the slower result is discarded.</p>
       <h4><a class="xref" href="Ae.Dns.Client.DnsRoundRobinClient.html">DnsRoundRobinClient</a></h4>
       <section><p>A client consisting of multiple <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> instances which are picked at random.</p>
 </section>
-      <h4><a class="xref" href="Ae.Dns.Client.DnsSocketClientFactory.html">DnsSocketClientFactory</a></h4>
-      <section><p>Represents a <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> factory for TCP and UDP.</p>
-</section>
+      <h4><a class="xref" href="Ae.Dns.Client.DnsSocketClientOptions.html">DnsSocketClientOptions</a></h4>
+      <section></section>
       <h4><a class="xref" href="Ae.Dns.Client.DnsTcpClient.html">DnsTcpClient</a></h4>
       <section><p>An experimental DNS TCP client.</p>
 </section>
+      <h4><a class="xref" href="Ae.Dns.Client.DnsTcpClientOptions.html">DnsTcpClientOptions</a></h4>
+      <section></section>
       <h4><a class="xref" href="Ae.Dns.Client.DnsUdpClient.html">DnsUdpClient</a></h4>
       <section><p>A DNS UDP client implementation.</p>
 </section>
-      <h4><a class="xref" href="Ae.Dns.Client.ServiceCollectionExtensions.html">ServiceCollectionExtensions</a></h4>
+      <h4><a class="xref" href="Ae.Dns.Client.DnsUdpClientOptions.html">DnsUdpClientOptions</a></h4>
       <section></section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="Ae.Dns.Client.IDnsSocketClientFactory.html">IDnsSocketClientFactory</a></h4>
-      <section><p>Represents a <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> factory for TCP and UDP.</p>
-</section>
 </article>
           </div>
           

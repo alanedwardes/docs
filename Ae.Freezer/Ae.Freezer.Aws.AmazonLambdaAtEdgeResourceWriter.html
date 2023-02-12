@@ -95,19 +95,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Freezer/new/ae694d09276e2da5b6850582e1789d7a6b6e92c5/apiSpec/new?filename=Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter__ctor_Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriterConfiguration_IAmazonLambda_IAmazonCloudFront_.md&amp;value=---%0Auid%3A%20Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.%23ctor(Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriterConfiguration%2CIAmazonLambda%2CIAmazonCloudFront)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Freezer/new/e53285313888f25279d3465d4e4d74d9241f0fad/apiSpec/new?filename=Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter__ctor_ILogger_Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter__Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriterConfiguration_IAmazonLambda_IAmazonCloudFront_IAmazonIdentityManagementService_.md&amp;value=---%0Auid%3A%20Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.%23ctor(ILogger%7BAe.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter%7D%2CAe.Freezer.Aws.AmazonLambdaAtEdgeResourceWriterConfiguration%2CIAmazonLambda%2CIAmazonCloudFront%2CIAmazonIdentityManagementService)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Freezer/blob/ae694d09276e2da5b6850582e1789d7a6b6e92c5/src/Ae.Freezer.Aws/AmazonLambdaAtEdgeResourceWriter.cs/#L37">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Freezer/blob/e53285313888f25279d3465d4e4d74d9241f0fad/src/Ae.Freezer.Aws/AmazonLambdaAtEdgeResourceWriter.cs/#L44">View Source</a>
   </span>
   <a id="Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter__ctor_" data-uid="Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.#ctor*"></a>
-  <h4 id="Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter__ctor_Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriterConfiguration_IAmazonLambda_IAmazonCloudFront_" data-uid="Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.#ctor(Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriterConfiguration,IAmazonLambda,IAmazonCloudFront)">AmazonLambdaAtEdgeResourceWriter(AmazonLambdaAtEdgeResourceWriterConfiguration, IAmazonLambda, IAmazonCloudFront)</h4>
+  <h4 id="Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter__ctor_ILogger_Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter__Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriterConfiguration_IAmazonLambda_IAmazonCloudFront_IAmazonIdentityManagementService_" data-uid="Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.#ctor(ILogger{Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter},Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriterConfiguration,IAmazonLambda,IAmazonCloudFront,IAmazonIdentityManagementService)">AmazonLambdaAtEdgeResourceWriter(ILogger&lt;AmazonLambdaAtEdgeResourceWriter&gt;, AmazonLambdaAtEdgeResourceWriterConfiguration, IAmazonLambda, IAmazonCloudFront, IAmazonIdentityManagementService)</h4>
   <div class="markdown level1 summary"><p>Construct a new <a class="xref" href="Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.html">AmazonLambdaAtEdgeResourceWriter</a> using the specified <a class="xref" href="Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriterConfiguration.html">AmazonLambdaAtEdgeResourceWriterConfiguration</a>, <see cref="!:IAmazonLambda"></see> client and <see cref="!:IAmazonCloudFront"></see> client.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AmazonLambdaAtEdgeResourceWriter(AmazonLambdaAtEdgeResourceWriterConfiguration configuration, IAmazonLambda amazonLambda, IAmazonCloudFront amazonCloudFront)</code></pre>
+    <pre><code class="lang-csharp hljs">public AmazonLambdaAtEdgeResourceWriter(ILogger&lt;AmazonLambdaAtEdgeResourceWriter&gt; logger, AmazonLambdaAtEdgeResourceWriterConfiguration configuration, IAmazonLambda amazonLambda, IAmazonCloudFront amazonCloudFront, IAmazonIdentityManagementService identityManagementService)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,6 +119,11 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">ILogger</span>&lt;<a class="xref" href="Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.html">AmazonLambdaAtEdgeResourceWriter</a>&gt;</td>
+        <td><span class="parametername">logger</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><a class="xref" href="Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriterConfiguration.html">AmazonLambdaAtEdgeResourceWriterConfiguration</a></td>
         <td><span class="parametername">configuration</span></td>
@@ -134,16 +139,21 @@
         <td><span class="parametername">amazonCloudFront</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">IAmazonIdentityManagementService</span></td>
+        <td><span class="parametername">identityManagementService</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Freezer/new/ae694d09276e2da5b6850582e1789d7a6b6e92c5/apiSpec/new?filename=Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter_FinishResources_IReadOnlyCollection_Uri__CancellationToken_.md&amp;value=---%0Auid%3A%20Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.FinishResources(IReadOnlyCollection%7BUri%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Freezer/new/e53285313888f25279d3465d4e4d74d9241f0fad/apiSpec/new?filename=Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter_FinishResources_IReadOnlyCollection_Uri__CancellationToken_.md&amp;value=---%0Auid%3A%20Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.FinishResources(IReadOnlyCollection%7BUri%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Freezer/blob/ae694d09276e2da5b6850582e1789d7a6b6e92c5/src/Ae.Freezer.Aws/AmazonLambdaAtEdgeResourceWriter.cs/#L116">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Freezer/blob/e53285313888f25279d3465d4e4d74d9241f0fad/src/Ae.Freezer.Aws/AmazonLambdaAtEdgeResourceWriter.cs/#L124">View Source</a>
   </span>
   <a id="Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter_FinishResources_" data-uid="Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.FinishResources*"></a>
   <h4 id="Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter_FinishResources_IReadOnlyCollection_Uri__CancellationToken_" data-uid="Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.FinishResources(IReadOnlyCollection{Uri},CancellationToken)">FinishResources(IReadOnlyCollection&lt;Uri&gt;, CancellationToken)</h4>
@@ -192,10 +202,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Freezer/new/ae694d09276e2da5b6850582e1789d7a6b6e92c5/apiSpec/new?filename=Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter_PrepareResources.md&amp;value=---%0Auid%3A%20Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.PrepareResources%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Freezer/new/e53285313888f25279d3465d4e4d74d9241f0fad/apiSpec/new?filename=Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter_PrepareResources.md&amp;value=---%0Auid%3A%20Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.PrepareResources%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Freezer/blob/ae694d09276e2da5b6850582e1789d7a6b6e92c5/src/Ae.Freezer.Aws/AmazonLambdaAtEdgeResourceWriter.cs/#L59">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Freezer/blob/e53285313888f25279d3465d4e4d74d9241f0fad/src/Ae.Freezer.Aws/AmazonLambdaAtEdgeResourceWriter.cs/#L68">View Source</a>
   </span>
   <a id="Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter_PrepareResources_" data-uid="Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.PrepareResources*"></a>
   <h4 id="Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter_PrepareResources" data-uid="Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.PrepareResources">PrepareResources()</h4>
@@ -222,10 +232,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Freezer/new/ae694d09276e2da5b6850582e1789d7a6b6e92c5/apiSpec/new?filename=Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter_WriteResource_Ae_Freezer_Entities_WebsiteResource_CancellationToken_.md&amp;value=---%0Auid%3A%20Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.WriteResource(Ae.Freezer.Entities.WebsiteResource%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Freezer/new/e53285313888f25279d3465d4e4d74d9241f0fad/apiSpec/new?filename=Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter_WriteResource_Ae_Freezer_Entities_WebsiteResource_CancellationToken_.md&amp;value=---%0Auid%3A%20Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.WriteResource(Ae.Freezer.Entities.WebsiteResource%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Freezer/blob/ae694d09276e2da5b6850582e1789d7a6b6e92c5/src/Ae.Freezer.Aws/AmazonLambdaAtEdgeResourceWriter.cs/#L69">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Freezer/blob/e53285313888f25279d3465d4e4d74d9241f0fad/src/Ae.Freezer.Aws/AmazonLambdaAtEdgeResourceWriter.cs/#L78">View Source</a>
   </span>
   <a id="Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter_WriteResource_" data-uid="Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.WriteResource*"></a>
   <h4 id="Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter_WriteResource_Ae_Freezer_Entities_WebsiteResource_CancellationToken_" data-uid="Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter.WriteResource(Ae.Freezer.Entities.WebsiteResource,CancellationToken)">WriteResource(WebsiteResource, CancellationToken)</h4>
@@ -284,10 +294,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Freezer/new/ae694d09276e2da5b6850582e1789d7a6b6e92c5/apiSpec/new?filename=Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter.md&amp;value=---%0Auid%3A%20Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/alanedwardes/Ae.Freezer/new/e53285313888f25279d3465d4e4d74d9241f0fad/apiSpec/new?filename=Ae_Freezer_Aws_AmazonLambdaAtEdgeResourceWriter.md&amp;value=---%0Auid%3A%20Ae.Freezer.Aws.AmazonLambdaAtEdgeResourceWriter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Freezer/blob/ae694d09276e2da5b6850582e1789d7a6b6e92c5/src/Ae.Freezer.Aws/AmazonLambdaAtEdgeResourceWriter.cs/#L22" class="contribution-link">View Source</a>
+                    <a href="https://github.com/alanedwardes/Ae.Freezer/blob/e53285313888f25279d3465d4e4d74d9241f0fad/src/Ae.Freezer.Aws/AmazonLambdaAtEdgeResourceWriter.cs/#L25" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

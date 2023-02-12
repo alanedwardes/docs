@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IDnsSocketClientFactory
+    <title>Class DnsQueryTypeFilter
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IDnsSocketClientFactory
+    <meta name="title" content="Class DnsQueryTypeFilter
    ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -68,37 +68,81 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Ae.Dns.Client.IDnsSocketClientFactory">
+            <article class="content wrap" id="_content" data-uid="Ae.Dns.Client.Filters.DnsQueryTypeFilter">
   
   
-  <h1 id="Ae_Dns_Client_IDnsSocketClientFactory" data-uid="Ae.Dns.Client.IDnsSocketClientFactory" class="text-break">Interface IDnsSocketClientFactory
+  <h1 id="Ae_Dns_Client_Filters_DnsQueryTypeFilter" data-uid="Ae.Dns.Client.Filters.DnsQueryTypeFilter" class="text-break">Class DnsQueryTypeFilter
   </h1>
-  <div class="markdown level0 summary"><p>Represents a <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> factory for TCP and UDP.</p>
+  <div class="markdown level0 summary"><p>Provides an <a class="xref" href="Ae.Dns.Client.Filters.IDnsFilter.html">IDnsFilter</a> implementation which disallows the specified set of <a class="xref" href="Ae.Dns.Protocol.Enums.DnsQueryType.html">DnsQueryType</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Ae.Dns.Client.html">Ae.Dns.Client</a></h6>
-  <h6><strong>Assembly</strong>: Ae.Dns.Client.dll</h6>
-  <h5 id="Ae_Dns_Client_IDnsSocketClientFactory_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IDnsSocketClientFactory</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">DnsQueryTypeFilter</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Ae.Dns.Client.Filters.IDnsFilter.html">IDnsFilter</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Ae.Dns.Client.Filters.html">Ae.Dns.Client.Filters</a></h6>
+  <h6><strong>Assembly</strong>: Ae.Dns.Client.dll</h6>
+  <h5 id="Ae_Dns_Client_Filters_DnsQueryTypeFilter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class DnsQueryTypeFilter : object, IDnsFilter</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Client_Filters_DnsQueryTypeFilter__ctor_IEnumerable_Ae_Dns_Protocol_Enums_DnsQueryType__.md&amp;value=---%0Auid%3A%20Ae.Dns.Client.Filters.DnsQueryTypeFilter.%23ctor(IEnumerable%7BAe.Dns.Protocol.Enums.DnsQueryType%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Client/Filters/DnsQueryTypeFilter.cs/#L18">View Source</a>
+  </span>
+  <a id="Ae_Dns_Client_Filters_DnsQueryTypeFilter__ctor_" data-uid="Ae.Dns.Client.Filters.DnsQueryTypeFilter.#ctor*"></a>
+  <h4 id="Ae_Dns_Client_Filters_DnsQueryTypeFilter__ctor_IEnumerable_Ae_Dns_Protocol_Enums_DnsQueryType__" data-uid="Ae.Dns.Client.Filters.DnsQueryTypeFilter.#ctor(IEnumerable{Ae.Dns.Protocol.Enums.DnsQueryType})">DnsQueryTypeFilter(IEnumerable&lt;DnsQueryType&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Ae.Dns.Client.Filters.DnsQueryTypeFilter.html">DnsQueryTypeFilter</a> with the provided set of <a class="xref" href="Ae.Dns.Protocol.Enums.DnsQueryType.html">DnsQueryType</a> to block.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DnsQueryTypeFilter(IEnumerable&lt;DnsQueryType&gt; disallowedQueryTypes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Ae.Dns.Protocol.Enums.DnsQueryType.html">DnsQueryType</a>&gt;</td>
+        <td><span class="parametername">disallowedQueryTypes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/apiSpec/new?filename=Ae_Dns_Client_IDnsSocketClientFactory_CreateTcpClient_IPAddress_.md&amp;value=---%0Auid%3A%20Ae.Dns.Client.IDnsSocketClientFactory.CreateTcpClient(IPAddress)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Client_Filters_DnsQueryTypeFilter_IsPermitted_Ae_Dns_Protocol_DnsMessage_.md&amp;value=---%0Auid%3A%20Ae.Dns.Client.Filters.DnsQueryTypeFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/src/Ae.Dns.Client/IDnsSocketClientFactory.cs/#L16">View Source</a>
+    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Client/Filters/DnsQueryTypeFilter.cs/#L21">View Source</a>
   </span>
-  <a id="Ae_Dns_Client_IDnsSocketClientFactory_CreateTcpClient_" data-uid="Ae.Dns.Client.IDnsSocketClientFactory.CreateTcpClient*"></a>
-  <h4 id="Ae_Dns_Client_IDnsSocketClientFactory_CreateTcpClient_IPAddress_" data-uid="Ae.Dns.Client.IDnsSocketClientFactory.CreateTcpClient(IPAddress)">CreateTcpClient(IPAddress)</h4>
-  <div class="markdown level1 summary"><p>Create a <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> using TCP.</p>
+  <a id="Ae_Dns_Client_Filters_DnsQueryTypeFilter_IsPermitted_" data-uid="Ae.Dns.Client.Filters.DnsQueryTypeFilter.IsPermitted*"></a>
+  <h4 id="Ae_Dns_Client_Filters_DnsQueryTypeFilter_IsPermitted_Ae_Dns_Protocol_DnsMessage_" data-uid="Ae.Dns.Client.Filters.DnsQueryTypeFilter.IsPermitted(Ae.Dns.Protocol.DnsMessage)">IsPermitted(DnsMessage)</h4>
+  <div class="markdown level1 summary"><p>Returns true if the DNS query is permitted.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IDnsClient CreateTcpClient(IPAddress address)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsPermitted(DnsMessage query)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -111,10 +155,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IPAddress</span></td>
-        <td><span class="parametername">address</span></td>
-        <td><p>The address of the server to use.</p>
-</td>
+        <td><a class="xref" href="Ae.Dns.Protocol.DnsMessage.html">DnsMessage</a></td>
+        <td><span class="parametername">query</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -128,62 +171,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a></td>
-        <td><p>A new <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> ready for use.</p>
-</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/alanedwardes/Ae.Dns/new/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/apiSpec/new?filename=Ae_Dns_Client_IDnsSocketClientFactory_CreateUdpClient_IPAddress_.md&amp;value=---%0Auid%3A%20Ae.Dns.Client.IDnsSocketClientFactory.CreateUdpClient(IPAddress)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/alanedwardes/Ae.Dns/blob/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/src/Ae.Dns.Client/IDnsSocketClientFactory.cs/#L22">View Source</a>
-  </span>
-  <a id="Ae_Dns_Client_IDnsSocketClientFactory_CreateUdpClient_" data-uid="Ae.Dns.Client.IDnsSocketClientFactory.CreateUdpClient*"></a>
-  <h4 id="Ae_Dns_Client_IDnsSocketClientFactory_CreateUdpClient_IPAddress_" data-uid="Ae.Dns.Client.IDnsSocketClientFactory.CreateUdpClient(IPAddress)">CreateUdpClient(IPAddress)</h4>
-  <div class="markdown level1 summary"><p>Create a <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> using UDP.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IDnsClient CreateUdpClient(IPAddress address)</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Ae.Dns.Client.Filters.IDnsFilter.html">IDnsFilter</a>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IPAddress</span></td>
-        <td><span class="parametername">address</span></td>
-        <td><p>The address of the server to use.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a></td>
-        <td><p>A new <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> ready for use.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           
@@ -192,10 +188,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Dns/new/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/apiSpec/new?filename=Ae_Dns_Client_IDnsSocketClientFactory.md&amp;value=---%0Auid%3A%20Ae.Dns.Client.IDnsSocketClientFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/new/b325fd427e2b132e961c6a2fa46c9d94219ccef9/apiSpec/new?filename=Ae_Dns_Client_Filters_DnsQueryTypeFilter.md&amp;value=---%0Auid%3A%20Ae.Dns.Client.Filters.DnsQueryTypeFilter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/src/Ae.Dns.Client/IDnsSocketClientFactory.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/src/Ae.Dns.Client/Filters/DnsQueryTypeFilter.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

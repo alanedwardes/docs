@@ -83,152 +83,42 @@
 <p>Offers both HTTP(S) and UDP DNS clients, with a simple round robin client implementation.</p>
 <h3 id="basic-https-client-usage">Basic HTTPS Client Usage</h3>
 <p>This example is a very simple setup of the <code>DnsHttpClient</code> using the CloudFlare DNS over HTTPS resolver.</p>
-<pre><code class="lang-csharp">using var httpClient = new HttpClient
-{
-    BaseAddress = new Uri(&quot;https://cloudflare-dns.com/&quot;)
-};
-IDnsClient dnsClient = new DnsHttpClient(httpClient);
-
-// Run an A query for google.com
-DnsAnswer answer = await dnsClient.Query(DnsHeader.CreateQuery(&quot;google.com&quot;));
-</code></pre><h3 id="advanced-https-client-usage">Advanced HTTPS Client Usage</h3>
+<p>See <a href="samples/BasicHttpClient/Program.cs">samples/BasicHttpClient/Program.cs</a></p>
+<h3 id="advanced-https-client-usage">Advanced HTTPS Client Usage</h3>
 <p>This example uses <a href="https://www.nuget.org/packages/Microsoft.Extensions.Http.Polly/"><code>Microsoft.Extensions.Http.Polly</code></a> to allow retrying of failed requests.</p>
-<pre><code class="lang-csharp">IServiceCollection services = new ServiceCollection();
-
-var dnsUri = new Uri(&quot;https://cloudflare-dns.com/&quot;);
-services.AddHttpClient&lt;IDnsClient, DnsHttpClient&gt;(x =&gt; x.BaseAddress = dnsUri)
-        .AddTransientHttpErrorPolicy(x =&gt; 
-            x.WaitAndRetryAsync(3, attempt =&gt; TimeSpan.FromSeconds(Math.Pow(2, attempt))));
-
-IServiceProvider provider = services.BuildServiceProvider();
-
-IDnsClient dnsClient = provider.GetRequiredService&lt;IDnsClient&gt;();
-
-// Run an A query for google.com
-DnsAnswer answer = await dnsClient.Query(DnsHeader.CreateQuery(&quot;google.com&quot;));
-</code></pre><h3 id="basic-udp-client-usage">Basic UDP Client Usage</h3>
+<p>See <a href="samples/AdvancedHttpClient/Program.cs">samples/AdvancedHttpClient/Program.cs</a></p>
+<h3 id="basic-udp-client-usage">Basic UDP Client Usage</h3>
 <p>This example is a basic setup of the <code>DnsUdpClient</code> using the primary CloudFlare UDP resolver.</p>
-<pre><code class="lang-csharp">using IDnsClient dnsClient = new DnsUdpClient(IPAddress.Parse(&quot;1.1.1.1&quot;));
-
-// Run an A query for google.com
-DnsAnswer answer = await dnsClient.Query(DnsHeader.CreateQuery(&quot;google.com&quot;), CancellationToken.None);
-</code></pre><h3 id="round-robin-client-usage">Round Robin Client Usage</h3>
+<p>See <a href="samples/BasicUdpClient/Program.cs">samples/BasicUdpClient/Program.cs</a></p>
+<h3 id="round-robin-client-usage">Round Robin Client Usage</h3>
 <p>This example uses multiple upstream <code>IDnsClient</code> implementations in a round-robin fashion using <code>DnsRoundRobinClient</code>. Note that multiple protocols can be mixed, both the <code>DnsUdpClient</code> and <code>DnsHttpClient</code> can be used here since they implement <code>IDnsClient</code>.</p>
-<pre><code class="lang-csharp">using IDnsClient cloudFlare1 = new DnsUdpClient(IPAddress.Parse(&quot;1.1.1.1&quot;));
-using IDnsClient cloudFlare2 = new DnsUdpClient(IPAddress.Parse(&quot;1.0.0.1&quot;));
-using IDnsClient google1 = new DnsUdpClient(IPAddress.Parse(&quot;8.8.8.8&quot;));
-using IDnsClient google2 = new DnsUdpClient(IPAddress.Parse(&quot;8.8.4.4&quot;));
-
-IDnsClient dnsClient = new DnsRoundRobinClient(cloudFlare1, cloudFlare2, google1, google2);
-
-// Run an A query for google.com
-DnsAnswer answer = await dnsClient.Query(DnsHeader.CreateQuery(&quot;google.com&quot;));
-</code></pre><h3 id="caching-client-usage">Caching Client Usage</h3>
+<p>See <a href="samples/RoundRobinClient/Program.cs">samples/RoundRobinClient/Program.cs</a></p>
+<h3 id="caching-client-usage">Caching Client Usage</h3>
 <p>This example uses the <code>DnsCachingClient</code> to cache queries into a <code>MemoryCache</code>, so that the answer is not retrieved from the upstream if the answer is within its TTL. Note that this can be combined with the <code>DnsRoundRobinClient</code>, so the cache can be backed by multiple upstream clients (it just accepts <code>IDnsClient</code>).</p>
-<pre><code class="lang-csharp">using IDnsClient upstreamClient = new DnsUdpClient(IPAddress.Parse(&quot;8.8.8.8&quot;));
-
-using var memoryCache = new MemoryCache(&quot;dns&quot;);
-
-IDnsClient cacheClient = new DnsCachingClient(upstreamClient, memoryCache);
-
-// Run an A query for google.com
-DnsAnswer answer1 = await cacheClient.Query(DnsHeader.CreateQuery(&quot;google.com&quot;));
-
-// Get cached result for query since it is inside the TTL
-DnsAnswer answer2 = await cacheClient.Query(DnsHeader.CreateQuery(&quot;google.com&quot;));
-</code></pre><h2 id="aednsserver">Ae.Dns.Server</h2>
+<p>See <a href="samples/CachingClient/Program.cs">samples/CachingClient/Program.cs</a></p>
+<h2 id="aednsserver">Ae.Dns.Server</h2>
 <p><a href="https://www.nuget.org/packages/Ae.Dns.Server/"><img src="https://img.shields.io/nuget/v/Ae.Dns.Server" alt=""> <img src="https://img.shields.io/badge/framework-netstandard2.0-blue" alt=""></a></p>
 <p>Offers a standard DNS UDP server.</p>
 <h3 id="basic-udp-server">Basic UDP Server</h3>
 <p>A example UDP server which forwards all queries via UDP to the CloudFlare DNS resolver, and blocks <code>www.google.com</code>.</p>
-<pre><code class="lang-csharp">// Can use the HTTPS, UDP, round robin or caching clients - any IDnsClient
-using IDnsClient dnsClient = new DnsUdpClient(IPAddress.Parse(&quot;1.1.1.1&quot;));
-
-// Allow anything that isn&#39;t www.google.com
-IDnsFilter dnsFilter = new DnsDelegateFilter(x =&gt; x.Host != &quot;www.google.com&quot;);
-
-// Create the server
-using IDnsServer server = new DnsUdpServer(new IPEndPoint(IPAddress.Any, 53), dnsClient, dnsFilter);
-
-// Listen until cancelled
-await server.Listen();
-</code></pre><h3 id="advanced-udp-server">Advanced UDP Server</h3>
+<p>See <a href="samples/BasicUdpServer/Program.cs">samples/BasicUdpServer/Program.cs</a></p>
+<h3 id="advanced-udp-server">Advanced UDP Server</h3>
 <p>A more advanced UDP server which uses the <code>DnsCachingClient</code> and <code>DnsRoundRobinClient</code> to cache DNS answers from multiple upstream clients, and the <code>RemoteSetFilter</code> to block domains from a remote hosts file.</p>
-<pre><code class="lang-csharp">using IDnsClient cloudFlare1 = new DnsUdpClient(IPAddress.Parse(&quot;1.1.1.1&quot;));
-using IDnsClient cloudFlare2 = new DnsUdpClient(IPAddress.Parse(&quot;1.0.0.1&quot;));
-using IDnsClient google1 = new DnsUdpClient(IPAddress.Parse(&quot;8.8.8.8&quot;));
-using IDnsClient google2 = new DnsUdpClient(IPAddress.Parse(&quot;8.8.4.4&quot;));
-
-// Aggregate all clients into one
-IDnsClient roundRobinClient = new DnsRoundRobinClient(cloudFlare1, cloudFlare2, google1, google2);
-
-// Add the caching layer
-IDnsClient cacheClient = new DnsCachingClient(roundRobinClient, new MemoryCache(&quot;dns&quot;));
-
-// Create a remote blocklist filter
-var remoteSetFilter = new DnsRemoteSetFilter();
-
-// Block all domains from https://github.com/StevenBlack/hosts
-// don&#39;t await the task to allow the server to start (class is thread safe)
-var hostsFile = new Uri(&quot;https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts&quot;);
-_ = remoteSetFilter.AddRemoteBlockList(hostsFile);
-
-// Add the filtering layer
-IDnsClient filterClient = new DnsFilterClient(remoteSetFilter, cacheClient);
-
-// Create the server using the caching client and remote set filter
-using IDnsServer server = new DnsUdpServer(new IPEndPoint(IPAddress.Any, 53), filterClient);
-
-// Listen until cancelled
-await server.Listen();
-</code></pre><h2 id="aednsserverhttp">Ae.Dns.Server.Http</h2>
+<p>See <a href="samples/AdvancedUdpServer/Program.cs">samples/AdvancedUdpServer/Program.cs</a></p>
+<h2 id="aednsserverhttp">Ae.Dns.Server.Http</h2>
 <p><a href="https://www.nuget.org/packages/Ae.Dns.Server.Http/"><img src="https://img.shields.io/nuget/v/Ae.Dns.Server.Http" alt=""> <img src="https://img.shields.io/badge/framework-netcoreapp3.1-blue" alt=""></a></p>
 <p>Offers an HTTPS (DoH) server for use with clients supporting the DNS over HTTPS protocol.</p>
-<pre><code class="lang-csharp">// Can use the HTTPS, UDP, round robin or caching clients - any IDnsClient
-using IDnsClient dnsClient = new DnsUdpClient(IPAddress.Parse(&quot;1.1.1.1&quot;));
-
-// Create the HTTP server - see overloads for configuration options
-using IDnsServer server = new DnsHttpServer(dnsClient);
-
-// Listen until cancelled
-await server.Listen();
-</code></pre><h2 id="aednsprotocol">Ae.Dns.Protocol</h2>
+<p>See <a href="samples/BasicHttpServer/Program.cs">samples/BasicHttpServer/Program.cs</a></p>
+<h2 id="aednsprotocol">Ae.Dns.Protocol</h2>
 <p><a href="https://www.nuget.org/packages/Ae.Dns.Protocol/"><img src="https://img.shields.io/nuget/v/Ae.Dns.Protocol" alt=""> <img src="https://img.shields.io/badge/framework-netstandard2.0-blue" alt=""></a></p>
 <p>Provides the low-level protocol handling for the over-the-wire DNS protocol format as per <a href="https://tools.ietf.org/html/rfc1035">RFC 1035</a>.</p>
 <h3 id="httpclient-dns-resolution-middleware">HttpClient DNS Resolution Middleware</h3>
 <p>This package includes a <code>DelegatingHandler</code> for <code>HttpClient</code> which intercepts HTTP requests before they&#39;re sent across the wire, resolves the host with the specified <code>IDnsClient</code>, replaces the host with one of the resolved IP addresses, then sends the request to the IP address with the host as the <code>Host</code> header.</p>
 <h4 id="basic-dnsdelegatinghandler-example">Basic DnsDelegatingHandler Example</h4>
-<pre><code class="lang-csharp">// Can use the HTTPS, UDP, round robin or caching clients - any IDnsClient
-using IDnsClient dnsClient = new DnsUdpClient(IPAddress.Parse(&quot;1.1.1.1&quot;));
-
-// Create an HttpClient with the DnsDelegatingHandler
-using httpClient = new HttpClient(new DnsDelegatingHandler(dnsClient)
-{
-    InnerHandler = new SocketsHttpHandler()
-});
-
-// Make a request to GET www.google.com using the DNS middleware
-HttpResponseMessage response = await httpClient.GetAsync(&quot;https://www.google.com/&quot;);
-</code></pre><h4 id="advanced-dnsdelegatinghandler-dependency-injection-example">Advanced DnsDelegatingHandler Dependency Injection Example</h4>
-<pre><code class="lang-csharp">// Create a DI container
-IServiceCollection services = new ServiceCollection();
-
-// Add any IDnsClient implementation to it
-services.AddSingleton(new DnsUdpClient(IPAddress.Parse(&quot;1.1.1.1&quot;)));
-
-// Add the DelegatingHandler
-services.AddTransient&lt;DnsDelegatingHandler&gt;();
-
-// Set up your HTTP client class
-services.AddHttpClient&lt;IMyTypedClient, MyTypedClient&gt;()
-        .AddHttpMessageHandler&lt;DnsDelegatingHandler&gt;();
-
-// Build the service provider
-IServiceProvider provider = services.BuildServiceProvider();
-
-// Retrieve the HTTP client implementation
-IMyTypedClient myTypedClient = provider.GetRequiredService&lt;IMyTypedClient&gt;();
-</code></pre><p>Also see the following types:</p>
+<p>See <a href="samples/BasicHttpClientMiddleware/Program.cs">samples/BasicHttpClientMiddleware/Program.cs</a></p>
+<h4 id="advanced-dnsdelegatinghandler-dependency-injection-example">Advanced DnsDelegatingHandler Dependency Injection Example</h4>
+<p>See <a href="samples/AdvancedHttpClientMiddleware/Program.cs">samples/AdvancedHttpClientMiddleware/Program.cs</a></p>
+<p>Also see the following types:</p>
 <ul>
 <li>DnsHeader</li>
 <li>DnsAnswer</li>
@@ -247,7 +137,7 @@ IMyTypedClient myTypedClient = provider.GetRequiredService&lt;IMyTypedClient&gt;
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/ee5b8a5fb44aabb1b9ecefe76515853e36f32c83/README.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/README.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

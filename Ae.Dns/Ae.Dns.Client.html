@@ -92,6 +92,9 @@ forwarding uncached DNS queries to another client.</p>
 At query time, two clients are picked at random, and the DNS requests race against each other.
 The first non-exceptional result is used, the slower result is discarded.</p>
 </section>
+      <h4><a class="xref" href="Ae.Dns.Client.DnsRandomClient.html">DnsRandomClient</a></h4>
+      <section><p>A client consisting of multiple <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> instances which are picked at random.</p>
+</section>
       <h4><a class="xref" href="Ae.Dns.Client.DnsRawClient.html">DnsRawClient</a></h4>
       <section><p>Represents a client capable of accepting a contiguous region of memory,
 reading the query from it, and writing the answer back into it.</p>
@@ -101,9 +104,6 @@ reading the query from it, and writing the answer back into it.</p>
 </section>
       <h4><a class="xref" href="Ae.Dns.Client.DnsRecursiveClient.html">DnsRecursiveClient</a></h4>
       <section><p>Represents a recursive DNS client which starts at the root servers to answer queries.</p>
-</section>
-      <h4><a class="xref" href="Ae.Dns.Client.DnsRoundRobinClient.html">DnsRoundRobinClient</a></h4>
-      <section><p>A client consisting of multiple <a class="xref" href="Ae.Dns.Protocol.IDnsClient.html">IDnsClient</a> instances which are picked at random.</p>
 </section>
       <h4><a class="xref" href="Ae.Dns.Client.DnsSocketClientOptions.html">DnsSocketClientOptions</a></h4>
       <section></section>

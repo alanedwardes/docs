@@ -205,6 +205,15 @@ references:
   commentId: T:Ae.Dns.Client.DnsRacerClient
   fullName: Ae.Dns.Client.DnsRacerClient
   nameWithType: DnsRacerClient
+- uid: Ae.Dns.Client.DnsRacerClient.#ctor(Ae.Dns.Protocol.IDnsClient[])
+  name: DnsRacerClient(IDnsClient[])
+  href: Ae.Dns/Ae.Dns.Client.DnsRacerClient.html#Ae_Dns_Client_DnsRacerClient__ctor_Ae_Dns_Protocol_IDnsClient___
+  commentId: M:Ae.Dns.Client.DnsRacerClient.#ctor(Ae.Dns.Protocol.IDnsClient[])
+  name.vb: DnsRacerClient(IDnsClient())
+  fullName: Ae.Dns.Client.DnsRacerClient.DnsRacerClient(Ae.Dns.Protocol.IDnsClient[])
+  fullName.vb: Ae.Dns.Client.DnsRacerClient.DnsRacerClient(Ae.Dns.Protocol.IDnsClient())
+  nameWithType: DnsRacerClient.DnsRacerClient(IDnsClient[])
+  nameWithType.vb: DnsRacerClient.DnsRacerClient(IDnsClient())
 - uid: Ae.Dns.Client.DnsRacerClient.#ctor(ILogger{Ae.Dns.Client.DnsRacerClient},IEnumerable{Ae.Dns.Protocol.IDnsClient})
   name: DnsRacerClient(ILogger<DnsRacerClient>, IEnumerable<IDnsClient>)
   href: Ae.Dns/Ae.Dns.Client.DnsRacerClient.html#Ae_Dns_Client_DnsRacerClient__ctor_ILogger_Ae_Dns_Client_DnsRacerClient__IEnumerable_Ae_Dns_Protocol_IDnsClient__
@@ -247,6 +256,63 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.DnsRacerClient.Query
   nameWithType: DnsRacerClient.Query
+- uid: Ae.Dns.Client.DnsRandomClient
+  name: DnsRandomClient
+  href: Ae.Dns/Ae.Dns.Client.DnsRandomClient.html
+  commentId: T:Ae.Dns.Client.DnsRandomClient
+  fullName: Ae.Dns.Client.DnsRandomClient
+  nameWithType: DnsRandomClient
+- uid: Ae.Dns.Client.DnsRandomClient.#ctor(Ae.Dns.Protocol.IDnsClient[])
+  name: DnsRandomClient(IDnsClient[])
+  href: Ae.Dns/Ae.Dns.Client.DnsRandomClient.html#Ae_Dns_Client_DnsRandomClient__ctor_Ae_Dns_Protocol_IDnsClient___
+  commentId: M:Ae.Dns.Client.DnsRandomClient.#ctor(Ae.Dns.Protocol.IDnsClient[])
+  name.vb: DnsRandomClient(IDnsClient())
+  fullName: Ae.Dns.Client.DnsRandomClient.DnsRandomClient(Ae.Dns.Protocol.IDnsClient[])
+  fullName.vb: Ae.Dns.Client.DnsRandomClient.DnsRandomClient(Ae.Dns.Protocol.IDnsClient())
+  nameWithType: DnsRandomClient.DnsRandomClient(IDnsClient[])
+  nameWithType.vb: DnsRandomClient.DnsRandomClient(IDnsClient())
+- uid: Ae.Dns.Client.DnsRandomClient.#ctor(IEnumerable{Ae.Dns.Protocol.IDnsClient})
+  name: DnsRandomClient(IEnumerable<IDnsClient>)
+  href: Ae.Dns/Ae.Dns.Client.DnsRandomClient.html#Ae_Dns_Client_DnsRandomClient__ctor_IEnumerable_Ae_Dns_Protocol_IDnsClient__
+  commentId: M:Ae.Dns.Client.DnsRandomClient.#ctor(IEnumerable{Ae.Dns.Protocol.IDnsClient})
+  name.vb: DnsRandomClient(IEnumerable(Of IDnsClient))
+  fullName: Ae.Dns.Client.DnsRandomClient.DnsRandomClient(IEnumerable<Ae.Dns.Protocol.IDnsClient>)
+  fullName.vb: Ae.Dns.Client.DnsRandomClient.DnsRandomClient(IEnumerable(Of Ae.Dns.Protocol.IDnsClient))
+  nameWithType: DnsRandomClient.DnsRandomClient(IEnumerable<IDnsClient>)
+  nameWithType.vb: DnsRandomClient.DnsRandomClient(IEnumerable(Of IDnsClient))
+- uid: Ae.Dns.Client.DnsRandomClient.#ctor*
+  name: DnsRandomClient
+  href: Ae.Dns/Ae.Dns.Client.DnsRandomClient.html#Ae_Dns_Client_DnsRandomClient__ctor_
+  commentId: Overload:Ae.Dns.Client.DnsRandomClient.#ctor
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsRandomClient.DnsRandomClient
+  nameWithType: DnsRandomClient.DnsRandomClient
+- uid: Ae.Dns.Client.DnsRandomClient.Dispose
+  name: Dispose()
+  href: Ae.Dns/Ae.Dns.Client.DnsRandomClient.html#Ae_Dns_Client_DnsRandomClient_Dispose
+  commentId: M:Ae.Dns.Client.DnsRandomClient.Dispose
+  fullName: Ae.Dns.Client.DnsRandomClient.Dispose()
+  nameWithType: DnsRandomClient.Dispose()
+- uid: Ae.Dns.Client.DnsRandomClient.Dispose*
+  name: Dispose
+  href: Ae.Dns/Ae.Dns.Client.DnsRandomClient.html#Ae_Dns_Client_DnsRandomClient_Dispose_
+  commentId: Overload:Ae.Dns.Client.DnsRandomClient.Dispose
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsRandomClient.Dispose
+  nameWithType: DnsRandomClient.Dispose
+- uid: Ae.Dns.Client.DnsRandomClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  name: Query(DnsMessage, CancellationToken)
+  href: Ae.Dns/Ae.Dns.Client.DnsRandomClient.html#Ae_Dns_Client_DnsRandomClient_Query_Ae_Dns_Protocol_DnsMessage_CancellationToken_
+  commentId: M:Ae.Dns.Client.DnsRandomClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
+  fullName: Ae.Dns.Client.DnsRandomClient.Query(Ae.Dns.Protocol.DnsMessage, CancellationToken)
+  nameWithType: DnsRandomClient.Query(DnsMessage, CancellationToken)
+- uid: Ae.Dns.Client.DnsRandomClient.Query*
+  name: Query
+  href: Ae.Dns/Ae.Dns.Client.DnsRandomClient.html#Ae_Dns_Client_DnsRandomClient_Query_
+  commentId: Overload:Ae.Dns.Client.DnsRandomClient.Query
+  isSpec: "True"
+  fullName: Ae.Dns.Client.DnsRandomClient.Query
+  nameWithType: DnsRandomClient.Query
 - uid: Ae.Dns.Client.DnsRawClient
   name: DnsRawClient
   href: Ae.Dns/Ae.Dns.Client.DnsRawClient.html
@@ -410,63 +476,6 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Client.DnsRecursiveClient.Query
   nameWithType: DnsRecursiveClient.Query
-- uid: Ae.Dns.Client.DnsRoundRobinClient
-  name: DnsRoundRobinClient
-  href: Ae.Dns/Ae.Dns.Client.DnsRoundRobinClient.html
-  commentId: T:Ae.Dns.Client.DnsRoundRobinClient
-  fullName: Ae.Dns.Client.DnsRoundRobinClient
-  nameWithType: DnsRoundRobinClient
-- uid: Ae.Dns.Client.DnsRoundRobinClient.#ctor(Ae.Dns.Protocol.IDnsClient[])
-  name: DnsRoundRobinClient(IDnsClient[])
-  href: Ae.Dns/Ae.Dns.Client.DnsRoundRobinClient.html#Ae_Dns_Client_DnsRoundRobinClient__ctor_Ae_Dns_Protocol_IDnsClient___
-  commentId: M:Ae.Dns.Client.DnsRoundRobinClient.#ctor(Ae.Dns.Protocol.IDnsClient[])
-  name.vb: DnsRoundRobinClient(IDnsClient())
-  fullName: Ae.Dns.Client.DnsRoundRobinClient.DnsRoundRobinClient(Ae.Dns.Protocol.IDnsClient[])
-  fullName.vb: Ae.Dns.Client.DnsRoundRobinClient.DnsRoundRobinClient(Ae.Dns.Protocol.IDnsClient())
-  nameWithType: DnsRoundRobinClient.DnsRoundRobinClient(IDnsClient[])
-  nameWithType.vb: DnsRoundRobinClient.DnsRoundRobinClient(IDnsClient())
-- uid: Ae.Dns.Client.DnsRoundRobinClient.#ctor(IEnumerable{Ae.Dns.Protocol.IDnsClient})
-  name: DnsRoundRobinClient(IEnumerable<IDnsClient>)
-  href: Ae.Dns/Ae.Dns.Client.DnsRoundRobinClient.html#Ae_Dns_Client_DnsRoundRobinClient__ctor_IEnumerable_Ae_Dns_Protocol_IDnsClient__
-  commentId: M:Ae.Dns.Client.DnsRoundRobinClient.#ctor(IEnumerable{Ae.Dns.Protocol.IDnsClient})
-  name.vb: DnsRoundRobinClient(IEnumerable(Of IDnsClient))
-  fullName: Ae.Dns.Client.DnsRoundRobinClient.DnsRoundRobinClient(IEnumerable<Ae.Dns.Protocol.IDnsClient>)
-  fullName.vb: Ae.Dns.Client.DnsRoundRobinClient.DnsRoundRobinClient(IEnumerable(Of Ae.Dns.Protocol.IDnsClient))
-  nameWithType: DnsRoundRobinClient.DnsRoundRobinClient(IEnumerable<IDnsClient>)
-  nameWithType.vb: DnsRoundRobinClient.DnsRoundRobinClient(IEnumerable(Of IDnsClient))
-- uid: Ae.Dns.Client.DnsRoundRobinClient.#ctor*
-  name: DnsRoundRobinClient
-  href: Ae.Dns/Ae.Dns.Client.DnsRoundRobinClient.html#Ae_Dns_Client_DnsRoundRobinClient__ctor_
-  commentId: Overload:Ae.Dns.Client.DnsRoundRobinClient.#ctor
-  isSpec: "True"
-  fullName: Ae.Dns.Client.DnsRoundRobinClient.DnsRoundRobinClient
-  nameWithType: DnsRoundRobinClient.DnsRoundRobinClient
-- uid: Ae.Dns.Client.DnsRoundRobinClient.Dispose
-  name: Dispose()
-  href: Ae.Dns/Ae.Dns.Client.DnsRoundRobinClient.html#Ae_Dns_Client_DnsRoundRobinClient_Dispose
-  commentId: M:Ae.Dns.Client.DnsRoundRobinClient.Dispose
-  fullName: Ae.Dns.Client.DnsRoundRobinClient.Dispose()
-  nameWithType: DnsRoundRobinClient.Dispose()
-- uid: Ae.Dns.Client.DnsRoundRobinClient.Dispose*
-  name: Dispose
-  href: Ae.Dns/Ae.Dns.Client.DnsRoundRobinClient.html#Ae_Dns_Client_DnsRoundRobinClient_Dispose_
-  commentId: Overload:Ae.Dns.Client.DnsRoundRobinClient.Dispose
-  isSpec: "True"
-  fullName: Ae.Dns.Client.DnsRoundRobinClient.Dispose
-  nameWithType: DnsRoundRobinClient.Dispose
-- uid: Ae.Dns.Client.DnsRoundRobinClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
-  name: Query(DnsMessage, CancellationToken)
-  href: Ae.Dns/Ae.Dns.Client.DnsRoundRobinClient.html#Ae_Dns_Client_DnsRoundRobinClient_Query_Ae_Dns_Protocol_DnsMessage_CancellationToken_
-  commentId: M:Ae.Dns.Client.DnsRoundRobinClient.Query(Ae.Dns.Protocol.DnsMessage,CancellationToken)
-  fullName: Ae.Dns.Client.DnsRoundRobinClient.Query(Ae.Dns.Protocol.DnsMessage, CancellationToken)
-  nameWithType: DnsRoundRobinClient.Query(DnsMessage, CancellationToken)
-- uid: Ae.Dns.Client.DnsRoundRobinClient.Query*
-  name: Query
-  href: Ae.Dns/Ae.Dns.Client.DnsRoundRobinClient.html#Ae_Dns_Client_DnsRoundRobinClient_Query_
-  commentId: Overload:Ae.Dns.Client.DnsRoundRobinClient.Query
-  isSpec: "True"
-  fullName: Ae.Dns.Client.DnsRoundRobinClient.Query
-  nameWithType: DnsRoundRobinClient.Query
 - uid: Ae.Dns.Client.DnsSocketClientOptions
   name: DnsSocketClientOptions
   href: Ae.Dns/Ae.Dns.Client.DnsSocketClientOptions.html
@@ -1103,6 +1112,12 @@ references:
   commentId: T:Ae.Dns.Client.Lookup.DhcpdConfigDnsLookupSource
   fullName: Ae.Dns.Client.Lookup.DhcpdConfigDnsLookupSource
   nameWithType: DhcpdConfigDnsLookupSource
+- uid: Ae.Dns.Client.Lookup.DhcpdConfigDnsLookupSource.#ctor(FileInfo,System.String)
+  name: DhcpdConfigDnsLookupSource(FileInfo, String)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DhcpdConfigDnsLookupSource.html#Ae_Dns_Client_Lookup_DhcpdConfigDnsLookupSource__ctor_FileInfo_System_String_
+  commentId: M:Ae.Dns.Client.Lookup.DhcpdConfigDnsLookupSource.#ctor(FileInfo,System.String)
+  fullName: Ae.Dns.Client.Lookup.DhcpdConfigDnsLookupSource.DhcpdConfigDnsLookupSource(FileInfo, System.String)
+  nameWithType: DhcpdConfigDnsLookupSource.DhcpdConfigDnsLookupSource(FileInfo, String)
 - uid: Ae.Dns.Client.Lookup.DhcpdConfigDnsLookupSource.#ctor(ILogger{Ae.Dns.Client.Lookup.DhcpdConfigDnsLookupSource},FileInfo,System.String)
   name: DhcpdConfigDnsLookupSource(ILogger<DhcpdConfigDnsLookupSource>, FileInfo, String)
   href: Ae.Dns/Ae.Dns.Client.Lookup.DhcpdConfigDnsLookupSource.html#Ae_Dns_Client_Lookup_DhcpdConfigDnsLookupSource__ctor_ILogger_Ae_Dns_Client_Lookup_DhcpdConfigDnsLookupSource__FileInfo_System_String_
@@ -1138,6 +1153,12 @@ references:
   commentId: T:Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource
   fullName: Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource
   nameWithType: DhcpdLeasesDnsLookupSource
+- uid: Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.#ctor(FileInfo,System.String)
+  name: DhcpdLeasesDnsLookupSource(FileInfo, String)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.html#Ae_Dns_Client_Lookup_DhcpdLeasesDnsLookupSource__ctor_FileInfo_System_String_
+  commentId: M:Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.#ctor(FileInfo,System.String)
+  fullName: Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.DhcpdLeasesDnsLookupSource(FileInfo, System.String)
+  nameWithType: DhcpdLeasesDnsLookupSource.DhcpdLeasesDnsLookupSource(FileInfo, String)
 - uid: Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.#ctor(ILogger{Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource},FileInfo,System.String)
   name: DhcpdLeasesDnsLookupSource(ILogger<DhcpdLeasesDnsLookupSource>, FileInfo, String)
   href: Ae.Dns/Ae.Dns.Client.Lookup.DhcpdLeasesDnsLookupSource.html#Ae_Dns_Client_Lookup_DhcpdLeasesDnsLookupSource__ctor_ILogger_Ae_Dns_Client_Lookup_DhcpdLeasesDnsLookupSource__FileInfo_System_String_
@@ -1314,6 +1335,12 @@ references:
   commentId: T:Ae.Dns.Client.Lookup.FileDnsLookupSource
   fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource
   nameWithType: FileDnsLookupSource
+- uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.#ctor(FileInfo)
+  name: FileDnsLookupSource(FileInfo)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource__ctor_FileInfo_
+  commentId: M:Ae.Dns.Client.Lookup.FileDnsLookupSource.#ctor(FileInfo)
+  fullName: Ae.Dns.Client.Lookup.FileDnsLookupSource.FileDnsLookupSource(FileInfo)
+  nameWithType: FileDnsLookupSource.FileDnsLookupSource(FileInfo)
 - uid: Ae.Dns.Client.Lookup.FileDnsLookupSource.#ctor(ILogger{Ae.Dns.Client.Lookup.FileDnsLookupSource},FileInfo)
   name: FileDnsLookupSource(ILogger<FileDnsLookupSource>, FileInfo)
   href: Ae.Dns/Ae.Dns.Client.Lookup.FileDnsLookupSource.html#Ae_Dns_Client_Lookup_FileDnsLookupSource__ctor_ILogger_Ae_Dns_Client_Lookup_FileDnsLookupSource__FileInfo_
@@ -1420,6 +1447,12 @@ references:
   commentId: T:Ae.Dns.Client.Lookup.HostsFileDnsLookupSource
   fullName: Ae.Dns.Client.Lookup.HostsFileDnsLookupSource
   nameWithType: HostsFileDnsLookupSource
+- uid: Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.#ctor(FileInfo)
+  name: HostsFileDnsLookupSource(FileInfo)
+  href: Ae.Dns/Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.html#Ae_Dns_Client_Lookup_HostsFileDnsLookupSource__ctor_FileInfo_
+  commentId: M:Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.#ctor(FileInfo)
+  fullName: Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.HostsFileDnsLookupSource(FileInfo)
+  nameWithType: HostsFileDnsLookupSource.HostsFileDnsLookupSource(FileInfo)
 - uid: Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.#ctor(ILogger{Ae.Dns.Client.Lookup.HostsFileDnsLookupSource},FileInfo)
   name: HostsFileDnsLookupSource(ILogger<HostsFileDnsLookupSource>, FileInfo)
   href: Ae.Dns/Ae.Dns.Client.Lookup.HostsFileDnsLookupSource.html#Ae_Dns_Client_Lookup_HostsFileDnsLookupSource__ctor_ILogger_Ae_Dns_Client_Lookup_HostsFileDnsLookupSource__FileInfo_
@@ -1780,19 +1813,19 @@ references:
   isSpec: "True"
   fullName: Ae.Dns.Protocol.DnsHeader.RecursionAvailable
   nameWithType: DnsHeader.RecursionAvailable
-- uid: Ae.Dns.Protocol.DnsHeader.RecusionDesired
-  name: RecusionDesired
-  href: Ae.Dns/Ae.Dns.Protocol.DnsHeader.html#Ae_Dns_Protocol_DnsHeader_RecusionDesired
-  commentId: P:Ae.Dns.Protocol.DnsHeader.RecusionDesired
-  fullName: Ae.Dns.Protocol.DnsHeader.RecusionDesired
-  nameWithType: DnsHeader.RecusionDesired
-- uid: Ae.Dns.Protocol.DnsHeader.RecusionDesired*
-  name: RecusionDesired
-  href: Ae.Dns/Ae.Dns.Protocol.DnsHeader.html#Ae_Dns_Protocol_DnsHeader_RecusionDesired_
-  commentId: Overload:Ae.Dns.Protocol.DnsHeader.RecusionDesired
+- uid: Ae.Dns.Protocol.DnsHeader.RecursionDesired
+  name: RecursionDesired
+  href: Ae.Dns/Ae.Dns.Protocol.DnsHeader.html#Ae_Dns_Protocol_DnsHeader_RecursionDesired
+  commentId: P:Ae.Dns.Protocol.DnsHeader.RecursionDesired
+  fullName: Ae.Dns.Protocol.DnsHeader.RecursionDesired
+  nameWithType: DnsHeader.RecursionDesired
+- uid: Ae.Dns.Protocol.DnsHeader.RecursionDesired*
+  name: RecursionDesired
+  href: Ae.Dns/Ae.Dns.Protocol.DnsHeader.html#Ae_Dns_Protocol_DnsHeader_RecursionDesired_
+  commentId: Overload:Ae.Dns.Protocol.DnsHeader.RecursionDesired
   isSpec: "True"
-  fullName: Ae.Dns.Protocol.DnsHeader.RecusionDesired
-  nameWithType: DnsHeader.RecusionDesired
+  fullName: Ae.Dns.Protocol.DnsHeader.RecursionDesired
+  nameWithType: DnsHeader.RecursionDesired
 - uid: Ae.Dns.Protocol.DnsHeader.ResponseCode
   name: ResponseCode
   href: Ae.Dns/Ae.Dns.Protocol.DnsHeader.html#Ae_Dns_Protocol_DnsHeader_ResponseCode
@@ -4128,15 +4161,15 @@ references:
   commentId: M:Ae.Dns.Server.DnsTcpServer.#ctor(Ae.Dns.Protocol.IDnsRawClient,Ae.Dns.Server.DnsTcpServerOptions)
   fullName: Ae.Dns.Server.DnsTcpServer.DnsTcpServer(Ae.Dns.Protocol.IDnsRawClient, Ae.Dns.Server.DnsTcpServerOptions)
   nameWithType: DnsTcpServer.DnsTcpServer(IDnsRawClient, DnsTcpServerOptions)
-- uid: Ae.Dns.Server.DnsTcpServer.#ctor(ILogger{Ae.Dns.Server.DnsTcpServer},IOptions{Ae.Dns.Server.DnsTcpServerOptions},Ae.Dns.Protocol.IDnsRawClient)
-  name: DnsTcpServer(ILogger<DnsTcpServer>, IOptions<DnsTcpServerOptions>, IDnsRawClient)
-  href: Ae.Dns/Ae.Dns.Server.DnsTcpServer.html#Ae_Dns_Server_DnsTcpServer__ctor_ILogger_Ae_Dns_Server_DnsTcpServer__IOptions_Ae_Dns_Server_DnsTcpServerOptions__Ae_Dns_Protocol_IDnsRawClient_
-  commentId: M:Ae.Dns.Server.DnsTcpServer.#ctor(ILogger{Ae.Dns.Server.DnsTcpServer},IOptions{Ae.Dns.Server.DnsTcpServerOptions},Ae.Dns.Protocol.IDnsRawClient)
-  name.vb: DnsTcpServer(ILogger(Of DnsTcpServer), IOptions(Of DnsTcpServerOptions), IDnsRawClient)
-  fullName: Ae.Dns.Server.DnsTcpServer.DnsTcpServer(ILogger<Ae.Dns.Server.DnsTcpServer>, IOptions<Ae.Dns.Server.DnsTcpServerOptions>, Ae.Dns.Protocol.IDnsRawClient)
-  fullName.vb: Ae.Dns.Server.DnsTcpServer.DnsTcpServer(ILogger(Of Ae.Dns.Server.DnsTcpServer), IOptions(Of Ae.Dns.Server.DnsTcpServerOptions), Ae.Dns.Protocol.IDnsRawClient)
-  nameWithType: DnsTcpServer.DnsTcpServer(ILogger<DnsTcpServer>, IOptions<DnsTcpServerOptions>, IDnsRawClient)
-  nameWithType.vb: DnsTcpServer.DnsTcpServer(ILogger(Of DnsTcpServer), IOptions(Of DnsTcpServerOptions), IDnsRawClient)
+- uid: Ae.Dns.Server.DnsTcpServer.#ctor(ILogger{Ae.Dns.Server.DnsTcpServer},Ae.Dns.Protocol.IDnsRawClient,IOptions{Ae.Dns.Server.DnsTcpServerOptions})
+  name: DnsTcpServer(ILogger<DnsTcpServer>, IDnsRawClient, IOptions<DnsTcpServerOptions>)
+  href: Ae.Dns/Ae.Dns.Server.DnsTcpServer.html#Ae_Dns_Server_DnsTcpServer__ctor_ILogger_Ae_Dns_Server_DnsTcpServer__Ae_Dns_Protocol_IDnsRawClient_IOptions_Ae_Dns_Server_DnsTcpServerOptions__
+  commentId: M:Ae.Dns.Server.DnsTcpServer.#ctor(ILogger{Ae.Dns.Server.DnsTcpServer},Ae.Dns.Protocol.IDnsRawClient,IOptions{Ae.Dns.Server.DnsTcpServerOptions})
+  name.vb: DnsTcpServer(ILogger(Of DnsTcpServer), IDnsRawClient, IOptions(Of DnsTcpServerOptions))
+  fullName: Ae.Dns.Server.DnsTcpServer.DnsTcpServer(ILogger<Ae.Dns.Server.DnsTcpServer>, Ae.Dns.Protocol.IDnsRawClient, IOptions<Ae.Dns.Server.DnsTcpServerOptions>)
+  fullName.vb: Ae.Dns.Server.DnsTcpServer.DnsTcpServer(ILogger(Of Ae.Dns.Server.DnsTcpServer), Ae.Dns.Protocol.IDnsRawClient, IOptions(Of Ae.Dns.Server.DnsTcpServerOptions))
+  nameWithType: DnsTcpServer.DnsTcpServer(ILogger<DnsTcpServer>, IDnsRawClient, IOptions<DnsTcpServerOptions>)
+  nameWithType.vb: DnsTcpServer.DnsTcpServer(ILogger(Of DnsTcpServer), IDnsRawClient, IOptions(Of DnsTcpServerOptions))
 - uid: Ae.Dns.Server.DnsTcpServer.#ctor*
   name: DnsTcpServer
   href: Ae.Dns/Ae.Dns.Server.DnsTcpServer.html#Ae_Dns_Server_DnsTcpServer__ctor_
@@ -4201,15 +4234,15 @@ references:
   commentId: M:Ae.Dns.Server.DnsUdpServer.#ctor(Ae.Dns.Protocol.IDnsRawClient,Ae.Dns.Server.DnsUdpServerOptions)
   fullName: Ae.Dns.Server.DnsUdpServer.DnsUdpServer(Ae.Dns.Protocol.IDnsRawClient, Ae.Dns.Server.DnsUdpServerOptions)
   nameWithType: DnsUdpServer.DnsUdpServer(IDnsRawClient, DnsUdpServerOptions)
-- uid: Ae.Dns.Server.DnsUdpServer.#ctor(ILogger{Ae.Dns.Server.DnsUdpServer},IOptions{Ae.Dns.Server.DnsUdpServerOptions},Ae.Dns.Protocol.IDnsRawClient)
-  name: DnsUdpServer(ILogger<DnsUdpServer>, IOptions<DnsUdpServerOptions>, IDnsRawClient)
-  href: Ae.Dns/Ae.Dns.Server.DnsUdpServer.html#Ae_Dns_Server_DnsUdpServer__ctor_ILogger_Ae_Dns_Server_DnsUdpServer__IOptions_Ae_Dns_Server_DnsUdpServerOptions__Ae_Dns_Protocol_IDnsRawClient_
-  commentId: M:Ae.Dns.Server.DnsUdpServer.#ctor(ILogger{Ae.Dns.Server.DnsUdpServer},IOptions{Ae.Dns.Server.DnsUdpServerOptions},Ae.Dns.Protocol.IDnsRawClient)
-  name.vb: DnsUdpServer(ILogger(Of DnsUdpServer), IOptions(Of DnsUdpServerOptions), IDnsRawClient)
-  fullName: Ae.Dns.Server.DnsUdpServer.DnsUdpServer(ILogger<Ae.Dns.Server.DnsUdpServer>, IOptions<Ae.Dns.Server.DnsUdpServerOptions>, Ae.Dns.Protocol.IDnsRawClient)
-  fullName.vb: Ae.Dns.Server.DnsUdpServer.DnsUdpServer(ILogger(Of Ae.Dns.Server.DnsUdpServer), IOptions(Of Ae.Dns.Server.DnsUdpServerOptions), Ae.Dns.Protocol.IDnsRawClient)
-  nameWithType: DnsUdpServer.DnsUdpServer(ILogger<DnsUdpServer>, IOptions<DnsUdpServerOptions>, IDnsRawClient)
-  nameWithType.vb: DnsUdpServer.DnsUdpServer(ILogger(Of DnsUdpServer), IOptions(Of DnsUdpServerOptions), IDnsRawClient)
+- uid: Ae.Dns.Server.DnsUdpServer.#ctor(ILogger{Ae.Dns.Server.DnsUdpServer},Ae.Dns.Protocol.IDnsRawClient,IOptions{Ae.Dns.Server.DnsUdpServerOptions})
+  name: DnsUdpServer(ILogger<DnsUdpServer>, IDnsRawClient, IOptions<DnsUdpServerOptions>)
+  href: Ae.Dns/Ae.Dns.Server.DnsUdpServer.html#Ae_Dns_Server_DnsUdpServer__ctor_ILogger_Ae_Dns_Server_DnsUdpServer__Ae_Dns_Protocol_IDnsRawClient_IOptions_Ae_Dns_Server_DnsUdpServerOptions__
+  commentId: M:Ae.Dns.Server.DnsUdpServer.#ctor(ILogger{Ae.Dns.Server.DnsUdpServer},Ae.Dns.Protocol.IDnsRawClient,IOptions{Ae.Dns.Server.DnsUdpServerOptions})
+  name.vb: DnsUdpServer(ILogger(Of DnsUdpServer), IDnsRawClient, IOptions(Of DnsUdpServerOptions))
+  fullName: Ae.Dns.Server.DnsUdpServer.DnsUdpServer(ILogger<Ae.Dns.Server.DnsUdpServer>, Ae.Dns.Protocol.IDnsRawClient, IOptions<Ae.Dns.Server.DnsUdpServerOptions>)
+  fullName.vb: Ae.Dns.Server.DnsUdpServer.DnsUdpServer(ILogger(Of Ae.Dns.Server.DnsUdpServer), Ae.Dns.Protocol.IDnsRawClient, IOptions(Of Ae.Dns.Server.DnsUdpServerOptions))
+  nameWithType: DnsUdpServer.DnsUdpServer(ILogger<DnsUdpServer>, IDnsRawClient, IOptions<DnsUdpServerOptions>)
+  nameWithType.vb: DnsUdpServer.DnsUdpServer(ILogger(Of DnsUdpServer), IDnsRawClient, IOptions(Of DnsUdpServerOptions))
 - uid: Ae.Dns.Server.DnsUdpServer.#ctor*
   name: DnsUdpServer
   href: Ae.Dns/Ae.Dns.Server.DnsUdpServer.html#Ae_Dns_Server_DnsUdpServer__ctor_
@@ -5260,6 +5293,19 @@ references:
   isSpec: "True"
   fullName: Ae.ImGuiBootstrapper.ImGuiRenderer.EndFrame
   nameWithType: ImGuiRenderer.EndFrame
+- uid: Ae.ImGuiBootstrapper.ImGuiRenderer.RebuildFontTexture
+  name: RebuildFontTexture()
+  href: Ae.ImGuiBootstrapper/Ae.ImGuiBootstrapper.ImGuiRenderer.html#Ae_ImGuiBootstrapper_ImGuiRenderer_RebuildFontTexture
+  commentId: M:Ae.ImGuiBootstrapper.ImGuiRenderer.RebuildFontTexture
+  fullName: Ae.ImGuiBootstrapper.ImGuiRenderer.RebuildFontTexture()
+  nameWithType: ImGuiRenderer.RebuildFontTexture()
+- uid: Ae.ImGuiBootstrapper.ImGuiRenderer.RebuildFontTexture*
+  name: RebuildFontTexture
+  href: Ae.ImGuiBootstrapper/Ae.ImGuiBootstrapper.ImGuiRenderer.html#Ae_ImGuiBootstrapper_ImGuiRenderer_RebuildFontTexture_
+  commentId: Overload:Ae.ImGuiBootstrapper.ImGuiRenderer.RebuildFontTexture
+  isSpec: "True"
+  fullName: Ae.ImGuiBootstrapper.ImGuiRenderer.RebuildFontTexture
+  nameWithType: ImGuiRenderer.RebuildFontTexture
 - uid: Ae.ImGuiBootstrapper.ImGuiRenderer.Render(CommandList)
   name: Render(CommandList)
   href: Ae.ImGuiBootstrapper/Ae.ImGuiBootstrapper.ImGuiRenderer.html#Ae_ImGuiBootstrapper_ImGuiRenderer_Render_CommandList_

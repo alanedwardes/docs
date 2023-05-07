@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Ae.Dns </title>
+    <title>Ae.Dns  </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Ae.Dns ">
+    <meta name="title" content="Ae.Dns  ">
     <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -67,20 +67,19 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="aedns">Ae.Dns</h1>
+<h1 id="aedns-net-corehttpsgithubcomalanedwardesaednsworkflowsnet20corebadgesvgbranchmain">Ae.Dns <img src="https://github.com/alanedwardes/Ae.Dns/workflows/.NET%20Core/badge.svg?branch=main" alt=".NET Core"></h1>
 
 <p><strong>API Documentation: <a href="https://alanedwardes.github.io/docs/Ae.Dns/">https://alanedwardes.github.io/docs/Ae.Dns/</a></strong></p>
-<p><img src="https://github.com/alanedwardes/Ae.Dns/workflows/.NET%20Core/badge.svg?branch=main" alt=".NET Core"></p>
 <p>A pure C# implementation of a DNS client, server and configurable caching/filtering layer. This project offers the following packages:</p>
 <ul>
-<li><a href="#aednsclient">Ae.Dns.Client</a> - HTTP and UDP DNS clients with caching and round-robin capabilities</li>
+<li><a href="#aednsclient">Ae.Dns.Client</a> - HTTP and UDP DNS clients with caching capabilities</li>
 <li><a href="#aednsserver">Ae.Dns.Server</a> - Standard UDP DNS server</li>
-<li><a href="#aednsserverhttp">Ae.Dns.Server.Http</a> - Standard UDP DNS server</li>
+<li><a href="#aednsserverhttp">Ae.Dns.Server.Http</a> - HTTP DNS server (if coupled with SSL, a DoH server)</li>
 <li><a href="#aednsprotocol">Ae.Dns.Protocol</a> - Low level DNS wire protocol round-trip handling used on the client and server</li>
 </ul>
 <h2 id="aednsclient">Ae.Dns.Client</h2>
 <p><a href="https://www.nuget.org/packages/Ae.Dns.Client/"><img src="https://img.shields.io/nuget/v/Ae.Dns.Client" alt=""> <img src="https://img.shields.io/badge/framework-netstandard2.0-blue" alt=""></a> </p>
-<p>Offers both HTTP(S) and UDP DNS clients, with a simple round robin client implementation.</p>
+<p>Offers both HTTP(S) and UDP DNS clients, with a simple random client implementation.</p>
 <h3 id="basic-https-client-usage">Basic HTTPS Client Usage</h3>
 <p>This example is a very simple setup of the <code>DnsHttpClient</code> using the CloudFlare DNS over HTTPS resolver.</p>
 <p>See <a href="samples/BasicHttpClient/Program.cs">samples/BasicHttpClient/Program.cs</a></p>
@@ -90,11 +89,14 @@
 <h3 id="basic-udp-client-usage">Basic UDP Client Usage</h3>
 <p>This example is a basic setup of the <code>DnsUdpClient</code> using the primary CloudFlare UDP resolver.</p>
 <p>See <a href="samples/BasicUdpClient/Program.cs">samples/BasicUdpClient/Program.cs</a></p>
-<h3 id="round-robin-client-usage">Round Robin Client Usage</h3>
-<p>This example uses multiple upstream <code>IDnsClient</code> implementations in a round-robin fashion using <code>DnsRoundRobinClient</code>. Note that multiple protocols can be mixed, both the <code>DnsUdpClient</code> and <code>DnsHttpClient</code> can be used here since they implement <code>IDnsClient</code>.</p>
-<p>See <a href="samples/RoundRobinClient/Program.cs">samples/RoundRobinClient/Program.cs</a></p>
+<h3 id="random-client-usage">Random Client Usage</h3>
+<p>This example uses multiple upstream <code>IDnsClient</code> implementations in a random fashion using <code>DnsRandomClient</code>. Note that multiple protocols can be mixed, both the <code>DnsUdpClient</code> and <code>DnsHttpClient</code> can be used here since they implement <code>IDnsClient</code>.</p>
+<p>See <a href="samples/RandomClient/Program.cs">samples/RandomClient/Program.cs</a></p>
+<h3 id="racer-client-usage">Racer Client Usage</h3>
+<p>This example uses multiple (two or more) upstream <code>IDnsClient</code> implementations and races them using <code>DnsRacerClient</code>. Two queries are sent in parallel, and the fastest result &quot;wins&quot; (is returned). If a query faults, the other query result is used. As with the random client, multiple protocols can be mixed, both the <code>DnsUdpClient</code> and <code>DnsHttpClient</code> can be used here since they implement <code>IDnsClient</code>.</p>
+<p>See <a href="samples/RacerClient/Program.cs">samples/RacerClient/Program.cs</a></p>
 <h3 id="caching-client-usage">Caching Client Usage</h3>
-<p>This example uses the <code>DnsCachingClient</code> to cache queries into a <code>MemoryCache</code>, so that the answer is not retrieved from the upstream if the answer is within its TTL. Note that this can be combined with the <code>DnsRoundRobinClient</code>, so the cache can be backed by multiple upstream clients (it just accepts <code>IDnsClient</code>).</p>
+<p>This example uses the <code>DnsCachingClient</code> to cache queries into a <code>MemoryCache</code>, so that the answer is not retrieved from the upstream if the answer is within its TTL. Note that this can be combined with the <code>DnsRandomClient</code>, so the cache can be backed by multiple upstream clients (it just accepts <code>IDnsClient</code>).</p>
 <p>See <a href="samples/CachingClient/Program.cs">samples/CachingClient/Program.cs</a></p>
 <h2 id="aednsserver">Ae.Dns.Server</h2>
 <p><a href="https://www.nuget.org/packages/Ae.Dns.Server/"><img src="https://img.shields.io/nuget/v/Ae.Dns.Server" alt=""> <img src="https://img.shields.io/badge/framework-netstandard2.0-blue" alt=""></a></p>
@@ -103,7 +105,7 @@
 <p>A example UDP server which forwards all queries via UDP to the CloudFlare DNS resolver, and blocks <code>www.google.com</code>.</p>
 <p>See <a href="samples/BasicUdpServer/Program.cs">samples/BasicUdpServer/Program.cs</a></p>
 <h3 id="advanced-udp-server">Advanced UDP Server</h3>
-<p>A more advanced UDP server which uses the <code>DnsCachingClient</code> and <code>DnsRoundRobinClient</code> to cache DNS answers from multiple upstream clients, and the <code>RemoteSetFilter</code> to block domains from a remote hosts file.</p>
+<p>A more advanced UDP server which uses the <code>DnsCachingClient</code> and <code>DnsRandomClient</code> to cache DNS answers from multiple upstream clients, and the <code>RemoteSetFilter</code> to block domains from a remote hosts file.</p>
 <p>See <a href="samples/AdvancedUdpServer/Program.cs">samples/AdvancedUdpServer/Program.cs</a></p>
 <h2 id="aednsserverhttp">Ae.Dns.Server.Http</h2>
 <p><a href="https://www.nuget.org/packages/Ae.Dns.Server.Http/"><img src="https://img.shields.io/nuget/v/Ae.Dns.Server.Http" alt=""> <img src="https://img.shields.io/badge/framework-netcoreapp3.1-blue" alt=""></a></p>
@@ -118,17 +120,6 @@
 <p>See <a href="samples/BasicHttpClientMiddleware/Program.cs">samples/BasicHttpClientMiddleware/Program.cs</a></p>
 <h4 id="advanced-dnsdelegatinghandler-dependency-injection-example">Advanced DnsDelegatingHandler Dependency Injection Example</h4>
 <p>See <a href="samples/AdvancedHttpClientMiddleware/Program.cs">samples/AdvancedHttpClientMiddleware/Program.cs</a></p>
-<p>Also see the following types:</p>
-<ul>
-<li>DnsHeader</li>
-<li>DnsAnswer</li>
-<li>DnsResourceRecord</li>
-<li>DnsIpAddressResource</li>
-<li>DnsMxResource</li>
-<li>DnsSoaResource</li>
-<li>DnsTextResource</li>
-<li>DnsUnknownResource</li>
-</ul>
 </article>
           </div>
           
@@ -137,7 +128,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/b325fd427e2b132e961c6a2fa46c9d94219ccef9/README.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/alanedwardes/Ae.Dns/blob/a8533cb9383b92fae3ed34204a30b9ffc3cf00b4/README.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
